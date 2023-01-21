@@ -13,13 +13,13 @@ int main(){
     string increment;
     map<double, vector<string>> data;
     ll n=227982;
-    n=500;
+    // n=500;
     for(i=0;i<n; i++){
         cin>>date>>time>>date>>date>>direction>>id>>state>>symbol>>order_price>>exchange;
         
         //*state
         if(state=="NewOrderRequest") state="OR";
-        if(state=="NewOrderAcknowlodged") state="OA";
+        if(state=="NewOrderAcknowledged") state="OA";
         if(state=="CancelRequest") state="CR";
         if(state=="CancelAcknowledge") state="CA";
         if(state=="Cancelled") state="CC";
@@ -31,7 +31,7 @@ int main(){
         //*exchange
         if(exchange=="Aequitas") exchange="AQ";
         if(exchange=="Alpha") exchange="AP";
-        else exchange = "TSX";
+        if(exchange=="TSX") exchange = "TSX";
 
         //*time
         new_time=stod(time.substr(7,7));
