@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+#define debug(x) cerr<<#x<<" "<<x<<"\n";
+
+bool comp(const pair<int, vector<string>> & data1, const pair<int, vector<string>> & data2){
+    return data1.first<data2.first;
+}
 
 int main(){
     string date, time, direction, id, state, message, symbol;
@@ -11,7 +16,7 @@ int main(){
     ll i;
     double new_time;
     string increment;
-    map<double, vector<string>> data;
+    vector<pair<double, vector<string>>> data;
     ll n=227982;
     // n=500;
     for(i=0;i<n; i++){
@@ -21,7 +26,7 @@ int main(){
         if(state=="NewOrderRequest") state="OR";
         if(state=="NewOrderAcknowledged") state="OA";
         if(state=="CancelRequest") state="CR";
-        if(state=="CancelAcknowledge") state="CA";
+        if(state=="CancelAcknowledged") state="CA";
         if(state=="Cancelled") state="CC";
         if(state=="Trade") state="TT";
         
@@ -34,14 +39,17 @@ int main(){
         if(exchange=="TSX") exchange = "TSX";
 
         //*time
-        new_time=stod(time.substr(7,7));
-        //changing the time to milliseconds
+        new_time=stod(time.substr(6,7));
+        //changing the seconds to milliseconds
         new_time*=1000;
+
+        //adding the milliseconds to  the minutes
+        new_time+=60000*((stod(time.substr(3, 2)))-28);
         increment="true";
-        data.insert({new_time,{state, symbol, increment, exchange, order_price, id}});
+        data.push_back({new_time,{state, symbol, increment, exchange, order_price, id}});
 
         //the remaining, I am setting the decrement
-        if(state=="OA") continue;
+        if(state=="OR") continue;
         //if there is a cancel request, that does mean that one of the pending orders became a request for cancellation
         if(state=="CR") state="OR";
         if(state=="CA") state="CR";
@@ -53,10 +61,16 @@ int main(){
 
     //removes the previously mentionned symbol.
         increment="false";
-        data.insert({new_time, {state, symbol, increment, exchange, order_price, id}});
+        data.push_back({new_time, {state, symbol, increment, exchange, order_price, id}});
 
+        if(i==n-1) {
+            debug(new_time)
+            debug(time)
+        }
     }
 
+
+    sort(data.begin(), data.end(), comp);
     //!use json
     /*
     example:
