@@ -15,7 +15,7 @@ function openPopup(e) {
   let id = e.target.id;
 }
 
-fetch("final_data.json")
+fetch("final_data1.json")
   .then((response) => response.json())
   .then((data) => {
     const manager = new Manager(200);

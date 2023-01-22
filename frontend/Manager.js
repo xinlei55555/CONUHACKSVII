@@ -104,7 +104,7 @@ export class Manager {
             let firstTime = false;
             while(operations.length > index && parseInt(operations[index].timestamp) <= maxTimestamp) {
                 
-                let {exchange, symbol, increment, state, id, timestamp} = operations[index];
+                let {exchange, symbol, increment, state, id, timestamp, real_timestamp} = operations[index];
                 if(!this.stateObjects[state]) {
                     index++;
                     continue;
@@ -113,7 +113,7 @@ export class Manager {
                     firstTime = !this.orders.has(id);
                     if(state == 'CA' || state == 'OA') this.getTimeDiff(state, id, timestamp);
                     else if(state == 'CC') this.checkForCA(id);
-                    this.updateOrder(id, state, operations[index]["order price"], timestamp);
+                    this.updateOrder(id, state, operations[index]["order price"], timestamp, real_timestamp);
                 } else {
                     if(firstTime) {
                         index++;
@@ -160,7 +160,7 @@ export class Manager {
             const currentDIV = 
             `<div class="transaction">
             <p>${id}</p>
-            <p class="timestamp">${lastState.timestamp}</p>
+            <p class="timestamp">${lastState.real_timestamp}</p>
             <div class="state">
               <div
                 style="display: flex; align-items: center; margin-right: 30px"
@@ -217,11 +217,11 @@ export class Manager {
                 else h2.innerText += 'unavailable';
                 const list = document.createElement('ul');
                 
-                for(let {state, timestamp} of object.states) {
+                for(let {state, timestamp, real_timestamp} of object.states) {
                     const ul = document.createElement('il');
                     ul.style.display= 'list-item'
                     const statestring = this.statetoString[state];
-                    ul.innerText = timestamp + ' ' + statestring;
+                    ul.innerText = real_timestamp + ' ' + statestring;
                     list.appendChild(ul);
                 }
                 modalcontent.appendChild(h1);
@@ -234,15 +234,16 @@ export class Manager {
     openpopup(id) {
     }
 
-  updateOrder(id, state, price, timestamp) {
+  updateOrder(id, state, price, timestamp, real_timestamp) {
+    real_timestamp = real_timestamp.substring(0, 8)
     if (this.orders.has(id)) {
       let previousObject = this.orders.get(id);
-      previousObject.states.push({ state: state, timestamp: timestamp });
+      previousObject.states.push({ state: state, timestamp: timestamp, real_timestamp: real_timestamp });
       if (!previousObject.price) previousObject[price] = price;
       this.orders.set(id, previousObject);
     } else {
       this.orders.set(id, {
-        states: [{ state: state, timestamp: timestamp }],
+        states: [{ state: state, timestamp: timestamp, real_timestamp: real_timestamp}],
         price: price,
       });
     }
