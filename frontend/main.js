@@ -18,7 +18,7 @@ function openPopup(e) {
 fetch("final_data.json")
   .then((response) => response.json())
   .then((data) => {
-    const manager = new Manager(500);
+    const manager = new Manager(200);
     manager.run(data);
     setInterval(() => {
       const time = document.getElementById("time");

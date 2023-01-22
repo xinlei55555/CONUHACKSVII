@@ -7,7 +7,11 @@ export class Displayer {
         this.exchangesToDisplay.add('TSX')
         this.manager = manager;
 
-        this.maxValueElement = document.getElementById('maxnumber');
+        this.n1 = document.getElementById('n1');
+        this.n2 = document.getElementById('n2');
+        this.n3 = document.getElementById('n3');
+        this.n4 = document.getElementById('n4');
+        this.n5 = document.getElementById('n5');
 
         this.barsElements = {
             OR: document.getElementById('OR'),
@@ -58,7 +62,17 @@ export class Displayer {
             const barSum = stateObjects[barState].counter;
             if(barSum > maxSum) maxSum = barSum;
         }
-        this.maxValueElement.innerText = maxSum;
+        maxSum = maxSum/1000*1000
+        const n5 = Math.round(maxSum / 5);
+        const n4 = n5 * 2;
+        const n3 = n5 * 3;
+        const n2 = n5 * 4;
+        const n1 = n5 * 5;
+        this.n1.innerHTML = n1;
+        this.n2.innerHTML  = n2;
+        this.n3.innerHTML  = n3;
+        this.n4.innerHTML  = n4;
+        this.n5.innerHTML  = n5;
         for(let barState of states) {
             this.renderBar(stateObjects[barState].counter, barState, maxSum);
         }
@@ -72,7 +86,7 @@ export class Displayer {
         return sum;
     }
     renderBar(sum, state, maxSum) {
-        let proportion = (1.0 * sum)/maxSum * 80;
+        let proportion = (1.0 * sum)/maxSum * 70;
         if(isNaN(proportion)) proportion = 0;
         //console.log('render counter' + this.counter)
         //console.log(proportion)
