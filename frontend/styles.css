@@ -12,7 +12,10 @@ body {
 body {
   background: linear-gradient(to left, #f5f5dc, #87ceeb);
 }
-
+footer{
+  background:linear-gradient(to left, #8324ba, #6880eb);
+  margin-top: 100px;
+}
 ul {
   list-style: none;
 }
