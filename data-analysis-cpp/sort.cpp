@@ -12,13 +12,13 @@ int main(){
     string order_price, exchange;
 
     ifstream cin("data.txt");
-    ofstream cout("good_data.json");
+    ofstream cout("good_data1.json");
     ll i;
     double new_time;
     string increment;
     vector<pair<double, vector<string>>> data;
     ll n=227982;
-    // n=500;
+    n=500;
     for(i=0;i<n; i++){
         cin>>date>>time>>date>>date>>direction>>id>>state>>symbol>>order_price>>exchange;
         
