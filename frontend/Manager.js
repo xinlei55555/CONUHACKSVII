@@ -15,7 +15,9 @@ export class Manager {
         // 1 second -> timeInterval = 1000
         this.timeInterval = timeInterval;
         
-        this.States = {
+        
+        this.states = ['OR', 'OA', 'CR', 'CA', 'CC', 'TT']
+        this.stateObjects = {
             OR: new State(),
             OA: new State(),
             CR: new State(),
@@ -26,7 +28,7 @@ export class Manager {
     }
 
     run(operations) {
-        this.currentTimestamp = 0;
+        this.currentTimestamp = this.timeInterval;
 
         // operations timestamp : 9:28:00 -> 0 ms
         // startTimestamp : 
@@ -37,7 +39,7 @@ export class Manager {
             this.currentTimestamp += this.timeInterval;
             while(operations.length > index && parseInt(operations[index].timestamp) <= maxTimestamp) {
                 let {exchange, symbol, increment, state} = operations[index];
-                this.States[state].operate(exchange, symbol, increment);
+                this.stateObjects[state].operate(exchange, symbol, increment);
                 index++;
             }
 
