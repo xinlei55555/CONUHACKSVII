@@ -8,20 +8,41 @@ const inputHandler = function (e) {
 searchSymbols.addEventListener("input", inputHandler);
 //Popup Modal Box
 
-
 // Modal Demo Code, for testing only
 const btn = document.getElementById("b8c529be-9283-11ed-ad3c-047c16291a22");
 function openPopup(e) {
   // get ID
   let id = e.target.id;
-  
 }
-
-
 
 fetch("final_data.json")
   .then((response) => response.json())
   .then((data) => {
     const manager = new Manager(500);
     manager.run(data);
+    setInterval(() => {
+      const time = document.getElementById("time");
+      let t = time.innerHTML;
+      let newTime =
+        Number(t.split(":")[0]) * 60 * 60 * 1000 +
+        Number(t.split(":")[1]) * 60 * 1000 +
+        Number(t.split(":")[2]) * 1000 +
+        1000;
+      console.log(newTime);
+
+      let seconds = Math.floor(newTime / 1000);
+      let minutes = Math.floor(seconds / 60);
+      let hours = String(Math.floor(minutes / 60));
+      seconds = seconds % 60;
+      minutes = minutes % 60;
+      if (seconds < 10) {
+        seconds = "0" + seconds;
+      }
+      hours = hours % 24;
+      console.log("09" + ":" + minutes + ":" + seconds);
+
+      document.getElementById("time").innerHTML =
+        "09" + ":" + minutes + ":" + seconds;
+      console.log(document.getElementById("time").innerHTML);
+    }, 1000);
   });

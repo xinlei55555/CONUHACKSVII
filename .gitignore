@@ -4,4 +4,3 @@ env/
 *.pdf
 datasets/
 information/
-*.json

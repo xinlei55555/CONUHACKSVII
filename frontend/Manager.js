@@ -1,9 +1,8 @@
-
 import { State } from "./State.js";
 import { Displayer } from "./Displayer.js";
 export class Manager {
-    constructor(timeInterval) {
-        /*
+  constructor(timeInterval) {
+    /*
         key - value pair
         key : orderID
         value : list of all the 
@@ -92,8 +91,8 @@ export class Manager {
         }
     }
 
-    run(operations) {
-        this.currentTimestamp = this.timeInterval;
+  run(operations) {
+    this.currentTimestamp = this.timeInterval;
 
         // operations timestamp : 9:28:00 -> 0 ms
         // startTimestamp : 
@@ -127,13 +126,12 @@ export class Manager {
                 index++;
             }
 
-            this.displayer.updateDisplay();
-            this.updateCluster();
+      this.displayer.updateDisplay();
+      this.updateCluster();
 
-            if(operations.length == index) clearInterval(interval);
-        }, this.timeInterval)
-        
-    }
+      if (operations.length == index) clearInterval(interval);
+    }, this.timeInterval);
+  }
 
     updateCluster() {
         let divs = []
@@ -166,11 +164,27 @@ export class Manager {
             <div class="state">
               <div
                 style="display: flex; align-items: center; margin-right: 30px"
-                class="cancelled"
+                class=${
+                  lastState.state === "CC" ||
+                  lastState.state === "CA" ||
+                  lastState.state === "CR"
+                    ? "cancelled"
+                    : lastState.state === "OA"
+                    ? "pending"
+                    : "done"
+                }
               >
                 <span style="padding-right: 2px">${lastState.state}</span>
 
-                <img src="./images/cancel.png" height="20px" />
+                <img src="./images/${
+                  lastState.state === "CC" ||
+                  lastState.state === "CA" ||
+                  lastState.state === "CR"
+                    ? "cancel"
+                    : lastState.state === "OA"
+                    ? "clock"
+                    : "check-mark"
+                }.png" height="20px" />
               </div>
               <div class="anomaly">${object.anomaly ? object.anomaly : ''}</div>
               <button
@@ -181,7 +195,7 @@ export class Manager {
                 <img src="./images/right-arrow.png" height="20px" />
               </button>
             </div>
-          </div>`
+          </div>`;
 
           divs.push(currentDIV);
         }
@@ -220,16 +234,17 @@ export class Manager {
     openpopup(id) {
     }
 
-    updateOrder(id, state, price, timestamp) {
-        if(this.orders.has(id)) {
-            let previousObject = this.orders.get(id);
-            previousObject.states.push({state: state, timestamp: timestamp});
-            if(!previousObject.price) previousObject[price] = price;
-            this.orders.set(id, previousObject);
-        } else {
-            this.orders.set(id, {states: [{state: state, timestamp: timestamp}], price: price});
-        }
+  updateOrder(id, state, price, timestamp) {
+    if (this.orders.has(id)) {
+      let previousObject = this.orders.get(id);
+      previousObject.states.push({ state: state, timestamp: timestamp });
+      if (!previousObject.price) previousObject[price] = price;
+      this.orders.set(id, previousObject);
+    } else {
+      this.orders.set(id, {
+        states: [{ state: state, timestamp: timestamp }],
+        price: price,
+      });
     }
-
+  }
 }
-
