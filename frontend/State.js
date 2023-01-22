@@ -11,19 +11,21 @@ export class State {
     */
 
     constructor() {
-        this.exchangeMap = {};
+        this.exchangeMap = new Map();
     }
     /*
     increment -> bool
     symbol -> string
     */
     operate(exchange, symbol, increment) {
+        increment = increment == 'true'
         if(!this.exchangeMap.has(exchange)) {
-            this.exchangeMap[exchange] = new Map();
-        }
-        if(!this.exchangeMap[exchange].has(symbol)) {
-            this.exchangeMap[exchange][symbol] = new Map();
-        }
-        this.exchangeMap[exchange][symbol] += increment ? 1 : -1;
+            this.exchangeMap.set(exchange, new Map());
+        } 
+        if(!this.exchangeMap.get(exchange).has(symbol)) {
+            this.exchangeMap.get(exchange).set(symbol, 0);
+        } 
+        const prevValue = this.exchangeMap.get(exchange).get(symbol);
+        this.exchangeMap.get(exchange).set(symbol, prevValue + (increment ? 1 : -1));
     }
 }
