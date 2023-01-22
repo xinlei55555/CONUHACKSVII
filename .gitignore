@@ -5,3 +5,4 @@ env/
 datasets/
 information/
 *.txt
+*.json
