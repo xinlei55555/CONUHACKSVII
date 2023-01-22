@@ -120,9 +120,8 @@ int main(){
         // fourth=stod(message.second[4]);
         cout<<"\"order price\": \""<<message.second[4]<<"\",\n";
         cout<<"\"id\": \""<<message.second[5]<<"\"\n";
-        i++;
-        if(i==n-1) cout<<"}\n";
-        else cout<<"},\n";
+        // if(i==n-1) cout<<"}\n";
+        cout<<"},\n";
     }
 
     cout<<"]\n";
