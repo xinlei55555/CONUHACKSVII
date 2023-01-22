@@ -28,8 +28,13 @@ int main(){
         if(state=="CancelRequest") state="CR";
         if(state=="CancelAcknowledged") state="CA";
         if(state=="Cancelled") state="CC";
-        if(state=="Trade") {if(appeared_trade.find(id)==appeared_trade.end()){continue;}state="TT"; appeared_trade.insert(id);}
-        
+        if(state=="Trade") {if(appeared_trade.find(id)==appeared_trade.end());state="TT"; appeared_trade.insert(id);}
+
+        //*integrating anomalies
+        /*
+        if(state=="") state="A1";
+        */
+
         //*order_Price 
         if(order_price=="NaN") order_price="null";
 
