@@ -17,9 +17,7 @@
 
   <body>
     <!-- Navbar -->
-    <nav
-      class="main-nav navbar navbar-expand-xl sticky-top pt-2 pb-2 navbar-dark"
-    >
+    <nav class="main-nav navbar navbar-expand-xl sticky-top pt-2 pb-2">
       <div class="container-fluid container-xl">
         <a href="index.html" class="navbar-brand">
           <img
@@ -47,12 +45,12 @@
         >
           <ul class="navbar-nav ms-auto">
             <li class="nav-item single-line">
-              <a class="list-behavior text-dark nav-link" href="#operations"
+              <a class="list-behavior text-white nav-link" href="#operations"
                 >Operations</a
               >
             </li>
             <li class="nav-item single-line">
-              <a class="list-behavior text-dark nav-link" href="#transactions"
+              <a class="list-behavior text-white nav-link" href="#transactions"
                 >Transaction</a
               >
             </li>
@@ -61,10 +59,21 @@
       </div>
     </nav>
     <!-- Bar Graph -->
-
+    <h1
+      style="
+        text-align: center;
+        font-size: 100px;
+        padding-top: 80px;
+        font-weight: bold;
+      "
+    >
+      Welcome to Xchange
+    </h1>
+    <h3 style="text-align: center">
+      Visualize Securities Trading in a Clean and Efficient Way!
+    </h3>
     <div class="operations">
       <div id="operations">
-        <h2 style="text-align: center">Operations Distribution</h2>
         <div class="inputContainer">
           <input
             type="text"
@@ -72,9 +81,10 @@
             placeholder="Search for Symbol"
           />
           <div id="recommendations"></div>
-          <div>
+          <div class="checkbox-container">
             <input
               style="padding: 5px"
+              class="checkbox"
               type="checkbox"
               id="TSX"
               checked="checked"
@@ -82,6 +92,7 @@
             <label for="TSX">TSX</label>
             <input
               style="padding: 3px"
+              class="checkbox"
               type="checkbox"
               id="Alpha"
               checked="checked"
@@ -89,6 +100,7 @@
             <label for="Alpha">Alpha</label>
             <input
               style="padding: 3px"
+              class="checkbox"
               type="checkbox"
               id="Aequitas"
               checked="checked"
@@ -97,6 +109,10 @@
           </div>
         </div>
         <div class="graph">
+          <h2 style="text-align: center; font-weight: bold; color: white">
+            Operations Distribution
+          </h2>
+
           <div class="vertical-side">
             <ul id="y-axis">
               <li class="number">1000</li>
@@ -129,11 +145,96 @@
         </div>
       </div>
       <div class="transactions" id="transactions">
-        <h2 style="text-align: center; padding: 10px">Transactions History</h2>
+        <h2 style="text-align: center">Transactions History</h2>
+        <div style="height: 2px; padding-left: 3px; padding-right: 3px"></div>
         <hr />
         <div id="historyContainer">
           <div class="transaction">
             <p>b8c529be-9283-11ed-ad3c-047c16291a22</p>
+            <p style="opacity: 0.6">9:29:05.08</p>
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                flex-basis: 400px;
+                padding-left: 10px;
+                justify-content: space-between;
+                padding-right: 5px;
+              "
+            >
+              <div
+                style="display: flex; align-items: center; margin-right: 30px"
+                class="cancelled"
+              >
+                <span style="padding-right: 2px">CANCELLED</span>
+
+                <img src="./images/cancel.png" height="20px" />
+              </div>
+              <button id="popup-control">
+                View
+                <img src="./images/right-arrow.png" height="20px" />
+              </button>
+            </div>
+          </div>
+          <div
+            style="height: 2px; border-top: 1px solid #ccc; margin: 10px 0"
+          ></div>
+          <div class="transaction">
+            <p>b8c529be-9283-11ed-ad3c-047c16291a22</p>
+            <p style="opacity: 0.6">9:29:05.08</p>
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                flex-basis: 400px;
+                padding-left: 10px;
+                justify-content: space-between;
+                padding-right: 5px;
+              "
+            >
+              <div
+                style="display: flex; align-items: center; margin-right: 30px"
+                class="pending"
+              >
+                <span style="padding-right: 2px">NEW ORDER REQUEST</span>
+
+                <img src="./images/clock.png" height="20px" />
+              </div>
+              <button id="popup-control">
+                View
+                <img src="./images/right-arrow.png" height="20px" />
+              </button>
+            </div>
+          </div>
+          <div
+            style="height: 2px; border-top: 1px solid #ccc; margin: 10px 0"
+          ></div>
+          <div class="transaction">
+            <p>b8c529be-9283-11ed-ad3c-047c16291a22</p>
+            <p style="opacity: 0.6">9:29:05.08</p>
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                flex-basis: 400px;
+                padding-left: 10px;
+                justify-content: space-between;
+                padding-right: 5px;
+              "
+            >
+              <div
+                style="display: flex; align-items: center; margin-right: 30px"
+                class="done"
+              >
+                <span style="padding-right: 2px">TRADE</span>
+
+                <img src="./images/check-mark.png" height="20px" />
+              </div>
+              <button id="popup-control">
+                View
+                <img src="./images/right-arrow.png" height="20px" />
+              </button>
+            </div>
           </div>
         </div>
       </div>
