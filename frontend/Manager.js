@@ -9,6 +9,21 @@ export class Manager {
         value : list of all the 
         orders[1] = [{timestamp : 1, price: 2}, ]
         */
+       this.startTime = Date.now();
+       this.statetoString = {
+        OR: 'Order Request',
+        OA: 'Order Acknowledged',
+        TT: 'Trade',
+        CR: 'Cancel Request',
+        CA: 'Cancel Acknowledged',
+        CC: 'Cancelled',
+       }
+       this.averages = {
+        orderAckTotalCount: 0,
+        orderAckTotalTime: 0,
+        cancelAckTotalCount: 0,
+        cancelAckTotalTime: 0,
+       }
         this.modal = document.getElementById("myModal");
         //btn.addEventListener("click", openPopup);
         const closeBtn = document.getElementById("close");
@@ -42,7 +57,38 @@ export class Manager {
             CR: new State(),
             CA: new State(),
             CC: new State(),
-            TT: new State(),
+            "TT": new State(),
+        }
+    }
+
+    getTimeDiff(state, id, timestamp) {
+        const currentOrder = this.orders.get(id);
+        if(!currentOrder) return;
+        const states = currentOrder.states;
+        const lastState = states[states.length - 1];
+        const timeDifference = timestamp - lastState.timestamp;
+        if(state == 'CA') {
+            if(lastState.state == 'CR') {
+                this.averages.cancelAckTotalCount++;
+                this.averages.cancelAckTotalTime += timeDifference;
+            }
+        } else {
+            if(lastState.state == 'OR') {
+                this.averages.orderAckTotalCount++;
+                this.averages.orderAckTotalTime += timeDifference;
+            }
+        }
+    }
+
+    checkForCA(id) {
+        const currentOrder = this.orders.get(id);
+        if(!currentOrder) return;
+        const states = currentOrder.states;
+        const lastState = states[states.length - 1];
+        if(lastState.state == 'CR') {
+            const missingTransaction = {state: 'CA', timestamp: 'N/A', missing: true};
+            currentOrder.anomaly = 'S';
+            states.push(missingTransaction);
         }
     }
 
@@ -56,11 +102,28 @@ export class Manager {
         const interval = setInterval(async () => {
             const maxTimestamp = this.currentTimestamp;
             this.currentTimestamp += this.timeInterval;
+            let firstTime = false;
             while(operations.length > index && parseInt(operations[index].timestamp) <= maxTimestamp) {
+                
                 let {exchange, symbol, increment, state, id, timestamp} = operations[index];
-                if(increment == "true") this.updateOrder(id, state, operations[index]["order price"], timestamp);
+                if(!this.stateObjects[state]) {
+                    index++;
+                    continue;
+                }
+                if(increment == "true") {
+                    firstTime = !this.orders.has(id);
+                    if(state == 'CA' || state == 'OA') this.getTimeDiff(state, id, timestamp);
+                    else if(state == 'CC') this.checkForCA(id);
+                    this.updateOrder(id, state, operations[index]["order price"], timestamp);
+                } else {
+                    if(firstTime) {
+                        index++;
+                        continue;
+                    }
+                }
                 
                 this.stateObjects[state].operate(exchange, symbol, increment);
+                
                 index++;
             }
 
@@ -77,6 +140,25 @@ export class Manager {
         for(let [id, object] of this.orders) {
             const states = object.states
             const lastState = states[states.length - 1];
+            const state = lastState.state;
+            
+            if(state == 'CR') {
+                const timeElapsed = Date.now() - this.startTime - lastState.timestamp;
+                const avgTime = this.averages.cancelAckTotalTime/this.averages.cancelAckTotalCount;
+                if(timeElapsed > avgTime) {
+                    if(!object.anomaly) object.anomaly = 'W';
+                } else {
+                    if(object.anomaly == 'W') object.anomaly = undefined;
+                }
+            } else if(state == 'OR') {
+                const timeElapsed = Date.now() - this.startTime - lastState.timestamp;
+                const avgTime = this.averages.orderAckTotalTime/this.averages.orderAckTotalCount;
+                if(timeElapsed > avgTime) {
+                    if(!object.anomaly) object.anomaly = 'W';
+                } else {
+                    if(object.anomaly == 'W') object.anomaly = undefined;
+                }
+            }
             const currentDIV = 
             `<div class="transaction">
             <p>${id}</p>
@@ -90,6 +172,7 @@ export class Manager {
 
                 <img src="./images/cancel.png" height="20px" />
               </div>
+              <div class="anomaly">${object.anomaly ? object.anomaly : ''}</div>
               <button
                 class="popup-control"
                 data-oid="${id}"
@@ -123,19 +206,18 @@ export class Manager {
                 for(let {state, timestamp} of object.states) {
                     const ul = document.createElement('il');
                     ul.style.display= 'list-item'
-                    ul.innerText = timestamp + ' ' + state;
+                    const statestring = this.statetoString[state];
+                    ul.innerText = timestamp + ' ' + statestring;
                     list.appendChild(ul);
                 }
                 modalcontent.appendChild(h1);
                 modalcontent.appendChild(h2);
                 modalcontent.appendChild(list);
                 modal.style.display = "block";
-                console.log(modal.style.display);
             }
         }
     }
     openpopup(id) {
-        console.log(id);
     }
 
     updateOrder(id, state, price, timestamp) {
