@@ -21,7 +21,7 @@ area_pd['colors'] = pd.cut(area_pd[1], bins=color_bin, labels=['red','indianred'
 
 import plotly.express as px
 
-fig = px.treemap(area_pd, path=[px.Constant("all"), 'symbol'], values = 4, color='colors',
+fig = px.treemap(area_pd, path=[px.Constant("all"), 'symbol'], values = 100, color='colors',
                  color_discrete_map ={'(?)':'#262931', 'red':'red', 'indianred':'indianred','lightpink':'lightpink', 'lightgreen':'lightgreen','lime':'lime','green':'green'})
 fig.show()
 

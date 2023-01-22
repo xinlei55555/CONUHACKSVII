@@ -22,10 +22,10 @@ window.onclick = function (event) {
   }
 };
 
-fetch("final_data.json")
+fetch("final_data1.json")
   .then((response) => response.json())
   .then((data) => {
-    const manager = new Manager(1000);
+    const manager = new Manager(200);
     manager.run(data);
     setInterval(() => {
       const time = document.getElementById("time");
