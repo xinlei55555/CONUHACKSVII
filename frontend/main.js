@@ -22,6 +22,6 @@ function openPopup(e) {
 fetch("final_data.json")
   .then((response) => response.json())
   .then((data) => {
-    const manager = new Manager(1000);
+    const manager = new Manager(500);
     manager.run(data);
   });
