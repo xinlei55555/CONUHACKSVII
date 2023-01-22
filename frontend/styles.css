@@ -1,37 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Montserrat:wght@100;400;500;700&family=Outfit:wght@400;500&display=swap");
 
-
 .vertical-side {
   display: flex;
   flex-direction: row;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: space-around;
+  min-width: 200px;
+  align-items: center;
 }
 
 body {
   font-family: "Outfit";
   background: linear-gradient(to left, #f5f5dc, #87ceeb);
 }
-footer{
-  background:linear-gradient(to left, #8324ba, #6880eb);
+footer {
+  background: linear-gradient(to left, #8324ba, #6880eb);
   margin-top: 100px;
 }
-nav{
-  background:linear-gradient(to left, #5b24ba, #3e4f98);
-  
+nav {
+  /* background: linear-gradient(to left, #5b24ba, #3e4f98);
+   */
+  background-color: #475d8d;
 }
 
 /* idk why, i can't change the intial color of the text, so I'll just leave it like text-dark */
-.list-behavior{
-    border-bottom: 2px solid #9c08b345;
-    margin: 5px;
+.list-behavior {
+  border-bottom: 2px solid #9c08b345;
+  margin: 5px;
 }
 
 /* Here, i wanted to underline the text when it hovers over */
-.list-behavior:hover{
-    border-bottom: 2px solid #3852bd;
-    transition-duration: 0.8s;
+.list-behavior:hover {
+  border-bottom: 2px solid #3852bd;
+  transition-duration: 0.8s;
 }
 
-.operations{
+.operations {
   margin-top: 100px;
 }
 
@@ -58,7 +65,7 @@ ul {
 
 .horizontal-side {
   width: 90%;
-  margin-left: 82px;
+  margin-left: 80px;
 }
 
 #symbol-search {
@@ -89,7 +96,7 @@ ul {
     rgba(19, 43, 171, 1) 100%
   );
   color: #dcdee0;
-  border-radius: 2%;
+  border-radius: 20px;
   padding-top: 2%;
   margin: 5%;
   -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.16),
@@ -153,16 +160,60 @@ ul {
 
   margin-top: 100px;
 }
-.x {
-  height: 33%;
-  background-color: #121212;
-}
 
 #historyContainer {
-  padding: 5%;
   display: flex;
   flex-direction: column;
 }
 
 .transaction {
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#popup-control {
+  border: none;
+  background: none;
+}
+#popup-control:hover {
+  background-color: #dcdee0;
+  border-radius: 5px;
+}
+
+.cancelled {
+  background-color: #f1371a;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.pending {
+  background-color: #f1b01a;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.done {
+  background-color: #16ab45;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+#historyContainer {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+nav {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
