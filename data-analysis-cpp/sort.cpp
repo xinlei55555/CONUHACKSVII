@@ -3,7 +3,7 @@ using namespace std;
 typedef long long ll;
 #define debug(x) cerr<<#x<<" "<<x<<"\n";
 
-bool comp(const pair<int, vector<string>> & data1, const pair<int, vector<string>> & data2){
+bool comp(const pair<double, vector<string>> & data1, const pair<double, vector<string>> & data2){
     return data1.first<data2.first;
 }
 unordered_set<string> appeared_trade;
@@ -108,7 +108,7 @@ int main(){
     }
 
     cout<<']'<<"\n";
-
+    return 0;
 
 
 }
