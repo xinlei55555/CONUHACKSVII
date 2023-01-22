@@ -1,4 +1,4 @@
-class Displayer {
+export class Displayer {
     constructor(manager) {
         this.symbolsToDisplay = new Set();
         this.exchangesToDisplay = new Set();

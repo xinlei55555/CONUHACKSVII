@@ -1,5 +1,7 @@
 
-class Manager {
+import { State } from "./State.js";
+import { Displayer } from "./Displayer.js";
+export class Manager {
     constructor(timeInterval) {
         /*
         key - value pair

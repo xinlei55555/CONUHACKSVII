@@ -1,4 +1,4 @@
-class State {
+export class State {
     // key - value pairs
     // key : symbol
     // value : # of orders currently in this state
