@@ -256,3 +256,16 @@ footer {
   text-decoration: none;
   cursor: pointer;
 }
+
+.transaction .timestamp {
+  opacity: 0.6
+}
+
+.transaction .state {
+  display: flex;
+  align-items: center;
+  flex-basis: 400px;
+  padding-left: 10px;
+  justify-content: space-between;
+  padding-right: 5px;
+}
