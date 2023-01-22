@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Montserrat:wght@100;400;500;700&family=Outfit:wght@400;500&display=swap");
 
+body {
+  font-family: "Outfit";
+  background: linear-gradient(to left, #f5f5dc, #87ceeb);
+}
+
 .vertical-side {
   display: flex;
   flex-direction: row;
@@ -11,19 +16,14 @@
   min-width: 200px;
   align-items: center;
 }
-
-body {
-  font-family: "Outfit";
-  background: linear-gradient(to left, #f5f5dc, #87ceeb);
-}
 footer {
   background: linear-gradient(to left, #8324ba, #6880eb);
   margin-top: 100px;
 }
 nav {
-  /* background: linear-gradient(to left, #5b24ba, #3e4f98);
-   */
-  background-color: #475d8d;
+  background: linear-gradient(to left, #a16bff, #273369);
+  
+  /* background-color: #475d8d; */
 }
 
 /* idk why, i can't change the intial color of the text, so I'll just leave it like text-dark */
@@ -255,4 +255,17 @@ footer {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.transaction .timestamp {
+  opacity: 0.6
+}
+
+.transaction .state {
+  display: flex;
+  align-items: center;
+  flex-basis: 400px;
+  padding-left: 10px;
+  justify-content: space-between;
+  padding-right: 5px;
 }

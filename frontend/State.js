@@ -31,6 +31,8 @@ export class State {
         this.exchangeMap.get(exchange).set(symbol, prevValue + value);
         
         this.counter += value;
-        console.log('operation counter' + this.counter)
+        
+        if(this.counter < 0) this.counter = 0;
+        //onsole.log('operation counter' + this.counter)
     }
 }
