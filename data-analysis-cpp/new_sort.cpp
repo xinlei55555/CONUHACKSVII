@@ -10,13 +10,13 @@ bool comp(const pair<double, vector<string>>& data1, const pair<double, vector<s
 
 int main(){
     ifstream cin("data.txt");
-    ofstream cout("final_data.json");
+    ofstream cout("final_data1.json");
     vector<pair<double, vector<string>>> data;
 
     double new_time;
     ll i, n=227982, j;
     string curr;
-    string state, symbol, exchange, id,order_price;
+    string state, symbol, exchange, id,order_price, time;
 
     set<string> OR;
     set<string> CR;
@@ -24,13 +24,15 @@ int main(){
 
     //ind means that the order appeared without having appeared in the previous section...
     bool ind;
+    // n=10;
     for(i=0;i<n;i++){
         ind=false;
         for(j=0;j<10;j++){
             cin>>curr;
             if(j==1){
+                time=curr;
                 //*time
-                new_time=stod(curr.substr(6,7));
+                new_time=stod(time.substr(6,10));
                 //changing the seconds to milliseconds
                 new_time*=1000;
 
@@ -68,18 +70,18 @@ int main(){
         // //anomaly
         if(ind==true) {
             //if anomaly, then no incrase or decrease!
-            data.push_back({new_time, {state, "null", "null", "null", "null", id}});
+            data.push_back({new_time, {state, "null", "null", "null", "null", id, time}});
             continue;
         }
 
-        data.push_back({new_time, {state, symbol, "true", exchange, order_price, id}});
+        data.push_back({new_time, {state, symbol, "true", exchange, order_price, id, time}});
         
 
         //check to see if appeared previously
         //the remaining, I am setting the decrement
         if(state=="OR") continue;
         //if there is a cancel request, that does mean that one of the pending orders became a request for cancellation
-        else if(state=="CR") state="OR";
+        else if(state=="CR") state="OA";
         else if(state=="CA") state="CR";
 
         else if(state=="OA") state="OR";
@@ -87,11 +89,12 @@ int main(){
         else if(state=="CC") state = "CA";
         else if(state=="TT") state="OA";
 
-        data.push_back({new_time, {state, symbol, "false", exchange, order_price, id}});
+        data.push_back({new_time, {state, symbol, "false", exchange, order_price, id, time}});
 
     
     }
     sort(data.begin(), data.end(), comp);
+    // for(auto x:data){cerr<<"\n"<<x.first; for(auto y:x.second) cerr<<y<<" ";}
     //!use json
     /*
     example:
@@ -119,7 +122,9 @@ int main(){
         cout<<"\"exchange\": \""<<message.second[3]<<"\",\n";
         // fourth=stod(message.second[4]);
         cout<<"\"order price\": \""<<message.second[4]<<"\",\n";
-        cout<<"\"id\": \""<<message.second[5]<<"\"\n";
+        cout<<"\"id\": \""<<message.second[5]<<"\",\n";
+        cout<<"\"real_timestamp\": \""<<message.second[6]<<"\"\n";
+
         // if(i==n-1) cout<<"}\n";
         cout<<"},\n";
     }
