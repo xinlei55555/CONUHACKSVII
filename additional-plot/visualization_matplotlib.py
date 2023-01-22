@@ -3,7 +3,7 @@ from matplotlib.animation import FuncAnimation
 import random
 import numpy as np
 
-with open('round_plot_data.txt') as f:
+with open(r'D:\Personnel\Other learning\Programming\Personal_projects\ConUHacks\additional-plot\round_plot_data.txt') as f:
     lines = f.readlines()
 
 areas = []
@@ -44,7 +44,7 @@ def animation_func(i):
     for j in range(len(areas[i])):
         # print(colors[j][0])
         plt.scatter(x[j], y[j], c=plt.cm.hot(colors[j]), s=areas[i][j]*15, alpha=0.5, label=symbols[j])
-        plt.annotate(symbols[j], (x[j], y[j]), fontsize=4)
+        plt.annotate(symbols[j], (x[j], y[j]), fontsize=8)
 
     # plt.legend()
     plt.title("Total Ongoing Transactions: " +str(sum(areas[i])))
