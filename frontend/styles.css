@@ -12,8 +12,8 @@ body {
 body {
   background: linear-gradient(to left, #f5f5dc, #87ceeb);
 }
-footer{
-  background:linear-gradient(to left, #8324ba, #6880eb);
+footer {
+  background: linear-gradient(to left, #8324ba, #6880eb);
   margin-top: 100px;
 }
 ul {
@@ -131,10 +131,6 @@ ul {
   -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.11);
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.11);
   border-radius: 10px;
-}
-.x {
-  height: 33%;
-  background-color: #121212;
 }
 
 #historyContainer {
