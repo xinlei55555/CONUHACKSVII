@@ -10,16 +10,16 @@ export class Manager {
         */
     this.style = "";
     this.image = "";
-    this.modal = document.getElementById("myModal");
+    const modal = document.getElementById("myModal");
     //btn.addEventListener("click", openPopup);
     const closeBtn = document.getElementById("close");
     closeBtn.onclick = function () {
-      this.modal.style.display = "none";
+      modal.style.display = "none";
     };
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function (event) {
-      if (event.target == this.modal) {
-        this.modal.style.display = "none";
+      if (event.target == modal) {
+        modal.style.display = "none";
       }
     };
     this.orders = new Map();
@@ -131,7 +131,7 @@ export class Manager {
       const target = e.target;
       const id = target.dataset.oid;
       if (this.orders.has(id)) {
-        const modal = this.modal;
+        const modal = document.getElementById("myModal");
         const modalcontent = document.getElementById("modal-content");
         modalcontent.innerHTML = "";
         const object = this.orders.get(id);

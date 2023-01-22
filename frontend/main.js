@@ -7,13 +7,20 @@ const inputHandler = function (e) {
 
 searchSymbols.addEventListener("input", inputHandler);
 //Popup Modal Box
-
+const modal = document.getElementById("myModal");
 // Modal Demo Code, for testing only
-const btn = document.getElementById("b8c529be-9283-11ed-ad3c-047c16291a22");
-function openPopup(e) {
-  // get ID
-  let id = e.target.id;
-}
+const closeBtn = document.getElementById("close");
+closeBtn.onclick = function () {
+  console.log("OK");
+  modal.style.display = "none";
+};
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  if (event.target == modal) {
+    console.log("OK");
+    modal.style.display = "none";
+  }
+};
 
 fetch("final_data.json")
   .then((response) => response.json())
