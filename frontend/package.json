@@ -1,0 +1,27 @@
+{
+  "name": "conuhacksvii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build ./frontend/input.css -o ./frontend/dist/ouptut.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinlei55555/CONUHACKSVII.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xinlei55555/CONUHACKSVII/issues"
+  },
+  "homepage": "https://github.com/xinlei55555/CONUHACKSVII#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "prefixer": "^0.0.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

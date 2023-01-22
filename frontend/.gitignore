@@ -1,0 +1,7 @@
+.vscode/
+env/
+*.exe
+*.pdf
+datasets/
+information/
+*.txt
