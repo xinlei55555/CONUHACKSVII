@@ -11,17 +11,68 @@
     <!-- Bar Graph -->
     <div>
       <div>
-        <p>Operations Distribution</p>
-        <div id="graph">
-          <ul id="y-axis">
-            <li class="number">1000</li>
-            <li class="number">800</li>
-            <li class="number">600</li>
-            <li class="number">400</li>
-            <li class="number">200</li>
-            <li class="number">0</li>
-          </ul>
-          <div class="vertical-lign"></div>
+        <h1 style="text-align: center">Operations Distribution</h1>
+        <div class="inputContainer">
+          <input
+            type="text"
+            id="symbol-search"
+            placeholder="Search for Symbol"
+          />
+          <div id="recommendations"></div>
+          <div>
+            <input
+              style="padding: 5px"
+              type="checkbox"
+              id="TSX"
+              checked="checked"
+            />
+            <label for="TSX">TSX</label>
+            <input
+              style="padding: 3px"
+              type="checkbox"
+              id="Alpha"
+              checked="checked"
+            />
+            <label for="Alpha">Alpha</label>
+            <input
+              style="padding: 3px"
+              type="checkbox"
+              id="Aequitas"
+              checked="checked"
+            />
+            <label for="Aequitas">Aequitas</label>
+          </div>
+        </div>
+        <div class="graph">
+          <div class="vertical-side">
+            <ul id="y-axis">
+              <li class="number">1000</li>
+              <li class="number">800</li>
+              <li class="number">600</li>
+              <li class="number">400</li>
+              <li class="number">200</li>
+            </ul>
+            <div class="vertical-lign"></div>
+            <div class="bars-container">
+              <div cidlass="OR" class="bar"></div>
+              <div id="OA" class="bar"></div>
+              <div id="TT" class="bar"></div>
+              <div id="CR" class="bar"></div>
+              <div id="CA" class="bar"></div>
+              <div id="CC" class="bar"></div>
+            </div>
+          </div>
+          <div class="horizontal-side">
+            <div class="horizontal-lign"></div>
+            <ul id="x-axis">
+              <li class="category">NewOrderRequest</li>
+              <li class="category">NewOrderAcknowledged</li>
+              <li class="category">Trade</li>
+              <li class="category">CancelRequest</li>
+              <li class="category">CancelAcknowledged</li>
+              <li class="category">Cancelled</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
