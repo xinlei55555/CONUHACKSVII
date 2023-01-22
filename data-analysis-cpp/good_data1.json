@@ -37,66 +37,12 @@
 },
 {
 "timestamp": "14",
-"state": "CA",
+"state": "OR",
 "symbol": "0455B",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c529c1-9283-11ed-8407-047c16291a22"
-},
-{
-"timestamp": "14",
-"state": "CC",
-"symbol": "0455B",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529c1-9283-11ed-8407-047c16291a22"
-},
-{
-"timestamp": "14",
-"state": "CA",
-"symbol": "0455B",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529c0-9283-11ed-bf41-047c16291a22"
-},
-{
-"timestamp": "14",
-"state": "CC",
-"symbol": "0455B",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529c0-9283-11ed-bf41-047c16291a22"
-},
-{
-"timestamp": "14",
-"state": "OR",
-"symbol": "0455B",
-"increment": "false",
-"exchange": "AQ",
-"order price": "13.14",
-"id": "b8c529bf-9283-11ed-a725-047c16291a22"
-},
-{
-"timestamp": "14",
-"state": "OR",
-"symbol": "0455B",
-"increment": "false",
-"exchange": "AQ",
-"order price": "13.02",
-"id": "b8c529be-9283-11ed-ad3c-047c16291a22"
-},
-{
-"timestamp": "14",
-"state": "OA",
-"symbol": "0455B",
-"increment": "true",
-"exchange": "AQ",
-"order price": "13.14",
-"id": "b8c529bf-9283-11ed-a725-047c16291a22"
 },
 {
 "timestamp": "14",
@@ -122,6 +68,60 @@
 "symbol": "0455B",
 "increment": "false",
 "exchange": "AQ",
+"order price": "13.02",
+"id": "b8c529be-9283-11ed-ad3c-047c16291a22"
+},
+{
+"timestamp": "14",
+"state": "OA",
+"symbol": "0455B",
+"increment": "true",
+"exchange": "AQ",
+"order price": "13.14",
+"id": "b8c529bf-9283-11ed-a725-047c16291a22"
+},
+{
+"timestamp": "14",
+"state": "OR",
+"symbol": "0455B",
+"increment": "false",
+"exchange": "AQ",
+"order price": "13.14",
+"id": "b8c529bf-9283-11ed-a725-047c16291a22"
+},
+{
+"timestamp": "14",
+"state": "CC",
+"symbol": "0455B",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529c0-9283-11ed-bf41-047c16291a22"
+},
+{
+"timestamp": "14",
+"state": "CA",
+"symbol": "0455B",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529c0-9283-11ed-bf41-047c16291a22"
+},
+{
+"timestamp": "14",
+"state": "CC",
+"symbol": "0455B",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529c1-9283-11ed-8407-047c16291a22"
+},
+{
+"timestamp": "14",
+"state": "CA",
+"symbol": "0455B",
+"increment": "false",
+"exchange": "AQ",
 "order price": "null",
 "id": "b8c529c1-9283-11ed-8407-047c16291a22"
 },
@@ -154,63 +154,27 @@
 },
 {
 "timestamp": "24",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.93",
+"id": "b8c529c5-9283-11ed-abe0-047c16291a22"
+},
+{
+"timestamp": "24",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529c4-9283-11ed-9183-047c16291a22"
+},
+{
+"timestamp": "24",
 "state": "CR",
 "symbol": "OFQG6",
 "increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529c4-9283-11ed-9183-047c16291a22"
-},
-{
-"timestamp": "24",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529c4-9283-11ed-9183-047c16291a22"
-},
-{
-"timestamp": "24",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.93",
-"id": "b8c529c5-9283-11ed-abe0-047c16291a22"
-},
-{
-"timestamp": "24",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.29",
-"id": "b8c529c3-9283-11ed-a276-047c16291a22"
-},
-{
-"timestamp": "24",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.93",
-"id": "b8c529c5-9283-11ed-abe0-047c16291a22"
-},
-{
-"timestamp": "24",
-"state": "OA",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.93",
-"id": "b8c529c5-9283-11ed-abe0-047c16291a22"
-},
-{
-"timestamp": "24",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c529c4-9283-11ed-9183-047c16291a22"
@@ -222,16 +186,7 @@
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c529c4-9283-11ed-9183-047c16291a22"
-},
-{
-"timestamp": "24",
-"state": "OA",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.29",
-"id": "b8c529c3-9283-11ed-a276-047c16291a22"
+"id": "b8c529c2-9283-11ed-9a22-047c16291a22"
 },
 {
 "timestamp": "24",
@@ -244,12 +199,84 @@
 },
 {
 "timestamp": "24",
+"state": "OA",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.29",
+"id": "b8c529c3-9283-11ed-a276-047c16291a22"
+},
+{
+"timestamp": "24",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.29",
+"id": "b8c529c3-9283-11ed-a276-047c16291a22"
+},
+{
+"timestamp": "24",
 "state": "CC",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c529c2-9283-11ed-9a22-047c16291a22"
+"id": "b8c529c4-9283-11ed-9183-047c16291a22"
+},
+{
+"timestamp": "24",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529c4-9283-11ed-9183-047c16291a22"
+},
+{
+"timestamp": "24",
+"state": "OA",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.93",
+"id": "b8c529c5-9283-11ed-abe0-047c16291a22"
+},
+{
+"timestamp": "24",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.93",
+"id": "b8c529c5-9283-11ed-abe0-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "OR",
+"symbol": "7XHQS",
+"increment": "true",
+"exchange": "AQ",
+"order price": "3.20",
+"id": "b8c529c6-9283-11ed-b19a-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "OR",
+"symbol": "T2HU8",
+"increment": "true",
+"exchange": "AQ",
+"order price": "3.11",
+"id": "b8c529c7-9283-11ed-ba5f-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "OR",
+"symbol": "7XHQS",
+"increment": "true",
+"exchange": "AQ",
+"order price": "3.19",
+"id": "b8c529c8-9283-11ed-9202-047c16291a22"
 },
 {
 "timestamp": "33",
@@ -258,43 +285,7 @@
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c529cc-9283-11ed-8a27-047c16291a22"
-},
-{
-"timestamp": "33",
-"state": "OR",
-"symbol": "67YKR",
-"increment": "true",
-"exchange": "AQ",
-"order price": "2.36",
-"id": "b8c529ce-9283-11ed-902f-047c16291a22"
-},
-{
-"timestamp": "33",
-"state": "OR",
-"symbol": "7XHQS",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529cd-9283-11ed-a467-047c16291a22"
-},
-{
-"timestamp": "33",
-"state": "CR",
-"symbol": "7XHQS",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529cd-9283-11ed-a467-047c16291a22"
-},
-{
-"timestamp": "33",
-"state": "OR",
-"symbol": "T2HU8",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529cc-9283-11ed-8a27-047c16291a22"
+"id": "b8c529cb-9283-11ed-8389-047c16291a22"
 },
 {
 "timestamp": "33",
@@ -325,165 +316,12 @@
 },
 {
 "timestamp": "33",
-"state": "OR",
-"symbol": "7XHQS",
-"increment": "true",
-"exchange": "AQ",
-"order price": "3.19",
-"id": "b8c529c8-9283-11ed-9202-047c16291a22"
-},
-{
-"timestamp": "33",
-"state": "OR",
-"symbol": "T2HU8",
-"increment": "true",
-"exchange": "AQ",
-"order price": "3.11",
-"id": "b8c529c7-9283-11ed-ba5f-047c16291a22"
-},
-{
-"timestamp": "33",
-"state": "OR",
-"symbol": "7XHQS",
-"increment": "true",
-"exchange": "AQ",
-"order price": "3.20",
-"id": "b8c529c6-9283-11ed-b19a-047c16291a22"
-},
-{
-"timestamp": "33",
 "state": "CR",
 "symbol": "T2HU8",
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c529cb-9283-11ed-8389-047c16291a22"
-},
-{
-"timestamp": "33",
-"state": "OR",
-"symbol": "67YKR",
-"increment": "false",
-"exchange": "AQ",
-"order price": "2.35",
-"id": "b8c529d1-9283-11ed-9f49-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "OR",
-"symbol": "67YKR",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550d4-9283-11ed-93ed-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CR",
-"symbol": "67YKR",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550d4-9283-11ed-93ed-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CA",
-"symbol": "7XHQS",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529d4-9283-11ed-863e-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CC",
-"symbol": "7XHQS",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529d4-9283-11ed-863e-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "OR",
-"symbol": "67YKR",
-"increment": "false",
-"exchange": "AQ",
-"order price": "2.41",
-"id": "b8c529d3-9283-11ed-ae03-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "OA",
-"symbol": "67YKR",
-"increment": "true",
-"exchange": "AQ",
-"order price": "2.41",
-"id": "b8c529d3-9283-11ed-ae03-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "OR",
-"symbol": "T2HU8",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550d3-9283-11ed-a2ca-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CR",
-"symbol": "T2HU8",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550d3-9283-11ed-a2ca-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "OR",
-"symbol": "7XHQS",
-"increment": "false",
-"exchange": "AQ",
-"order price": "3.26",
-"id": "b8c529d2-9283-11ed-9eec-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "OA",
-"symbol": "7XHQS",
-"increment": "true",
-"exchange": "AQ",
-"order price": "3.26",
-"id": "b8c529d2-9283-11ed-9eec-047c16291a22"
-},
-{
-"timestamp": "33",
-"state": "OA",
-"symbol": "67YKR",
-"increment": "true",
-"exchange": "AQ",
-"order price": "2.35",
-"id": "b8c529d1-9283-11ed-9f49-047c16291a22"
-},
-{
-"timestamp": "33",
-"state": "OR",
-"symbol": "67YKR",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550d2-9283-11ed-9169-047c16291a22"
-},
-{
-"timestamp": "33",
-"state": "CR",
-"symbol": "67YKR",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550d2-9283-11ed-9169-047c16291a22"
+"id": "b8c529cc-9283-11ed-8a27-047c16291a22"
 },
 {
 "timestamp": "33",
@@ -491,12 +329,39 @@
 "symbol": "T2HU8",
 "increment": "false",
 "exchange": "AQ",
-"order price": "3.10",
-"id": "b8c529d0-9283-11ed-9ed9-047c16291a22"
+"order price": "null",
+"id": "b8c529cc-9283-11ed-8a27-047c16291a22"
 },
 {
 "timestamp": "33",
-"state": "OA",
+"state": "CR",
+"symbol": "7XHQS",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529cd-9283-11ed-a467-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "OR",
+"symbol": "7XHQS",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529cd-9283-11ed-a467-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "OR",
+"symbol": "67YKR",
+"increment": "true",
+"exchange": "AQ",
+"order price": "2.36",
+"id": "b8c529ce-9283-11ed-902f-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "OR",
 "symbol": "T2HU8",
 "increment": "true",
 "exchange": "AQ",
@@ -506,11 +371,38 @@
 {
 "timestamp": "33",
 "state": "OR",
+"symbol": "67YKR",
+"increment": "true",
+"exchange": "AQ",
+"order price": "2.35",
+"id": "b8c529d1-9283-11ed-9f49-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "OR",
 "symbol": "7XHQS",
 "increment": "false",
 "exchange": "AQ",
-"order price": "3.26",
-"id": "b8c529ca-9283-11ed-9c46-047c16291a22"
+"order price": "null",
+"id": "b8c529cf-9283-11ed-9525-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "CR",
+"symbol": "7XHQS",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529cf-9283-11ed-9525-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "OR",
+"symbol": "67YKR",
+"increment": "true",
+"exchange": "AQ",
+"order price": "2.41",
+"id": "b8c529d3-9283-11ed-ae03-047c16291a22"
 },
 {
 "timestamp": "33",
@@ -518,179 +410,8 @@
 "symbol": "T2HU8",
 "increment": "false",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c529da-9283-11ed-99a0-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "OR",
-"symbol": "67YKR",
-"increment": "false",
-"exchange": "AQ",
-"order price": "2.42",
-"id": "b8c529d9-9283-11ed-9a86-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CA",
-"symbol": "67YKR",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550d4-9283-11ed-93ed-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CC",
-"symbol": "67YKR",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550d4-9283-11ed-93ed-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CA",
-"symbol": "T2HU8",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550d3-9283-11ed-a2ca-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CC",
-"symbol": "T2HU8",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550d3-9283-11ed-a2ca-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CA",
-"symbol": "67YKR",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550d2-9283-11ed-9169-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CC",
-"symbol": "67YKR",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550d2-9283-11ed-9169-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CA",
-"symbol": "T2HU8",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529da-9283-11ed-99a0-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CC",
-"symbol": "T2HU8",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529da-9283-11ed-99a0-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CC",
-"symbol": "67YKR",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529d5-9283-11ed-94dd-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "OA",
-"symbol": "67YKR",
-"increment": "true",
-"exchange": "AQ",
-"order price": "2.42",
-"id": "b8c529d9-9283-11ed-9a86-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "OR",
-"symbol": "T2HU8",
-"increment": "false",
-"exchange": "AQ",
-"order price": "3.17",
-"id": "b8c529d8-9283-11ed-a626-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "OA",
-"symbol": "T2HU8",
-"increment": "true",
-"exchange": "AQ",
-"order price": "3.17",
-"id": "b8c529d8-9283-11ed-a626-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CA",
-"symbol": "67YKR",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529d7-9283-11ed-9383-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CC",
-"symbol": "67YKR",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529d7-9283-11ed-9383-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CA",
-"symbol": "7XHQS",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529d6-9283-11ed-bfbe-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CC",
-"symbol": "7XHQS",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529d6-9283-11ed-bfbe-047c16291a22"
-},
-{
-"timestamp": "34",
-"state": "CA",
-"symbol": "67YKR",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529d5-9283-11ed-94dd-047c16291a22"
-},
-{
-"timestamp": "33",
-"state": "OA",
-"symbol": "T2HU8",
-"increment": "true",
-"exchange": "AQ",
-"order price": "3.11",
-"id": "b8c529c7-9283-11ed-ba5f-047c16291a22"
+"order price": "3.16",
+"id": "b8c529c9-9283-11ed-84f3-047c16291a22"
 },
 {
 "timestamp": "33",
@@ -766,21 +487,12 @@
 },
 {
 "timestamp": "33",
-"state": "CA",
-"symbol": "7XHQS",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529cf-9283-11ed-9525-047c16291a22"
-},
-{
-"timestamp": "33",
-"state": "OR",
-"symbol": "67YKR",
+"state": "OA",
+"symbol": "T2HU8",
 "increment": "true",
 "exchange": "AQ",
-"order price": "2.41",
-"id": "b8c529d3-9283-11ed-ae03-047c16291a22"
+"order price": "3.11",
+"id": "b8c529c7-9283-11ed-ba5f-047c16291a22"
 },
 {
 "timestamp": "33",
@@ -811,21 +523,30 @@
 },
 {
 "timestamp": "33",
-"state": "OR",
+"state": "CR",
 "symbol": "67YKR",
 "increment": "true",
 "exchange": "AQ",
-"order price": "2.35",
-"id": "b8c529d1-9283-11ed-9f49-047c16291a22"
+"order price": "null",
+"id": "b8c529d7-9283-11ed-9383-047c16291a22"
 },
 {
 "timestamp": "33",
-"state": "OR",
+"state": "CA",
+"symbol": "T2HU8",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529cb-9283-11ed-8389-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "CC",
 "symbol": "T2HU8",
 "increment": "true",
 "exchange": "AQ",
-"order price": "3.10",
-"id": "b8c529d0-9283-11ed-9ed9-047c16291a22"
+"order price": "null",
+"id": "b8c529cb-9283-11ed-8389-047c16291a22"
 },
 {
 "timestamp": "33",
@@ -833,17 +554,17 @@
 "symbol": "7XHQS",
 "increment": "false",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c529cf-9283-11ed-9525-047c16291a22"
+"order price": "3.26",
+"id": "b8c529ca-9283-11ed-9c46-047c16291a22"
 },
 {
 "timestamp": "33",
-"state": "CR",
-"symbol": "7XHQS",
-"increment": "true",
+"state": "OR",
+"symbol": "67YKR",
+"increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c529cf-9283-11ed-9525-047c16291a22"
+"id": "b8c529d7-9283-11ed-9383-047c16291a22"
 },
 {
 "timestamp": "33",
@@ -856,21 +577,30 @@
 },
 {
 "timestamp": "33",
-"state": "CR",
-"symbol": "T2HU8",
-"increment": "true",
+"state": "OR",
+"symbol": "7XHQS",
+"increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c529da-9283-11ed-99a0-047c16291a22"
+"id": "b8c529d6-9283-11ed-bfbe-047c16291a22"
 },
 {
 "timestamp": "33",
-"state": "CC",
+"state": "OA",
 "symbol": "7XHQS",
 "increment": "true",
 "exchange": "AQ",
+"order price": "3.26",
+"id": "b8c529ca-9283-11ed-9c46-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "CA",
+"symbol": "7XHQS",
+"increment": "false",
+"exchange": "AQ",
 "order price": "null",
-"id": "b8c529cf-9283-11ed-9525-047c16291a22"
+"id": "b8c529cd-9283-11ed-a467-047c16291a22"
 },
 {
 "timestamp": "33",
@@ -898,15 +628,6 @@
 "exchange": "AQ",
 "order price": "2.42",
 "id": "b8c529d9-9283-11ed-9a86-047c16291a22"
-},
-{
-"timestamp": "33",
-"state": "CA",
-"symbol": "7XHQS",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529cd-9283-11ed-a467-047c16291a22"
 },
 {
 "timestamp": "33",
@@ -946,30 +667,30 @@
 },
 {
 "timestamp": "33",
-"state": "CA",
-"symbol": "T2HU8",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529cb-9283-11ed-8389-047c16291a22"
-},
-{
-"timestamp": "33",
-"state": "CC",
+"state": "CR",
 "symbol": "T2HU8",
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c529cb-9283-11ed-8389-047c16291a22"
+"id": "b8c529da-9283-11ed-99a0-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "OR",
+"symbol": "67YKR",
+"increment": "false",
+"exchange": "AQ",
+"order price": "2.35",
+"id": "b8c529d1-9283-11ed-9f49-047c16291a22"
 },
 {
 "timestamp": "33",
 "state": "OA",
-"symbol": "7XHQS",
+"symbol": "67YKR",
 "increment": "true",
 "exchange": "AQ",
-"order price": "3.26",
-"id": "b8c529ca-9283-11ed-9c46-047c16291a22"
+"order price": "2.35",
+"id": "b8c529d1-9283-11ed-9f49-047c16291a22"
 },
 {
 "timestamp": "33",
@@ -978,7 +699,7 @@
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c529d7-9283-11ed-9383-047c16291a22"
+"id": "b8c550d2-9283-11ed-9169-047c16291a22"
 },
 {
 "timestamp": "33",
@@ -987,11 +708,65 @@
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c529d7-9283-11ed-9383-047c16291a22"
+"id": "b8c550d2-9283-11ed-9169-047c16291a22"
 },
 {
 "timestamp": "33",
 "state": "OR",
+"symbol": "T2HU8",
+"increment": "false",
+"exchange": "AQ",
+"order price": "3.10",
+"id": "b8c529d0-9283-11ed-9ed9-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "OA",
+"symbol": "T2HU8",
+"increment": "true",
+"exchange": "AQ",
+"order price": "3.10",
+"id": "b8c529d0-9283-11ed-9ed9-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "OR",
+"symbol": "T2HU8",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529da-9283-11ed-99a0-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "CA",
+"symbol": "7XHQS",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529cf-9283-11ed-9525-047c16291a22"
+},
+{
+"timestamp": "33",
+"state": "CC",
+"symbol": "7XHQS",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529cf-9283-11ed-9525-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "OA",
+"symbol": "67YKR",
+"increment": "true",
+"exchange": "AQ",
+"order price": "2.41",
+"id": "b8c529d3-9283-11ed-ae03-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CA",
 "symbol": "7XHQS",
 "increment": "false",
 "exchange": "AQ",
@@ -999,13 +774,256 @@
 "id": "b8c529d6-9283-11ed-bfbe-047c16291a22"
 },
 {
-"timestamp": "33",
+"timestamp": "34",
+"state": "CC",
+"symbol": "7XHQS",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529d6-9283-11ed-bfbe-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CA",
+"symbol": "67YKR",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529d5-9283-11ed-94dd-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CC",
+"symbol": "67YKR",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529d5-9283-11ed-94dd-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "OR",
+"symbol": "67YKR",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550d4-9283-11ed-93ed-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CR",
+"symbol": "67YKR",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550d4-9283-11ed-93ed-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CC",
+"symbol": "7XHQS",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529d4-9283-11ed-863e-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "OR",
+"symbol": "67YKR",
+"increment": "false",
+"exchange": "AQ",
+"order price": "2.41",
+"id": "b8c529d3-9283-11ed-ae03-047c16291a22"
+},
+{
+"timestamp": "34",
 "state": "OR",
 "symbol": "T2HU8",
 "increment": "false",
 "exchange": "AQ",
-"order price": "3.16",
-"id": "b8c529c9-9283-11ed-84f3-047c16291a22"
+"order price": "null",
+"id": "b8c550d3-9283-11ed-a2ca-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CR",
+"symbol": "T2HU8",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550d3-9283-11ed-a2ca-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "OR",
+"symbol": "7XHQS",
+"increment": "false",
+"exchange": "AQ",
+"order price": "3.26",
+"id": "b8c529d2-9283-11ed-9eec-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "OA",
+"symbol": "7XHQS",
+"increment": "true",
+"exchange": "AQ",
+"order price": "3.26",
+"id": "b8c529d2-9283-11ed-9eec-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CA",
+"symbol": "7XHQS",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529d4-9283-11ed-863e-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CC",
+"symbol": "67YKR",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529d7-9283-11ed-9383-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CA",
+"symbol": "67YKR",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529d7-9283-11ed-9383-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "OA",
+"symbol": "T2HU8",
+"increment": "true",
+"exchange": "AQ",
+"order price": "3.17",
+"id": "b8c529d8-9283-11ed-a626-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "OR",
+"symbol": "T2HU8",
+"increment": "false",
+"exchange": "AQ",
+"order price": "3.17",
+"id": "b8c529d8-9283-11ed-a626-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "OR",
+"symbol": "67YKR",
+"increment": "false",
+"exchange": "AQ",
+"order price": "2.42",
+"id": "b8c529d9-9283-11ed-9a86-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "OA",
+"symbol": "67YKR",
+"increment": "true",
+"exchange": "AQ",
+"order price": "2.42",
+"id": "b8c529d9-9283-11ed-9a86-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CC",
+"symbol": "T2HU8",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529da-9283-11ed-99a0-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CA",
+"symbol": "T2HU8",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529da-9283-11ed-99a0-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CC",
+"symbol": "67YKR",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550d2-9283-11ed-9169-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CA",
+"symbol": "67YKR",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550d2-9283-11ed-9169-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CC",
+"symbol": "T2HU8",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550d3-9283-11ed-a2ca-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CA",
+"symbol": "T2HU8",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550d3-9283-11ed-a2ca-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CC",
+"symbol": "67YKR",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550d4-9283-11ed-93ed-047c16291a22"
+},
+{
+"timestamp": "34",
+"state": "CA",
+"symbol": "67YKR",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550d4-9283-11ed-93ed-047c16291a22"
+},
+{
+"timestamp": "74",
+"state": "OR",
+"symbol": "TKNV7",
+"increment": "true",
+"exchange": "AQ",
+"order price": "26.85",
+"id": "b8c550d5-9283-11ed-9830-047c16291a22"
+},
+{
+"timestamp": "74",
+"state": "OR",
+"symbol": "TKNV7",
+"increment": "true",
+"exchange": "AQ",
+"order price": "26.59",
+"id": "b8c550d6-9283-11ed-9937-047c16291a22"
 },
 {
 "timestamp": "74",
@@ -1014,7 +1032,16 @@
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c550d8-9283-11ed-9a91-047c16291a22"
+"id": "b8c550d7-9283-11ed-baf0-047c16291a22"
+},
+{
+"timestamp": "74",
+"state": "CR",
+"symbol": "TKNV7",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550d7-9283-11ed-baf0-047c16291a22"
 },
 {
 "timestamp": "74",
@@ -1032,34 +1059,7 @@
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c550d7-9283-11ed-baf0-047c16291a22"
-},
-{
-"timestamp": "74",
-"state": "OR",
-"symbol": "TKNV7",
-"increment": "true",
-"exchange": "AQ",
-"order price": "26.59",
-"id": "b8c550d6-9283-11ed-9937-047c16291a22"
-},
-{
-"timestamp": "74",
-"state": "OR",
-"symbol": "TKNV7",
-"increment": "true",
-"exchange": "AQ",
-"order price": "26.85",
-"id": "b8c550d5-9283-11ed-9830-047c16291a22"
-},
-{
-"timestamp": "74",
-"state": "CR",
-"symbol": "TKNV7",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550d7-9283-11ed-baf0-047c16291a22"
+"id": "b8c550d8-9283-11ed-9a91-047c16291a22"
 },
 {
 "timestamp": "74",
@@ -1076,15 +1076,6 @@
 "symbol": "TKNV7",
 "increment": "false",
 "exchange": "AQ",
-"order price": "26.85",
-"id": "b8c550d5-9283-11ed-9830-047c16291a22"
-},
-{
-"timestamp": "74",
-"state": "OA",
-"symbol": "TKNV7",
-"increment": "true",
-"exchange": "AQ",
 "order price": "26.59",
 "id": "b8c550d6-9283-11ed-9937-047c16291a22"
 },
@@ -1093,6 +1084,15 @@
 "state": "OR",
 "symbol": "TKNV7",
 "increment": "false",
+"exchange": "AQ",
+"order price": "26.85",
+"id": "b8c550d5-9283-11ed-9830-047c16291a22"
+},
+{
+"timestamp": "74",
+"state": "OA",
+"symbol": "TKNV7",
+"increment": "true",
 "exchange": "AQ",
 "order price": "26.59",
 "id": "b8c550d6-9283-11ed-9937-047c16291a22"
@@ -1134,49 +1134,13 @@
 "id": "b8c550d8-9283-11ed-9a91-047c16291a22"
 },
 {
-"timestamp": "79",
-"state": "OA",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.90",
-"id": "b8c550d9-9283-11ed-b3b8-047c16291a22"
-},
-{
-"timestamp": "79",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529c5-9283-11ed-abe0-047c16291a22"
-},
-{
-"timestamp": "79",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529c5-9283-11ed-abe0-047c16291a22"
-},
-{
-"timestamp": "79",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.90",
-"id": "b8c550d9-9283-11ed-b3b8-047c16291a22"
-},
-{
 "timestamp": "78",
 "state": "OR",
 "symbol": "OFQG6",
-"increment": "false",
+"increment": "true",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c529c5-9283-11ed-abe0-047c16291a22"
+"order price": "47.90",
+"id": "b8c550d9-9283-11ed-b3b8-047c16291a22"
 },
 {
 "timestamp": "78",
@@ -1191,10 +1155,46 @@
 "timestamp": "78",
 "state": "OR",
 "symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529c5-9283-11ed-abe0-047c16291a22"
+},
+{
+"timestamp": "79",
+"state": "OA",
+"symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
 "order price": "47.90",
 "id": "b8c550d9-9283-11ed-b3b8-047c16291a22"
+},
+{
+"timestamp": "79",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.90",
+"id": "b8c550d9-9283-11ed-b3b8-047c16291a22"
+},
+{
+"timestamp": "79",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529c5-9283-11ed-abe0-047c16291a22"
+},
+{
+"timestamp": "79",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529c5-9283-11ed-abe0-047c16291a22"
 },
 {
 "timestamp": "85",
@@ -1262,24 +1262,6 @@
 {
 "timestamp": "96",
 "state": "CR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550da-9283-11ed-8e4e-047c16291a22"
-},
-{
-"timestamp": "96",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550da-9283-11ed-8e4e-047c16291a22"
-},
-{
-"timestamp": "96",
-"state": "CC",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
@@ -1303,6 +1285,24 @@
 "exchange": "AQ",
 "order price": "47.27",
 "id": "b8c550db-9283-11ed-aff9-047c16291a22"
+},
+{
+"timestamp": "96",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550da-9283-11ed-8e4e-047c16291a22"
+},
+{
+"timestamp": "96",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550da-9283-11ed-8e4e-047c16291a22"
 },
 {
 "timestamp": "96",
@@ -1387,48 +1387,12 @@
 },
 {
 "timestamp": "147",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.29",
-"id": "b8c550dd-9283-11ed-8339-047c16291a22"
-},
-{
-"timestamp": "148",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550db-9283-11ed-aff9-047c16291a22"
-},
-{
-"timestamp": "148",
-"state": "CC",
+"state": "CR",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c550db-9283-11ed-aff9-047c16291a22"
-},
-{
-"timestamp": "148",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.29",
-"id": "b8c550dd-9283-11ed-8339-047c16291a22"
-},
-{
-"timestamp": "148",
-"state": "OA",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.29",
-"id": "b8c550dd-9283-11ed-8339-047c16291a22"
 },
 {
 "timestamp": "147",
@@ -1441,7 +1405,34 @@
 },
 {
 "timestamp": "147",
-"state": "CR",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.29",
+"id": "b8c550dd-9283-11ed-8339-047c16291a22"
+},
+{
+"timestamp": "148",
+"state": "OA",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.29",
+"id": "b8c550dd-9283-11ed-8339-047c16291a22"
+},
+{
+"timestamp": "148",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.29",
+"id": "b8c550dd-9283-11ed-8339-047c16291a22"
+},
+{
+"timestamp": "148",
+"state": "CC",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
@@ -1449,58 +1440,13 @@
 "id": "b8c550db-9283-11ed-aff9-047c16291a22"
 },
 {
-"timestamp": "152",
+"timestamp": "148",
 "state": "CA",
-"symbol": "NH4B9",
+"symbol": "OFQG6",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c550de-9283-11ed-87fd-047c16291a22"
-},
-{
-"timestamp": "152",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550de-9283-11ed-87fd-047c16291a22"
-},
-{
-"timestamp": "152",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.15",
-"id": "b8c550e1-9283-11ed-8dc0-047c16291a22"
-},
-{
-"timestamp": "152",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e0-9283-11ed-9f93-047c16291a22"
-},
-{
-"timestamp": "152",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.73",
-"id": "b8c550df-9283-11ed-8a27-047c16291a22"
-},
-{
-"timestamp": "152",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e0-9283-11ed-9f93-047c16291a22"
+"id": "b8c550db-9283-11ed-aff9-047c16291a22"
 },
 {
 "timestamp": "152",
@@ -1522,6 +1468,60 @@
 },
 {
 "timestamp": "152",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.73",
+"id": "b8c550df-9283-11ed-8a27-047c16291a22"
+},
+{
+"timestamp": "152",
+"state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e0-9283-11ed-9f93-047c16291a22"
+},
+{
+"timestamp": "152",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e0-9283-11ed-9f93-047c16291a22"
+},
+{
+"timestamp": "152",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.15",
+"id": "b8c550e1-9283-11ed-8dc0-047c16291a22"
+},
+{
+"timestamp": "152",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550de-9283-11ed-87fd-047c16291a22"
+},
+{
+"timestamp": "152",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550de-9283-11ed-87fd-047c16291a22"
+},
+{
+"timestamp": "152",
 "state": "CR",
 "symbol": "NH4B9",
 "increment": "true",
@@ -1531,69 +1531,6 @@
 },
 {
 "timestamp": "152",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.12",
-"id": "b8c550e2-9283-11ed-9b1b-047c16291a22"
-},
-{
-"timestamp": "152",
-"state": "OA",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.12",
-"id": "b8c550e2-9283-11ed-9b1b-047c16291a22"
-},
-{
-"timestamp": "152",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e1-9283-11ed-8dc0-047c16291a22"
-},
-{
-"timestamp": "152",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e1-9283-11ed-8dc0-047c16291a22"
-},
-{
-"timestamp": "152",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.15",
-"id": "b8c550e1-9283-11ed-8dc0-047c16291a22"
-},
-{
-"timestamp": "152",
-"state": "OA",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.15",
-"id": "b8c550e1-9283-11ed-8dc0-047c16291a22"
-},
-{
-"timestamp": "152",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.12",
-"id": "b8c550e2-9283-11ed-9b1b-047c16291a22"
-},
-{
-"timestamp": "152",
 "state": "CA",
 "symbol": "NH4B9",
 "increment": "false",
@@ -1612,15 +1549,6 @@
 },
 {
 "timestamp": "152",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.73",
-"id": "b8c550df-9283-11ed-8a27-047c16291a22"
-},
-{
-"timestamp": "152",
 "state": "OA",
 "symbol": "NH4B9",
 "increment": "true",
@@ -1636,6 +1564,78 @@
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c550e1-9283-11ed-8dc0-047c16291a22"
+},
+{
+"timestamp": "152",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.73",
+"id": "b8c550df-9283-11ed-8a27-047c16291a22"
+},
+{
+"timestamp": "152",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.12",
+"id": "b8c550e2-9283-11ed-9b1b-047c16291a22"
+},
+{
+"timestamp": "152",
+"state": "OA",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.15",
+"id": "b8c550e1-9283-11ed-8dc0-047c16291a22"
+},
+{
+"timestamp": "152",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.15",
+"id": "b8c550e1-9283-11ed-8dc0-047c16291a22"
+},
+{
+"timestamp": "152",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e1-9283-11ed-8dc0-047c16291a22"
+},
+{
+"timestamp": "152",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e1-9283-11ed-8dc0-047c16291a22"
+},
+{
+"timestamp": "152",
+"state": "OA",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.12",
+"id": "b8c550e2-9283-11ed-9b1b-047c16291a22"
+},
+{
+"timestamp": "152",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.12",
+"id": "b8c550e2-9283-11ed-9b1b-047c16291a22"
 },
 {
 "timestamp": "208",
@@ -1699,51 +1699,6 @@
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c550df-9283-11ed-8a27-047c16291a22"
-},
-{
-"timestamp": "248",
-"state": "CA",
-"symbol": "CP2MN",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e5-9283-11ed-9665-047c16291a22"
-},
-{
-"timestamp": "248",
-"state": "CC",
-"symbol": "CP2MN",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e5-9283-11ed-9665-047c16291a22"
-},
-{
-"timestamp": "248",
-"state": "OR",
-"symbol": "CP2MN",
-"increment": "false",
-"exchange": "AQ",
-"order price": "46.17",
-"id": "b8c550e4-9283-11ed-be68-047c16291a22"
-},
-{
-"timestamp": "248",
-"state": "OR",
-"symbol": "CP2MN",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e5-9283-11ed-9665-047c16291a22"
-},
-{
-"timestamp": "248",
-"state": "CR",
-"symbol": "CP2MN",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e5-9283-11ed-9665-047c16291a22"
 },
 {
 "timestamp": "248",
@@ -1756,9 +1711,54 @@
 },
 {
 "timestamp": "248",
+"state": "CR",
+"symbol": "CP2MN",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e5-9283-11ed-9665-047c16291a22"
+},
+{
+"timestamp": "248",
+"state": "OR",
+"symbol": "CP2MN",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e5-9283-11ed-9665-047c16291a22"
+},
+{
+"timestamp": "248",
+"state": "CA",
+"symbol": "CP2MN",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e5-9283-11ed-9665-047c16291a22"
+},
+{
+"timestamp": "248",
+"state": "CC",
+"symbol": "CP2MN",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e5-9283-11ed-9665-047c16291a22"
+},
+{
+"timestamp": "248",
 "state": "OA",
 "symbol": "CP2MN",
 "increment": "true",
+"exchange": "AQ",
+"order price": "46.17",
+"id": "b8c550e4-9283-11ed-be68-047c16291a22"
+},
+{
+"timestamp": "248",
+"state": "OR",
+"symbol": "CP2MN",
+"increment": "false",
 "exchange": "AQ",
 "order price": "46.17",
 "id": "b8c550e4-9283-11ed-be68-047c16291a22"
@@ -1792,6 +1792,24 @@
 },
 {
 "timestamp": "270",
+"state": "CC",
+"symbol": "CP2MN",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e4-9283-11ed-be68-047c16291a22"
+},
+{
+"timestamp": "270",
+"state": "CA",
+"symbol": "CP2MN",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e4-9283-11ed-be68-047c16291a22"
+},
+{
+"timestamp": "270",
 "state": "OA",
 "symbol": "CP2MN",
 "increment": "true",
@@ -1809,98 +1827,8 @@
 "id": "b8c550e6-9283-11ed-a9bf-047c16291a22"
 },
 {
-"timestamp": "270",
-"state": "CA",
-"symbol": "CP2MN",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e4-9283-11ed-be68-047c16291a22"
-},
-{
-"timestamp": "270",
-"state": "CC",
-"symbol": "CP2MN",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e4-9283-11ed-be68-047c16291a22"
-},
-{
 "timestamp": "587",
 "state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e3-9283-11ed-9cc3-047c16291a22"
-},
-{
-"timestamp": "588",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e2-9283-11ed-9b1b-047c16291a22"
-},
-{
-"timestamp": "588",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e2-9283-11ed-9b1b-047c16291a22"
-},
-{
-"timestamp": "588",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e3-9283-11ed-9cc3-047c16291a22"
-},
-{
-"timestamp": "588",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e3-9283-11ed-9cc3-047c16291a22"
-},
-{
-"timestamp": "588",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.15",
-"id": "b8c550e8-9283-11ed-8748-047c16291a22"
-},
-{
-"timestamp": "588",
-"state": "OA",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.15",
-"id": "b8c550e8-9283-11ed-8748-047c16291a22"
-},
-{
-"timestamp": "588",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.68",
-"id": "b8c550e7-9283-11ed-a6a9-047c16291a22"
-},
-{
-"timestamp": "588",
-"state": "OA",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
@@ -1911,10 +1839,10 @@
 "timestamp": "587",
 "state": "OR",
 "symbol": "NH4B9",
-"increment": "false",
+"increment": "true",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c550e2-9283-11ed-9b1b-047c16291a22"
+"order price": "47.15",
+"id": "b8c550e8-9283-11ed-8748-047c16291a22"
 },
 {
 "timestamp": "587",
@@ -1927,6 +1855,24 @@
 },
 {
 "timestamp": "587",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e2-9283-11ed-9b1b-047c16291a22"
+},
+{
+"timestamp": "587",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e3-9283-11ed-9cc3-047c16291a22"
+},
+{
+"timestamp": "587",
 "state": "CR",
 "symbol": "NH4B9",
 "increment": "true",
@@ -1935,17 +1881,8 @@
 "id": "b8c550e3-9283-11ed-9cc3-047c16291a22"
 },
 {
-"timestamp": "587",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.15",
-"id": "b8c550e8-9283-11ed-8748-047c16291a22"
-},
-{
-"timestamp": "587",
-"state": "OR",
+"timestamp": "588",
+"state": "OA",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
@@ -1953,35 +1890,71 @@
 "id": "b8c550e7-9283-11ed-a6a9-047c16291a22"
 },
 {
-"timestamp": "593",
+"timestamp": "588",
 "state": "OR",
 "symbol": "NH4B9",
 "increment": "false",
 "exchange": "AQ",
-"order price": "47.12",
-"id": "b8c550e9-9283-11ed-8e68-047c16291a22"
+"order price": "47.68",
+"id": "b8c550e7-9283-11ed-a6a9-047c16291a22"
 },
 {
-"timestamp": "593",
+"timestamp": "588",
 "state": "OA",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
-"order price": "47.12",
-"id": "b8c550e9-9283-11ed-8e68-047c16291a22"
+"order price": "47.15",
+"id": "b8c550e8-9283-11ed-8748-047c16291a22"
 },
 {
-"timestamp": "593",
+"timestamp": "588",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.15",
+"id": "b8c550e8-9283-11ed-8748-047c16291a22"
+},
+{
+"timestamp": "588",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e3-9283-11ed-9cc3-047c16291a22"
+},
+{
+"timestamp": "588",
 "state": "CA",
 "symbol": "NH4B9",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c550e8-9283-11ed-8748-047c16291a22"
+"id": "b8c550e3-9283-11ed-9cc3-047c16291a22"
 },
 {
-"timestamp": "593",
+"timestamp": "588",
 "state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e2-9283-11ed-9b1b-047c16291a22"
+},
+{
+"timestamp": "588",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e2-9283-11ed-9b1b-047c16291a22"
+},
+{
+"timestamp": "592",
+"state": "CR",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
@@ -1999,15 +1972,6 @@
 },
 {
 "timestamp": "592",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e8-9283-11ed-8748-047c16291a22"
-},
-{
-"timestamp": "592",
 "state": "OR",
 "symbol": "NH4B9",
 "increment": "true",
@@ -2016,19 +1980,64 @@
 "id": "b8c550e9-9283-11ed-8e68-047c16291a22"
 },
 {
-"timestamp": "614",
+"timestamp": "593",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e8-9283-11ed-8748-047c16291a22"
+},
+{
+"timestamp": "593",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e8-9283-11ed-8748-047c16291a22"
+},
+{
+"timestamp": "593",
 "state": "OA",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
-"order price": "47.71",
-"id": "b8c550ea-9283-11ed-a158-047c16291a22"
+"order price": "47.12",
+"id": "b8c550e9-9283-11ed-8e68-047c16291a22"
 },
 {
-"timestamp": "614",
+"timestamp": "593",
 "state": "OR",
 "symbol": "NH4B9",
 "increment": "false",
+"exchange": "AQ",
+"order price": "47.12",
+"id": "b8c550e9-9283-11ed-8e68-047c16291a22"
+},
+{
+"timestamp": "613",
+"state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e7-9283-11ed-a6a9-047c16291a22"
+},
+{
+"timestamp": "613",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e7-9283-11ed-a6a9-047c16291a22"
+},
+{
+"timestamp": "613",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
 "exchange": "AQ",
 "order price": "47.71",
 "id": "b8c550ea-9283-11ed-a158-047c16291a22"
@@ -2052,8 +2061,8 @@
 "id": "b8c550e7-9283-11ed-a6a9-047c16291a22"
 },
 {
-"timestamp": "613",
-"state": "OR",
+"timestamp": "614",
+"state": "OA",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
@@ -2061,82 +2070,82 @@
 "id": "b8c550ea-9283-11ed-a158-047c16291a22"
 },
 {
-"timestamp": "613",
+"timestamp": "614",
 "state": "OR",
 "symbol": "NH4B9",
 "increment": "false",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c550e7-9283-11ed-a6a9-047c16291a22"
-},
-{
-"timestamp": "613",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e7-9283-11ed-a6a9-047c16291a22"
-},
-{
-"timestamp": "754",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550ea-9283-11ed-a158-047c16291a22"
-},
-{
-"timestamp": "754",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e9-9283-11ed-8e68-047c16291a22"
-},
-{
-"timestamp": "754",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e9-9283-11ed-8e68-047c16291a22"
-},
-{
-"timestamp": "754",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550ea-9283-11ed-a158-047c16291a22"
-},
-{
-"timestamp": "754",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
+"order price": "47.71",
 "id": "b8c550ea-9283-11ed-a158-047c16291a22"
 },
 {
 "timestamp": "754",
 "state": "OR",
 "symbol": "NH4B9",
-"increment": "false",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.68",
+"id": "b8c550eb-9283-11ed-b9a4-047c16291a22"
+},
+{
+"timestamp": "754",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
 "exchange": "AQ",
 "order price": "47.15",
 "id": "b8c550ec-9283-11ed-91ca-047c16291a22"
 },
 {
 "timestamp": "754",
+"state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550ea-9283-11ed-a158-047c16291a22"
+},
+{
+"timestamp": "754",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550ea-9283-11ed-a158-047c16291a22"
+},
+{
+"timestamp": "754",
+"state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e9-9283-11ed-8e68-047c16291a22"
+},
+{
+"timestamp": "754",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e9-9283-11ed-8e68-047c16291a22"
+},
+{
+"timestamp": "754",
 "state": "OA",
 "symbol": "NH4B9",
 "increment": "true",
+"exchange": "AQ",
+"order price": "47.15",
+"id": "b8c550ec-9283-11ed-91ca-047c16291a22"
+},
+{
+"timestamp": "754",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
 "exchange": "AQ",
 "order price": "47.15",
 "id": "b8c550ec-9283-11ed-91ca-047c16291a22"
@@ -2161,25 +2170,7 @@
 },
 {
 "timestamp": "754",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e9-9283-11ed-8e68-047c16291a22"
-},
-{
-"timestamp": "754",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550e9-9283-11ed-8e68-047c16291a22"
-},
-{
-"timestamp": "754",
-"state": "CR",
+"state": "CC",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
@@ -2188,21 +2179,66 @@
 },
 {
 "timestamp": "754",
-"state": "OR",
+"state": "CA",
 "symbol": "NH4B9",
-"increment": "true",
+"increment": "false",
 "exchange": "AQ",
-"order price": "47.15",
-"id": "b8c550ec-9283-11ed-91ca-047c16291a22"
+"order price": "null",
+"id": "b8c550ea-9283-11ed-a158-047c16291a22"
 },
 {
 "timestamp": "754",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e9-9283-11ed-8e68-047c16291a22"
+},
+{
+"timestamp": "754",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e9-9283-11ed-8e68-047c16291a22"
+},
+{
+"timestamp": "759",
+"state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550ec-9283-11ed-91ca-047c16291a22"
+},
+{
+"timestamp": "759",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550ec-9283-11ed-91ca-047c16291a22"
+},
+{
+"timestamp": "759",
 "state": "OR",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
-"order price": "47.68",
-"id": "b8c550eb-9283-11ed-b9a4-047c16291a22"
+"order price": "47.12",
+"id": "b8c550ed-9283-11ed-9f19-047c16291a22"
+},
+{
+"timestamp": "760",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550ec-9283-11ed-91ca-047c16291a22"
 },
 {
 "timestamp": "760",
@@ -2230,42 +2266,6 @@
 "exchange": "AQ",
 "order price": "47.12",
 "id": "b8c550ed-9283-11ed-9f19-047c16291a22"
-},
-{
-"timestamp": "760",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550ec-9283-11ed-91ca-047c16291a22"
-},
-{
-"timestamp": "759",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.12",
-"id": "b8c550ed-9283-11ed-9f19-047c16291a22"
-},
-{
-"timestamp": "759",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550ec-9283-11ed-91ca-047c16291a22"
-},
-{
-"timestamp": "759",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550ec-9283-11ed-91ca-047c16291a22"
 },
 {
 "timestamp": "761",
@@ -2332,75 +2332,12 @@
 },
 {
 "timestamp": "870",
-"state": "OR",
-"symbol": "7XHQS",
-"increment": "true",
-"exchange": "AQ",
-"order price": "3.26",
-"id": "b8c550ef-9283-11ed-8c06-047c16291a22"
-},
-{
-"timestamp": "871",
-"state": "OR",
-"symbol": "7XHQS",
-"increment": "false",
-"exchange": "AQ",
-"order price": "3.26",
-"id": "b8c550ef-9283-11ed-8c06-047c16291a22"
-},
-{
-"timestamp": "871",
-"state": "OA",
-"symbol": "7XHQS",
-"increment": "true",
-"exchange": "AQ",
-"order price": "3.26",
-"id": "b8c550ef-9283-11ed-8c06-047c16291a22"
-},
-{
-"timestamp": "871",
-"state": "OR",
-"symbol": "7XHQS",
-"increment": "true",
-"exchange": "AQ",
-"order price": "3.27",
-"id": "b8c550f0-9283-11ed-aa7b-047c16291a22"
-},
-{
-"timestamp": "871",
-"state": "CA",
-"symbol": "7XHQS",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529ca-9283-11ed-9c46-047c16291a22"
-},
-{
-"timestamp": "871",
-"state": "CC",
-"symbol": "7XHQS",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529ca-9283-11ed-9c46-047c16291a22"
-},
-{
-"timestamp": "871",
-"state": "OR",
-"symbol": "7XHQS",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529d2-9283-11ed-9eec-047c16291a22"
-},
-{
-"timestamp": "871",
 "state": "CR",
 "symbol": "7XHQS",
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c529d2-9283-11ed-9eec-047c16291a22"
+"id": "b8c529ca-9283-11ed-9c46-047c16291a22"
 },
 {
 "timestamp": "870",
@@ -2413,7 +2350,34 @@
 },
 {
 "timestamp": "870",
+"state": "OR",
+"symbol": "7XHQS",
+"increment": "true",
+"exchange": "AQ",
+"order price": "3.26",
+"id": "b8c550ef-9283-11ed-8c06-047c16291a22"
+},
+{
+"timestamp": "871",
 "state": "CR",
+"symbol": "7XHQS",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529d2-9283-11ed-9eec-047c16291a22"
+},
+{
+"timestamp": "871",
+"state": "OR",
+"symbol": "7XHQS",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529d2-9283-11ed-9eec-047c16291a22"
+},
+{
+"timestamp": "871",
+"state": "CC",
 "symbol": "7XHQS",
 "increment": "true",
 "exchange": "AQ",
@@ -2422,6 +2386,42 @@
 },
 {
 "timestamp": "871",
+"state": "OR",
+"symbol": "7XHQS",
+"increment": "true",
+"exchange": "AQ",
+"order price": "3.27",
+"id": "b8c550f0-9283-11ed-aa7b-047c16291a22"
+},
+{
+"timestamp": "871",
+"state": "CA",
+"symbol": "7XHQS",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c529ca-9283-11ed-9c46-047c16291a22"
+},
+{
+"timestamp": "871",
+"state": "OA",
+"symbol": "7XHQS",
+"increment": "true",
+"exchange": "AQ",
+"order price": "3.26",
+"id": "b8c550ef-9283-11ed-8c06-047c16291a22"
+},
+{
+"timestamp": "871",
+"state": "OR",
+"symbol": "7XHQS",
+"increment": "false",
+"exchange": "AQ",
+"order price": "3.26",
+"id": "b8c550ef-9283-11ed-8c06-047c16291a22"
+},
+{
+"timestamp": "871",
 "state": "CC",
 "symbol": "7XHQS",
 "increment": "true",
@@ -2460,7 +2460,52 @@
 "timestamp": "928",
 "state": "OR",
 "symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.68",
+"id": "b8c550f1-9283-11ed-8e19-047c16291a22"
+},
+{
+"timestamp": "928",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.15",
+"id": "b8c550f2-9283-11ed-ae62-047c16291a22"
+},
+{
+"timestamp": "928",
+"state": "OR",
+"symbol": "NH4B9",
 "increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550ed-9283-11ed-9f19-047c16291a22"
+},
+{
+"timestamp": "928",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550ee-9283-11ed-9306-047c16291a22"
+},
+{
+"timestamp": "928",
+"state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550ee-9283-11ed-9306-047c16291a22"
+},
+{
+"timestamp": "928",
+"state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c550ed-9283-11ed-9f19-047c16291a22"
@@ -2503,43 +2548,7 @@
 },
 {
 "timestamp": "928",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550ed-9283-11ed-9f19-047c16291a22"
-},
-{
-"timestamp": "928",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.68",
-"id": "b8c550f1-9283-11ed-8e19-047c16291a22"
-},
-{
-"timestamp": "928",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.15",
-"id": "b8c550f2-9283-11ed-ae62-047c16291a22"
-},
-{
-"timestamp": "928",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550ee-9283-11ed-9306-047c16291a22"
-},
-{
-"timestamp": "928",
-"state": "CR",
+"state": "CC",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
@@ -2572,114 +2581,6 @@
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c550ed-9283-11ed-9f19-047c16291a22"
-},
-{
-"timestamp": "928",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550ee-9283-11ed-9306-047c16291a22"
-},
-{
-"timestamp": "934",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f2-9283-11ed-ae62-047c16291a22"
-},
-{
-"timestamp": "934",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.12",
-"id": "b8c550f3-9283-11ed-ab89-047c16291a22"
-},
-{
-"timestamp": "934",
-"state": "OA",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.12",
-"id": "b8c550f3-9283-11ed-ab89-047c16291a22"
-},
-{
-"timestamp": "934",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f1-9283-11ed-8e19-047c16291a22"
-},
-{
-"timestamp": "934",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f1-9283-11ed-8e19-047c16291a22"
-},
-{
-"timestamp": "934",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f2-9283-11ed-ae62-047c16291a22"
-},
-{
-"timestamp": "934",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.71",
-"id": "b8c550f4-9283-11ed-8341-047c16291a22"
-},
-{
-"timestamp": "934",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.12",
-"id": "b8c550f3-9283-11ed-ab89-047c16291a22"
-},
-{
-"timestamp": "934",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f1-9283-11ed-8e19-047c16291a22"
-},
-{
-"timestamp": "934",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f1-9283-11ed-8e19-047c16291a22"
-},
-{
-"timestamp": "933",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f2-9283-11ed-ae62-047c16291a22"
 },
 {
 "timestamp": "933",
@@ -2691,6 +2592,105 @@
 "id": "b8c550f2-9283-11ed-ae62-047c16291a22"
 },
 {
+"timestamp": "933",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f2-9283-11ed-ae62-047c16291a22"
+},
+{
+"timestamp": "934",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.12",
+"id": "b8c550f3-9283-11ed-ab89-047c16291a22"
+},
+{
+"timestamp": "934",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f1-9283-11ed-8e19-047c16291a22"
+},
+{
+"timestamp": "934",
+"state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f1-9283-11ed-8e19-047c16291a22"
+},
+{
+"timestamp": "934",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.71",
+"id": "b8c550f4-9283-11ed-8341-047c16291a22"
+},
+{
+"timestamp": "934",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f2-9283-11ed-ae62-047c16291a22"
+},
+{
+"timestamp": "934",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f2-9283-11ed-ae62-047c16291a22"
+},
+{
+"timestamp": "934",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f1-9283-11ed-8e19-047c16291a22"
+},
+{
+"timestamp": "934",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f1-9283-11ed-8e19-047c16291a22"
+},
+{
+"timestamp": "934",
+"state": "OA",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.12",
+"id": "b8c550f3-9283-11ed-ab89-047c16291a22"
+},
+{
+"timestamp": "934",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.12",
+"id": "b8c550f3-9283-11ed-ab89-047c16291a22"
+},
+{
 "timestamp": "934",
 "state": "OA",
 "symbol": "NH4B9",
@@ -2737,15 +2737,6 @@
 },
 {
 "timestamp": "994",
-"state": "OR",
-"symbol": "0455B",
-"increment": "false",
-"exchange": "AQ",
-"order price": "1.85",
-"id": "b8c550f5-9283-11ed-97fc-047c16291a22"
-},
-{
-"timestamp": "994",
 "state": "CA",
 "symbol": "0455B",
 "increment": "false",
@@ -2767,6 +2758,15 @@
 "state": "OA",
 "symbol": "0455B",
 "increment": "true",
+"exchange": "AQ",
+"order price": "1.85",
+"id": "b8c550f5-9283-11ed-97fc-047c16291a22"
+},
+{
+"timestamp": "994",
+"state": "OR",
+"symbol": "0455B",
+"increment": "false",
 "exchange": "AQ",
 "order price": "1.85",
 "id": "b8c550f5-9283-11ed-97fc-047c16291a22"
@@ -2833,60 +2833,6 @@
 "exchange": "AQ",
 "order price": "47.73",
 "id": "b8c550f6-9283-11ed-8c2a-047c16291a22"
-},
-{
-"timestamp": "1051",
-"state": "OA",
-"symbol": "0455B",
-"increment": "true",
-"exchange": "AQ",
-"order price": "13.01",
-"id": "b8c550f7-9283-11ed-9f86-047c16291a22"
-},
-{
-"timestamp": "1051",
-"state": "CA",
-"symbol": "0455B",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f5-9283-11ed-97fc-047c16291a22"
-},
-{
-"timestamp": "1051",
-"state": "CC",
-"symbol": "0455B",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f5-9283-11ed-97fc-047c16291a22"
-},
-{
-"timestamp": "1051",
-"state": "OR",
-"symbol": "0455B",
-"increment": "false",
-"exchange": "AQ",
-"order price": "13.01",
-"id": "b8c550f7-9283-11ed-9f86-047c16291a22"
-},
-{
-"timestamp": "1051",
-"state": "OR",
-"symbol": "0455B",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f5-9283-11ed-97fc-047c16291a22"
-},
-{
-"timestamp": "1051",
-"state": "CR",
-"symbol": "0455B",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f5-9283-11ed-97fc-047c16291a22"
 },
 {
 "timestamp": "1050",
@@ -2898,6 +2844,60 @@
 "id": "b8c550f7-9283-11ed-9f86-047c16291a22"
 },
 {
+"timestamp": "1051",
+"state": "OR",
+"symbol": "0455B",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f5-9283-11ed-97fc-047c16291a22"
+},
+{
+"timestamp": "1051",
+"state": "CR",
+"symbol": "0455B",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f5-9283-11ed-97fc-047c16291a22"
+},
+{
+"timestamp": "1051",
+"state": "OA",
+"symbol": "0455B",
+"increment": "true",
+"exchange": "AQ",
+"order price": "13.01",
+"id": "b8c550f7-9283-11ed-9f86-047c16291a22"
+},
+{
+"timestamp": "1051",
+"state": "OR",
+"symbol": "0455B",
+"increment": "false",
+"exchange": "AQ",
+"order price": "13.01",
+"id": "b8c550f7-9283-11ed-9f86-047c16291a22"
+},
+{
+"timestamp": "1051",
+"state": "CC",
+"symbol": "0455B",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f5-9283-11ed-97fc-047c16291a22"
+},
+{
+"timestamp": "1051",
+"state": "CA",
+"symbol": "0455B",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f5-9283-11ed-97fc-047c16291a22"
+},
+{
 "timestamp": "1106",
 "state": "OR",
 "symbol": "ZVLDO",
@@ -2917,52 +2917,7 @@
 },
 {
 "timestamp": "1106",
-"state": "CA",
-"symbol": "ZVLDO",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550fa-9283-11ed-96ee-047c16291a22"
-},
-{
-"timestamp": "1106",
-"state": "CC",
-"symbol": "ZVLDO",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550fb-9283-11ed-8e18-047c16291a22"
-},
-{
-"timestamp": "1106",
-"state": "CA",
-"symbol": "ZVLDO",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550fb-9283-11ed-8e18-047c16291a22"
-},
-{
-"timestamp": "1106",
-"state": "CC",
-"symbol": "ZVLDO",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f9-9283-11ed-ab15-047c16291a22"
-},
-{
-"timestamp": "1106",
-"state": "CA",
-"symbol": "ZVLDO",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f9-9283-11ed-ab15-047c16291a22"
-},
-{
-"timestamp": "1106",
-"state": "CC",
+"state": "CR",
 "symbol": "ZVLDO",
 "increment": "true",
 "exchange": "AQ",
@@ -2971,57 +2926,39 @@
 },
 {
 "timestamp": "1106",
-"state": "CC",
+"state": "OR",
 "symbol": "ZVLDO",
-"increment": "true",
+"increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c550f8-9283-11ed-9cbe-047c16291a22"
+"id": "b8c550fa-9283-11ed-96ee-047c16291a22"
 },
 {
 "timestamp": "1106",
-"state": "CA",
+"state": "CR",
+"symbol": "ZVLDO",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550fb-9283-11ed-8e18-047c16291a22"
+},
+{
+"timestamp": "1106",
+"state": "OR",
+"symbol": "ZVLDO",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550fb-9283-11ed-8e18-047c16291a22"
+},
+{
+"timestamp": "1106",
+"state": "OR",
 "symbol": "ZVLDO",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c550f8-9283-11ed-9cbe-047c16291a22"
-},
-{
-"timestamp": "1107",
-"state": "OA",
-"symbol": "ZVLDO",
-"increment": "true",
-"exchange": "AQ",
-"order price": "51.32",
-"id": "b8c550fc-9283-11ed-b480-047c16291a22"
-},
-{
-"timestamp": "1107",
-"state": "OR",
-"symbol": "ZVLDO",
-"increment": "false",
-"exchange": "AQ",
-"order price": "51.32",
-"id": "b8c550fc-9283-11ed-b480-047c16291a22"
-},
-{
-"timestamp": "1107",
-"state": "OA",
-"symbol": "ZVLDO",
-"increment": "true",
-"exchange": "AQ",
-"order price": "50.51",
-"id": "b8c550fd-9283-11ed-a009-047c16291a22"
-},
-{
-"timestamp": "1107",
-"state": "OR",
-"symbol": "ZVLDO",
-"increment": "false",
-"exchange": "AQ",
-"order price": "50.51",
-"id": "b8c550fd-9283-11ed-a009-047c16291a22"
 },
 {
 "timestamp": "1106",
@@ -3031,6 +2968,42 @@
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c550f9-9283-11ed-ab15-047c16291a22"
+},
+{
+"timestamp": "1106",
+"state": "CR",
+"symbol": "ZVLDO",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f9-9283-11ed-ab15-047c16291a22"
+},
+{
+"timestamp": "1106",
+"state": "CR",
+"symbol": "ZVLDO",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f8-9283-11ed-9cbe-047c16291a22"
+},
+{
+"timestamp": "1106",
+"state": "OR",
+"symbol": "ZVLDO",
+"increment": "false",
+"exchange": "AQ",
+"order price": "50.56",
+"id": "b8c550f8-9283-11ed-9cbe-047c16291a22"
+},
+{
+"timestamp": "1106",
+"state": "OA",
+"symbol": "ZVLDO",
+"increment": "true",
+"exchange": "AQ",
+"order price": "50.56",
+"id": "b8c550f8-9283-11ed-9cbe-047c16291a22"
 },
 {
 "timestamp": "1106",
@@ -3040,87 +3013,6 @@
 "exchange": "AQ",
 "order price": "51.15",
 "id": "b8c550f9-9283-11ed-ab15-047c16291a22"
-},
-{
-"timestamp": "1106",
-"state": "OR",
-"symbol": "ZVLDO",
-"increment": "true",
-"exchange": "AQ",
-"order price": "50.51",
-"id": "b8c550fd-9283-11ed-a009-047c16291a22"
-},
-{
-"timestamp": "1106",
-"state": "CR",
-"symbol": "ZVLDO",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550fa-9283-11ed-96ee-047c16291a22"
-},
-{
-"timestamp": "1106",
-"state": "OR",
-"symbol": "ZVLDO",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550fa-9283-11ed-96ee-047c16291a22"
-},
-{
-"timestamp": "1106",
-"state": "CR",
-"symbol": "ZVLDO",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550fb-9283-11ed-8e18-047c16291a22"
-},
-{
-"timestamp": "1106",
-"state": "OR",
-"symbol": "ZVLDO",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550fb-9283-11ed-8e18-047c16291a22"
-},
-{
-"timestamp": "1106",
-"state": "CR",
-"symbol": "ZVLDO",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f9-9283-11ed-ab15-047c16291a22"
-},
-{
-"timestamp": "1106",
-"state": "OR",
-"symbol": "ZVLDO",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f8-9283-11ed-9cbe-047c16291a22"
-},
-{
-"timestamp": "1106",
-"state": "OA",
-"symbol": "ZVLDO",
-"increment": "true",
-"exchange": "AQ",
-"order price": "50.56",
-"id": "b8c550f8-9283-11ed-9cbe-047c16291a22"
-},
-{
-"timestamp": "1106",
-"state": "OR",
-"symbol": "ZVLDO",
-"increment": "false",
-"exchange": "AQ",
-"order price": "50.56",
-"id": "b8c550f8-9283-11ed-9cbe-047c16291a22"
 },
 {
 "timestamp": "1106",
@@ -3142,7 +3034,70 @@
 },
 {
 "timestamp": "1106",
-"state": "CR",
+"state": "OR",
+"symbol": "ZVLDO",
+"increment": "true",
+"exchange": "AQ",
+"order price": "50.51",
+"id": "b8c550fd-9283-11ed-a009-047c16291a22"
+},
+{
+"timestamp": "1106",
+"state": "CC",
+"symbol": "ZVLDO",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550fa-9283-11ed-96ee-047c16291a22"
+},
+{
+"timestamp": "1106",
+"state": "CA",
+"symbol": "ZVLDO",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550fa-9283-11ed-96ee-047c16291a22"
+},
+{
+"timestamp": "1106",
+"state": "CC",
+"symbol": "ZVLDO",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550fb-9283-11ed-8e18-047c16291a22"
+},
+{
+"timestamp": "1106",
+"state": "CA",
+"symbol": "ZVLDO",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550fb-9283-11ed-8e18-047c16291a22"
+},
+{
+"timestamp": "1106",
+"state": "CC",
+"symbol": "ZVLDO",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f9-9283-11ed-ab15-047c16291a22"
+},
+{
+"timestamp": "1106",
+"state": "CA",
+"symbol": "ZVLDO",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f9-9283-11ed-ab15-047c16291a22"
+},
+{
+"timestamp": "1106",
+"state": "CC",
 "symbol": "ZVLDO",
 "increment": "true",
 "exchange": "AQ",
@@ -3150,57 +3105,48 @@
 "id": "b8c550f8-9283-11ed-9cbe-047c16291a22"
 },
 {
-"timestamp": "1170",
-"state": "OR",
-"symbol": "ZVLDO",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550fc-9283-11ed-b480-047c16291a22"
-},
-{
-"timestamp": "1171",
+"timestamp": "1106",
 "state": "CA",
 "symbol": "ZVLDO",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c550fc-9283-11ed-b480-047c16291a22"
+"id": "b8c550f8-9283-11ed-9cbe-047c16291a22"
 },
 {
-"timestamp": "1171",
-"state": "CC",
-"symbol": "ZVLDO",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550fc-9283-11ed-b480-047c16291a22"
-},
-{
-"timestamp": "1171",
+"timestamp": "1107",
 "state": "OR",
 "symbol": "ZVLDO",
 "increment": "false",
 "exchange": "AQ",
-"order price": "51.27",
-"id": "b8c550fe-9283-11ed-ba31-047c16291a22"
+"order price": "51.32",
+"id": "b8c550fc-9283-11ed-b480-047c16291a22"
 },
 {
-"timestamp": "1171",
+"timestamp": "1107",
+"state": "OR",
+"symbol": "ZVLDO",
+"increment": "false",
+"exchange": "AQ",
+"order price": "50.51",
+"id": "b8c550fd-9283-11ed-a009-047c16291a22"
+},
+{
+"timestamp": "1107",
 "state": "OA",
 "symbol": "ZVLDO",
 "increment": "true",
 "exchange": "AQ",
-"order price": "51.27",
-"id": "b8c550fe-9283-11ed-ba31-047c16291a22"
+"order price": "50.51",
+"id": "b8c550fd-9283-11ed-a009-047c16291a22"
 },
 {
-"timestamp": "1170",
-"state": "CR",
+"timestamp": "1107",
+"state": "OA",
 "symbol": "ZVLDO",
 "increment": "true",
 "exchange": "AQ",
-"order price": "null",
+"order price": "51.32",
 "id": "b8c550fc-9283-11ed-b480-047c16291a22"
 },
 {
@@ -3213,58 +3159,67 @@
 "id": "b8c550fe-9283-11ed-ba31-047c16291a22"
 },
 {
-"timestamp": "1203",
-"state": "OR",
-"symbol": "CP2MN",
+"timestamp": "1170",
+"state": "CR",
+"symbol": "ZVLDO",
 "increment": "true",
 "exchange": "AQ",
-"order price": "46.17",
-"id": "b8c550ff-9283-11ed-b3cf-047c16291a22"
+"order price": "null",
+"id": "b8c550fc-9283-11ed-b480-047c16291a22"
 },
 {
-"timestamp": "1203",
+"timestamp": "1170",
+"state": "OR",
+"symbol": "ZVLDO",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550fc-9283-11ed-b480-047c16291a22"
+},
+{
+"timestamp": "1171",
 "state": "OA",
-"symbol": "CP2MN",
+"symbol": "ZVLDO",
 "increment": "true",
 "exchange": "AQ",
-"order price": "46.17",
-"id": "b8c550ff-9283-11ed-b3cf-047c16291a22"
+"order price": "51.27",
+"id": "b8c550fe-9283-11ed-ba31-047c16291a22"
 },
 {
-"timestamp": "1203",
-"state": "CA",
-"symbol": "CP2MN",
+"timestamp": "1171",
+"state": "OR",
+"symbol": "ZVLDO",
 "increment": "false",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c550e6-9283-11ed-a9bf-047c16291a22"
+"order price": "51.27",
+"id": "b8c550fe-9283-11ed-ba31-047c16291a22"
 },
 {
-"timestamp": "1203",
+"timestamp": "1171",
 "state": "CC",
-"symbol": "CP2MN",
+"symbol": "ZVLDO",
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c550e6-9283-11ed-a9bf-047c16291a22"
+"id": "b8c550fc-9283-11ed-b480-047c16291a22"
 },
 {
-"timestamp": "1203",
-"state": "OR",
-"symbol": "CP2MN",
-"increment": "false",
-"exchange": "AQ",
-"order price": "46.17",
-"id": "b8c550ff-9283-11ed-b3cf-047c16291a22"
-},
-{
-"timestamp": "1203",
-"state": "OR",
-"symbol": "CP2MN",
+"timestamp": "1171",
+"state": "CA",
+"symbol": "ZVLDO",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c550e6-9283-11ed-a9bf-047c16291a22"
+"id": "b8c550fc-9283-11ed-b480-047c16291a22"
+},
+{
+"timestamp": "1203",
+"state": "OR",
+"symbol": "CP2MN",
+"increment": "true",
+"exchange": "AQ",
+"order price": "46.17",
+"id": "b8c550ff-9283-11ed-b3cf-047c16291a22"
 },
 {
 "timestamp": "1203",
@@ -3276,71 +3231,53 @@
 "id": "b8c550e6-9283-11ed-a9bf-047c16291a22"
 },
 {
-"timestamp": "1225",
+"timestamp": "1203",
 "state": "OR",
-"symbol": "ZVLDO",
-"increment": "false",
-"exchange": "AQ",
-"order price": "50.54",
-"id": "b8c55100-9283-11ed-a67a-047c16291a22"
-},
-{
-"timestamp": "1225",
-"state": "CA",
-"symbol": "ZVLDO",
+"symbol": "CP2MN",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c550fe-9283-11ed-ba31-047c16291a22"
+"id": "b8c550e6-9283-11ed-a9bf-047c16291a22"
 },
 {
-"timestamp": "1225",
-"state": "CC",
-"symbol": "ZVLDO",
+"timestamp": "1203",
+"state": "OA",
+"symbol": "CP2MN",
 "increment": "true",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c550fe-9283-11ed-ba31-047c16291a22"
+"order price": "46.17",
+"id": "b8c550ff-9283-11ed-b3cf-047c16291a22"
 },
 {
-"timestamp": "1225",
-"state": "CA",
-"symbol": "ZVLDO",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550fd-9283-11ed-a009-047c16291a22"
-},
-{
-"timestamp": "1225",
-"state": "CC",
-"symbol": "ZVLDO",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550fd-9283-11ed-a009-047c16291a22"
-},
-{
-"timestamp": "1225",
+"timestamp": "1203",
 "state": "OR",
-"symbol": "ZVLDO",
+"symbol": "CP2MN",
 "increment": "false",
 "exchange": "AQ",
-"order price": "51.24",
-"id": "b8c55101-9283-11ed-9c10-047c16291a22"
+"order price": "46.17",
+"id": "b8c550ff-9283-11ed-b3cf-047c16291a22"
 },
 {
-"timestamp": "1225",
-"state": "OA",
-"symbol": "ZVLDO",
+"timestamp": "1203",
+"state": "CC",
+"symbol": "CP2MN",
 "increment": "true",
 "exchange": "AQ",
-"order price": "51.24",
-"id": "b8c55101-9283-11ed-9c10-047c16291a22"
+"order price": "null",
+"id": "b8c550e6-9283-11ed-a9bf-047c16291a22"
 },
 {
-"timestamp": "1225",
-"state": "OA",
+"timestamp": "1203",
+"state": "CA",
+"symbol": "CP2MN",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550e6-9283-11ed-a9bf-047c16291a22"
+},
+{
+"timestamp": "1224",
+"state": "OR",
 "symbol": "ZVLDO",
 "increment": "true",
 "exchange": "AQ",
@@ -3351,10 +3288,10 @@
 "timestamp": "1224",
 "state": "OR",
 "symbol": "ZVLDO",
-"increment": "false",
+"increment": "true",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c550fe-9283-11ed-ba31-047c16291a22"
+"order price": "51.24",
+"id": "b8c55101-9283-11ed-9c10-047c16291a22"
 },
 {
 "timestamp": "1224",
@@ -3363,7 +3300,7 @@
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c550fe-9283-11ed-ba31-047c16291a22"
+"id": "b8c550fd-9283-11ed-a009-047c16291a22"
 },
 {
 "timestamp": "1224",
@@ -3381,11 +3318,38 @@
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c550fd-9283-11ed-a009-047c16291a22"
+"id": "b8c550fe-9283-11ed-ba31-047c16291a22"
 },
 {
 "timestamp": "1224",
 "state": "OR",
+"symbol": "ZVLDO",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550fe-9283-11ed-ba31-047c16291a22"
+},
+{
+"timestamp": "1225",
+"state": "OR",
+"symbol": "ZVLDO",
+"increment": "false",
+"exchange": "AQ",
+"order price": "50.54",
+"id": "b8c55100-9283-11ed-a67a-047c16291a22"
+},
+{
+"timestamp": "1225",
+"state": "OA",
+"symbol": "ZVLDO",
+"increment": "true",
+"exchange": "AQ",
+"order price": "50.54",
+"id": "b8c55100-9283-11ed-a67a-047c16291a22"
+},
+{
+"timestamp": "1225",
+"state": "OA",
 "symbol": "ZVLDO",
 "increment": "true",
 "exchange": "AQ",
@@ -3393,13 +3357,49 @@
 "id": "b8c55101-9283-11ed-9c10-047c16291a22"
 },
 {
-"timestamp": "1224",
+"timestamp": "1225",
 "state": "OR",
+"symbol": "ZVLDO",
+"increment": "false",
+"exchange": "AQ",
+"order price": "51.24",
+"id": "b8c55101-9283-11ed-9c10-047c16291a22"
+},
+{
+"timestamp": "1225",
+"state": "CC",
 "symbol": "ZVLDO",
 "increment": "true",
 "exchange": "AQ",
-"order price": "50.54",
-"id": "b8c55100-9283-11ed-a67a-047c16291a22"
+"order price": "null",
+"id": "b8c550fd-9283-11ed-a009-047c16291a22"
+},
+{
+"timestamp": "1225",
+"state": "CA",
+"symbol": "ZVLDO",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550fd-9283-11ed-a009-047c16291a22"
+},
+{
+"timestamp": "1225",
+"state": "CC",
+"symbol": "ZVLDO",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550fe-9283-11ed-ba31-047c16291a22"
+},
+{
+"timestamp": "1225",
+"state": "CA",
+"symbol": "ZVLDO",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550fe-9283-11ed-ba31-047c16291a22"
 },
 {
 "timestamp": "2196",
@@ -3413,6 +3413,33 @@
 {
 "timestamp": "2196",
 "state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550dc-9283-11ed-9b20-047c16291a22"
+},
+{
+"timestamp": "2196",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.90",
+"id": "b8c55102-9283-11ed-a1f2-047c16291a22"
+},
+{
+"timestamp": "2196",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550dc-9283-11ed-9b20-047c16291a22"
+},
+{
+"timestamp": "2196",
+"state": "CA",
 "symbol": "OFQG6",
 "increment": "false",
 "exchange": "AQ",
@@ -3429,6 +3456,15 @@
 "id": "b8c55102-9283-11ed-a1f2-047c16291a22"
 },
 {
+"timestamp": "2196",
+"state": "OA",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.90",
+"id": "b8c55102-9283-11ed-a1f2-047c16291a22"
+},
+{
 "timestamp": "2197",
 "state": "OR",
 "symbol": "NH4B9",
@@ -3436,6 +3472,15 @@
 "exchange": "AQ",
 "order price": "47.71",
 "id": "b8c55103-9283-11ed-874a-047c16291a22"
+},
+{
+"timestamp": "2197",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f6-9283-11ed-8c2a-047c16291a22"
 },
 {
 "timestamp": "2197",
@@ -3448,51 +3493,6 @@
 },
 {
 "timestamp": "2197",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f6-9283-11ed-8c2a-047c16291a22"
-},
-{
-"timestamp": "2196",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550dc-9283-11ed-9b20-047c16291a22"
-},
-{
-"timestamp": "2196",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550dc-9283-11ed-9b20-047c16291a22"
-},
-{
-"timestamp": "2196",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.90",
-"id": "b8c55102-9283-11ed-a1f2-047c16291a22"
-},
-{
-"timestamp": "2196",
-"state": "OA",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.90",
-"id": "b8c55102-9283-11ed-a1f2-047c16291a22"
-},
-{
-"timestamp": "2197",
 "state": "OA",
 "symbol": "NH4B9",
 "increment": "true",
@@ -3526,6 +3526,42 @@
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c550f6-9283-11ed-8c2a-047c16291a22"
+},
+{
+"timestamp": "2250",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.88",
+"id": "b8c55104-9283-11ed-b2e6-047c16291a22"
+},
+{
+"timestamp": "2250",
+"state": "CR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55102-9283-11ed-a1f2-047c16291a22"
+},
+{
+"timestamp": "2250",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55102-9283-11ed-a1f2-047c16291a22"
+},
+{
+"timestamp": "2250",
+"state": "OA",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.88",
+"id": "b8c55104-9283-11ed-b2e6-047c16291a22"
 },
 {
 "timestamp": "2250",
@@ -3538,219 +3574,30 @@
 },
 {
 "timestamp": "2251",
-"state": "CA",
+"state": "CC",
 "symbol": "OFQG6",
-"increment": "false",
+"increment": "true",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c55102-9283-11ed-a1f2-047c16291a22"
 },
 {
 "timestamp": "2251",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55102-9283-11ed-a1f2-047c16291a22"
-},
-{
-"timestamp": "2250",
-"state": "OA",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.88",
-"id": "b8c55104-9283-11ed-b2e6-047c16291a22"
-},
-{
-"timestamp": "2250",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55102-9283-11ed-a1f2-047c16291a22"
-},
-{
-"timestamp": "2250",
-"state": "CR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55102-9283-11ed-a1f2-047c16291a22"
-},
-{
-"timestamp": "2250",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.88",
-"id": "b8c55104-9283-11ed-b2e6-047c16291a22"
-},
-{
-"timestamp": "2302",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.15",
-"id": "b8c55105-9283-11ed-a560-047c16291a22"
-},
-{
-"timestamp": "2302",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.12",
-"id": "b8c55107-9283-11ed-89c2-047c16291a22"
-},
-{
-"timestamp": "2302",
-"state": "OA",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.12",
-"id": "b8c55107-9283-11ed-89c2-047c16291a22"
-},
-{
-"timestamp": "2302",
 "state": "CA",
-"symbol": "NH4B9",
+"symbol": "OFQG6",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c55105-9283-11ed-a560-047c16291a22"
-},
-{
-"timestamp": "2302",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55105-9283-11ed-a560-047c16291a22"
-},
-{
-"timestamp": "2302",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.73",
-"id": "b8c55106-9283-11ed-ad71-047c16291a22"
-},
-{
-"timestamp": "2302",
-"state": "OA",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.73",
-"id": "b8c55106-9283-11ed-ad71-047c16291a22"
-},
-{
-"timestamp": "2302",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f3-9283-11ed-ab89-047c16291a22"
-},
-{
-"timestamp": "2302",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f3-9283-11ed-ab89-047c16291a22"
-},
-{
-"timestamp": "2302",
-"state": "OA",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.15",
-"id": "b8c55105-9283-11ed-a560-047c16291a22"
+"id": "b8c55102-9283-11ed-a1f2-047c16291a22"
 },
 {
 "timestamp": "2301",
-"state": "CC",
+"state": "CR",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c55103-9283-11ed-874a-047c16291a22"
-},
-{
-"timestamp": "2301",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.12",
-"id": "b8c55107-9283-11ed-89c2-047c16291a22"
-},
-{
-"timestamp": "2301",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55105-9283-11ed-a560-047c16291a22"
-},
-{
-"timestamp": "2301",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55105-9283-11ed-a560-047c16291a22"
-},
-{
-"timestamp": "2301",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.73",
-"id": "b8c55106-9283-11ed-ad71-047c16291a22"
-},
-{
-"timestamp": "2301",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f3-9283-11ed-ab89-047c16291a22"
-},
-{
-"timestamp": "2301",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550f3-9283-11ed-ab89-047c16291a22"
-},
-{
-"timestamp": "2301",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.15",
-"id": "b8c55105-9283-11ed-a560-047c16291a22"
 },
 {
 "timestamp": "2301",
@@ -3763,7 +3610,70 @@
 },
 {
 "timestamp": "2301",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.15",
+"id": "b8c55105-9283-11ed-a560-047c16291a22"
+},
+{
+"timestamp": "2301",
 "state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f3-9283-11ed-ab89-047c16291a22"
+},
+{
+"timestamp": "2301",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c550f3-9283-11ed-ab89-047c16291a22"
+},
+{
+"timestamp": "2301",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.73",
+"id": "b8c55106-9283-11ed-ad71-047c16291a22"
+},
+{
+"timestamp": "2301",
+"state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55105-9283-11ed-a560-047c16291a22"
+},
+{
+"timestamp": "2301",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55105-9283-11ed-a560-047c16291a22"
+},
+{
+"timestamp": "2301",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.12",
+"id": "b8c55107-9283-11ed-89c2-047c16291a22"
+},
+{
+"timestamp": "2301",
+"state": "CC",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
@@ -3780,85 +3690,94 @@
 "id": "b8c55103-9283-11ed-874a-047c16291a22"
 },
 {
-"timestamp": "2355",
-"state": "OR",
+"timestamp": "2302",
+"state": "CA",
 "symbol": "NH4B9",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c55106-9283-11ed-ad71-047c16291a22"
+"id": "b8c550f3-9283-11ed-ab89-047c16291a22"
 },
 {
-"timestamp": "2355",
+"timestamp": "2302",
 "state": "OR",
 "symbol": "NH4B9",
 "increment": "false",
 "exchange": "AQ",
 "order price": "47.15",
-"id": "b8c55109-9283-11ed-901b-047c16291a22"
+"id": "b8c55105-9283-11ed-a560-047c16291a22"
 },
 {
-"timestamp": "2355",
+"timestamp": "2302",
 "state": "OA",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
 "order price": "47.15",
-"id": "b8c55109-9283-11ed-901b-047c16291a22"
+"id": "b8c55105-9283-11ed-a560-047c16291a22"
 },
 {
-"timestamp": "2355",
-"state": "OR",
+"timestamp": "2302",
+"state": "CC",
 "symbol": "NH4B9",
-"increment": "false",
+"increment": "true",
 "exchange": "AQ",
-"order price": "47.71",
-"id": "b8c55108-9283-11ed-a1a9-047c16291a22"
+"order price": "null",
+"id": "b8c550f3-9283-11ed-ab89-047c16291a22"
 },
 {
-"timestamp": "2355",
+"timestamp": "2302",
 "state": "OA",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
-"order price": "47.71",
-"id": "b8c55108-9283-11ed-a1a9-047c16291a22"
+"order price": "47.73",
+"id": "b8c55106-9283-11ed-ad71-047c16291a22"
 },
 {
-"timestamp": "2355",
+"timestamp": "2302",
 "state": "OR",
 "symbol": "NH4B9",
 "increment": "false",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c55107-9283-11ed-89c2-047c16291a22"
-},
-{
-"timestamp": "2355",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55107-9283-11ed-89c2-047c16291a22"
-},
-{
-"timestamp": "2355",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
+"order price": "47.73",
 "id": "b8c55106-9283-11ed-ad71-047c16291a22"
 },
 {
-"timestamp": "2354",
-"state": "OR",
+"timestamp": "2302",
+"state": "CC",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
-"order price": "47.15",
-"id": "b8c55109-9283-11ed-901b-047c16291a22"
+"order price": "null",
+"id": "b8c55105-9283-11ed-a560-047c16291a22"
+},
+{
+"timestamp": "2302",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55105-9283-11ed-a560-047c16291a22"
+},
+{
+"timestamp": "2302",
+"state": "OA",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.12",
+"id": "b8c55107-9283-11ed-89c2-047c16291a22"
+},
+{
+"timestamp": "2302",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.12",
+"id": "b8c55107-9283-11ed-89c2-047c16291a22"
 },
 {
 "timestamp": "2354",
@@ -3870,8 +3789,17 @@
 "id": "b8c55108-9283-11ed-a1a9-047c16291a22"
 },
 {
+"timestamp": "2354",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.15",
+"id": "b8c55109-9283-11ed-901b-047c16291a22"
+},
+{
 "timestamp": "2355",
-"state": "CC",
+"state": "CR",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
@@ -3880,61 +3808,106 @@
 },
 {
 "timestamp": "2355",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55106-9283-11ed-ad71-047c16291a22"
-},
-{
-"timestamp": "2355",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55107-9283-11ed-89c2-047c16291a22"
-},
-{
-"timestamp": "2355",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55107-9283-11ed-89c2-047c16291a22"
-},
-{
-"timestamp": "2674",
 "state": "OR",
 "symbol": "NH4B9",
 "increment": "false",
 "exchange": "AQ",
-"order price": "47.73",
-"id": "b8c5510a-9283-11ed-abac-047c16291a22"
+"order price": "null",
+"id": "b8c55106-9283-11ed-ad71-047c16291a22"
 },
 {
-"timestamp": "2674",
+"timestamp": "2355",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55107-9283-11ed-89c2-047c16291a22"
+},
+{
+"timestamp": "2355",
+"state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55107-9283-11ed-89c2-047c16291a22"
+},
+{
+"timestamp": "2355",
 "state": "OA",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
-"order price": "47.73",
-"id": "b8c5510a-9283-11ed-abac-047c16291a22"
+"order price": "47.71",
+"id": "b8c55108-9283-11ed-a1a9-047c16291a22"
 },
 {
-"timestamp": "2674",
+"timestamp": "2355",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.71",
+"id": "b8c55108-9283-11ed-a1a9-047c16291a22"
+},
+{
+"timestamp": "2355",
+"state": "OA",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.15",
+"id": "b8c55109-9283-11ed-901b-047c16291a22"
+},
+{
+"timestamp": "2355",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.15",
+"id": "b8c55109-9283-11ed-901b-047c16291a22"
+},
+{
+"timestamp": "2355",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55106-9283-11ed-ad71-047c16291a22"
+},
+{
+"timestamp": "2355",
 "state": "CA",
 "symbol": "NH4B9",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c55108-9283-11ed-a1a9-047c16291a22"
+"id": "b8c55106-9283-11ed-ad71-047c16291a22"
 },
 {
-"timestamp": "2674",
+"timestamp": "2355",
 "state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55107-9283-11ed-89c2-047c16291a22"
+},
+{
+"timestamp": "2355",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55107-9283-11ed-89c2-047c16291a22"
+},
+{
+"timestamp": "2673",
+"state": "CR",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
@@ -3951,8 +3924,17 @@
 "id": "b8c55108-9283-11ed-a1a9-047c16291a22"
 },
 {
-"timestamp": "2673",
-"state": "CR",
+"timestamp": "2674",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.73",
+"id": "b8c5510a-9283-11ed-abac-047c16291a22"
+},
+{
+"timestamp": "2674",
+"state": "CC",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
@@ -3961,9 +3943,27 @@
 },
 {
 "timestamp": "2674",
-"state": "OR",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55108-9283-11ed-a1a9-047c16291a22"
+},
+{
+"timestamp": "2674",
+"state": "OA",
 "symbol": "NH4B9",
 "increment": "true",
+"exchange": "AQ",
+"order price": "47.73",
+"id": "b8c5510a-9283-11ed-abac-047c16291a22"
+},
+{
+"timestamp": "2674",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
 "exchange": "AQ",
 "order price": "47.73",
 "id": "b8c5510a-9283-11ed-abac-047c16291a22"
@@ -3979,18 +3979,18 @@
 },
 {
 "timestamp": "3185",
-"state": "CR",
+"state": "OR",
 "symbol": "OFQG6",
-"increment": "true",
+"increment": "false",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c55104-9283-11ed-b2e6-047c16291a22"
 },
 {
 "timestamp": "3185",
-"state": "OR",
+"state": "CR",
 "symbol": "OFQG6",
-"increment": "false",
+"increment": "true",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c55104-9283-11ed-b2e6-047c16291a22"
@@ -4006,6 +4006,15 @@
 },
 {
 "timestamp": "3185",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55104-9283-11ed-b2e6-047c16291a22"
+},
+{
+"timestamp": "3185",
 "state": "OR",
 "symbol": "OFQG6",
 "increment": "false",
@@ -4023,13 +4032,13 @@
 "id": "b8c55104-9283-11ed-b2e6-047c16291a22"
 },
 {
-"timestamp": "3185",
-"state": "CA",
-"symbol": "OFQG6",
+"timestamp": "5421",
+"state": "OR",
+"symbol": "NH4B9",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c55104-9283-11ed-b2e6-047c16291a22"
+"id": "b8c55109-9283-11ed-901b-047c16291a22"
 },
 {
 "timestamp": "5421",
@@ -4048,15 +4057,6 @@
 "exchange": "AQ",
 "order price": "47.12",
 "id": "b8c5510c-9283-11ed-9eba-047c16291a22"
-},
-{
-"timestamp": "5421",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55109-9283-11ed-901b-047c16291a22"
 },
 {
 "timestamp": "5421",
@@ -4093,51 +4093,6 @@
 "exchange": "AQ",
 "order price": "47.12",
 "id": "b8c5510c-9283-11ed-9eba-047c16291a22"
-},
-{
-"timestamp": "5885",
-"state": "CA",
-"symbol": "CP2MN",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5510e-9283-11ed-91f4-047c16291a22"
-},
-{
-"timestamp": "5885",
-"state": "CC",
-"symbol": "CP2MN",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5510e-9283-11ed-91f4-047c16291a22"
-},
-{
-"timestamp": "5885",
-"state": "OR",
-"symbol": "CP2MN",
-"increment": "false",
-"exchange": "AQ",
-"order price": "45.61",
-"id": "b8c5510d-9283-11ed-aad3-047c16291a22"
-},
-{
-"timestamp": "5885",
-"state": "OR",
-"symbol": "CP2MN",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5510e-9283-11ed-91f4-047c16291a22"
-},
-{
-"timestamp": "5885",
-"state": "CR",
-"symbol": "CP2MN",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5510e-9283-11ed-91f4-047c16291a22"
 },
 {
 "timestamp": "5884",
@@ -4150,6 +4105,51 @@
 },
 {
 "timestamp": "5885",
+"state": "CR",
+"symbol": "CP2MN",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5510e-9283-11ed-91f4-047c16291a22"
+},
+{
+"timestamp": "5885",
+"state": "OR",
+"symbol": "CP2MN",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5510e-9283-11ed-91f4-047c16291a22"
+},
+{
+"timestamp": "5885",
+"state": "OR",
+"symbol": "CP2MN",
+"increment": "false",
+"exchange": "AQ",
+"order price": "45.61",
+"id": "b8c5510d-9283-11ed-aad3-047c16291a22"
+},
+{
+"timestamp": "5885",
+"state": "CA",
+"symbol": "CP2MN",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5510e-9283-11ed-91f4-047c16291a22"
+},
+{
+"timestamp": "5885",
+"state": "CC",
+"symbol": "CP2MN",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5510e-9283-11ed-91f4-047c16291a22"
+},
+{
+"timestamp": "5885",
 "state": "OA",
 "symbol": "CP2MN",
 "increment": "true",
@@ -4224,6 +4224,15 @@
 "timestamp": "6169",
 "state": "OR",
 "symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.68",
+"id": "b8c55110-9283-11ed-9da4-047c16291a22"
+},
+{
+"timestamp": "6169",
+"state": "OR",
+"symbol": "NH4B9",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
@@ -4240,15 +4249,6 @@
 },
 {
 "timestamp": "6169",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.68",
-"id": "b8c55110-9283-11ed-9da4-047c16291a22"
-},
-{
-"timestamp": "6169",
 "state": "OA",
 "symbol": "NH4B9",
 "increment": "true",
@@ -4284,98 +4284,8 @@
 "id": "b8c5510a-9283-11ed-abac-047c16291a22"
 },
 {
-"timestamp": "6611",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5510b-9283-11ed-b163-047c16291a22"
-},
-{
-"timestamp": "6611",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55112-9283-11ed-bb79-047c16291a22"
-},
-{
-"timestamp": "6611",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55112-9283-11ed-bb79-047c16291a22"
-},
-{
-"timestamp": "6611",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5510b-9283-11ed-b163-047c16291a22"
-},
-{
-"timestamp": "6611",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.83",
-"id": "b8c55112-9283-11ed-bb79-047c16291a22"
-},
-{
-"timestamp": "6611",
-"state": "OA",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.83",
-"id": "b8c55112-9283-11ed-bb79-047c16291a22"
-},
-{
-"timestamp": "6611",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.27",
-"id": "b8c55111-9283-11ed-85ae-047c16291a22"
-},
-{
-"timestamp": "6611",
-"state": "OA",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.27",
-"id": "b8c55111-9283-11ed-85ae-047c16291a22"
-},
-{
-"timestamp": "6611",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c550dd-9283-11ed-8339-047c16291a22"
-},
-{
-"timestamp": "6611",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.85",
-"id": "b8c55113-9283-11ed-8f91-047c16291a22"
-},
-{
-"timestamp": "6611",
-"state": "CC",
+"timestamp": "6610",
+"state": "CR",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
@@ -4411,7 +4321,52 @@
 },
 {
 "timestamp": "6610",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55112-9283-11ed-bb79-047c16291a22"
+},
+{
+"timestamp": "6610",
 "state": "CR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55112-9283-11ed-bb79-047c16291a22"
+},
+{
+"timestamp": "6610",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5510b-9283-11ed-b163-047c16291a22"
+},
+{
+"timestamp": "6610",
+"state": "CR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5510b-9283-11ed-b163-047c16291a22"
+},
+{
+"timestamp": "6611",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.85",
+"id": "b8c55113-9283-11ed-8f91-047c16291a22"
+},
+{
+"timestamp": "6611",
+"state": "CC",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
@@ -4419,40 +4374,13 @@
 "id": "b8c550dd-9283-11ed-8339-047c16291a22"
 },
 {
-"timestamp": "6610",
-"state": "OR",
+"timestamp": "6611",
+"state": "CA",
 "symbol": "OFQG6",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c5510b-9283-11ed-b163-047c16291a22"
-},
-{
-"timestamp": "6610",
-"state": "CR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55112-9283-11ed-bb79-047c16291a22"
-},
-{
-"timestamp": "6610",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55112-9283-11ed-bb79-047c16291a22"
-},
-{
-"timestamp": "6610",
-"state": "CR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5510b-9283-11ed-b163-047c16291a22"
+"id": "b8c550dd-9283-11ed-8339-047c16291a22"
 },
 {
 "timestamp": "6611",
@@ -4460,14 +4388,86 @@
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
-"order price": "47.85",
-"id": "b8c55113-9283-11ed-8f91-047c16291a22"
+"order price": "47.27",
+"id": "b8c55111-9283-11ed-85ae-047c16291a22"
 },
 {
 "timestamp": "6611",
 "state": "OR",
 "symbol": "OFQG6",
 "increment": "false",
+"exchange": "AQ",
+"order price": "47.27",
+"id": "b8c55111-9283-11ed-85ae-047c16291a22"
+},
+{
+"timestamp": "6611",
+"state": "OA",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.83",
+"id": "b8c55112-9283-11ed-bb79-047c16291a22"
+},
+{
+"timestamp": "6611",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.83",
+"id": "b8c55112-9283-11ed-bb79-047c16291a22"
+},
+{
+"timestamp": "6611",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5510b-9283-11ed-b163-047c16291a22"
+},
+{
+"timestamp": "6611",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5510b-9283-11ed-b163-047c16291a22"
+},
+{
+"timestamp": "6611",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55112-9283-11ed-bb79-047c16291a22"
+},
+{
+"timestamp": "6611",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55112-9283-11ed-bb79-047c16291a22"
+},
+{
+"timestamp": "6611",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.85",
+"id": "b8c55113-9283-11ed-8f91-047c16291a22"
+},
+{
+"timestamp": "6611",
+"state": "OA",
+"symbol": "OFQG6",
+"increment": "true",
 "exchange": "AQ",
 "order price": "47.85",
 "id": "b8c55113-9283-11ed-8f91-047c16291a22"
@@ -4501,21 +4501,12 @@
 },
 {
 "timestamp": "6613",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.24",
-"id": "b8c55114-9283-11ed-88c7-047c16291a22"
-},
-{
-"timestamp": "6613",
-"state": "OA",
+"state": "CC",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
-"order price": "47.24",
-"id": "b8c55114-9283-11ed-88c7-047c16291a22"
+"order price": "null",
+"id": "b8c55111-9283-11ed-85ae-047c16291a22"
 },
 {
 "timestamp": "6613",
@@ -4528,12 +4519,21 @@
 },
 {
 "timestamp": "6613",
-"state": "CC",
+"state": "OA",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c55111-9283-11ed-85ae-047c16291a22"
+"order price": "47.24",
+"id": "b8c55114-9283-11ed-88c7-047c16291a22"
+},
+{
+"timestamp": "6613",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.24",
+"id": "b8c55114-9283-11ed-88c7-047c16291a22"
 },
 {
 "timestamp": "6628",
@@ -4582,18 +4582,18 @@
 },
 {
 "timestamp": "6628",
-"state": "OA",
+"state": "OR",
 "symbol": "OFQG6",
-"increment": "true",
+"increment": "false",
 "exchange": "AQ",
 "order price": "47.22",
 "id": "b8c55115-9283-11ed-a1e3-047c16291a22"
 },
 {
 "timestamp": "6628",
-"state": "OR",
+"state": "OA",
 "symbol": "OFQG6",
-"increment": "false",
+"increment": "true",
 "exchange": "AQ",
 "order price": "47.22",
 "id": "b8c55115-9283-11ed-a1e3-047c16291a22"
@@ -4627,27 +4627,18 @@
 },
 {
 "timestamp": "6631",
-"state": "OR",
+"state": "CC",
 "symbol": "TKNV7",
-"increment": "false",
-"exchange": "AQ",
-"order price": "26.87",
-"id": "b8c55116-9283-11ed-9d32-047c16291a22"
-},
-{
-"timestamp": "6631",
-"state": "CA",
-"symbol": "TKNV7",
-"increment": "false",
+"increment": "true",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c550d5-9283-11ed-9830-047c16291a22"
 },
 {
 "timestamp": "6631",
-"state": "CC",
+"state": "CA",
 "symbol": "TKNV7",
-"increment": "true",
+"increment": "false",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c550d5-9283-11ed-9830-047c16291a22"
@@ -4662,6 +4653,15 @@
 "id": "b8c55116-9283-11ed-9d32-047c16291a22"
 },
 {
+"timestamp": "6631",
+"state": "OR",
+"symbol": "TKNV7",
+"increment": "false",
+"exchange": "AQ",
+"order price": "26.87",
+"id": "b8c55116-9283-11ed-9d32-047c16291a22"
+},
+{
 "timestamp": "6676",
 "state": "OR",
 "symbol": "OFQG6",
@@ -4690,18 +4690,18 @@
 },
 {
 "timestamp": "6676",
-"state": "OA",
+"state": "OR",
 "symbol": "OFQG6",
-"increment": "true",
+"increment": "false",
 "exchange": "AQ",
 "order price": "47.83",
 "id": "b8c55117-9283-11ed-bf7a-047c16291a22"
 },
 {
 "timestamp": "6676",
-"state": "OR",
+"state": "OA",
 "symbol": "OFQG6",
-"increment": "false",
+"increment": "true",
 "exchange": "AQ",
 "order price": "47.83",
 "id": "b8c55117-9283-11ed-bf7a-047c16291a22"
@@ -4727,29 +4727,11 @@
 {
 "timestamp": "6692",
 "state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55115-9283-11ed-a1e3-047c16291a22"
-},
-{
-"timestamp": "6692",
-"state": "CR",
-"symbol": "OFQG6",
+"symbol": "TKNV7",
 "increment": "true",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c55115-9283-11ed-a1e3-047c16291a22"
-},
-{
-"timestamp": "6692",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.24",
-"id": "b8c55119-9283-11ed-9a3f-047c16291a22"
+"order price": "26.85",
+"id": "b8c55118-9283-11ed-9a0f-047c16291a22"
 },
 {
 "timestamp": "6692",
@@ -4764,6 +4746,42 @@
 "timestamp": "6692",
 "state": "OR",
 "symbol": "TKNV7",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55116-9283-11ed-9d32-047c16291a22"
+},
+{
+"timestamp": "6692",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.24",
+"id": "b8c55119-9283-11ed-9a3f-047c16291a22"
+},
+{
+"timestamp": "6692",
+"state": "CR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55115-9283-11ed-a1e3-047c16291a22"
+},
+{
+"timestamp": "6692",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55115-9283-11ed-a1e3-047c16291a22"
+},
+{
+"timestamp": "6692",
+"state": "OA",
+"symbol": "TKNV7",
 "increment": "true",
 "exchange": "AQ",
 "order price": "26.85",
@@ -4775,53 +4793,8 @@
 "symbol": "TKNV7",
 "increment": "false",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c55116-9283-11ed-9d32-047c16291a22"
-},
-{
-"timestamp": "6692",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.24",
-"id": "b8c55119-9283-11ed-9a3f-047c16291a22"
-},
-{
-"timestamp": "6692",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55115-9283-11ed-a1e3-047c16291a22"
-},
-{
-"timestamp": "6692",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55115-9283-11ed-a1e3-047c16291a22"
-},
-{
-"timestamp": "6692",
-"state": "OA",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.24",
-"id": "b8c55119-9283-11ed-9a3f-047c16291a22"
-},
-{
-"timestamp": "6692",
-"state": "CA",
-"symbol": "TKNV7",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55116-9283-11ed-9d32-047c16291a22"
+"order price": "26.85",
+"id": "b8c55118-9283-11ed-9a0f-047c16291a22"
 },
 {
 "timestamp": "6692",
@@ -4834,21 +4807,93 @@
 },
 {
 "timestamp": "6692",
-"state": "OR",
+"state": "CA",
 "symbol": "TKNV7",
 "increment": "false",
 "exchange": "AQ",
-"order price": "26.85",
-"id": "b8c55118-9283-11ed-9a0f-047c16291a22"
+"order price": "null",
+"id": "b8c55116-9283-11ed-9d32-047c16291a22"
 },
 {
 "timestamp": "6692",
 "state": "OA",
-"symbol": "TKNV7",
+"symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
-"order price": "26.85",
-"id": "b8c55118-9283-11ed-9a0f-047c16291a22"
+"order price": "47.24",
+"id": "b8c55119-9283-11ed-9a3f-047c16291a22"
+},
+{
+"timestamp": "6692",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.24",
+"id": "b8c55119-9283-11ed-9a3f-047c16291a22"
+},
+{
+"timestamp": "6692",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55115-9283-11ed-a1e3-047c16291a22"
+},
+{
+"timestamp": "6692",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55115-9283-11ed-a1e3-047c16291a22"
+},
+{
+"timestamp": "7058",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.27",
+"id": "b8c5511a-9283-11ed-b26d-047c16291a22"
+},
+{
+"timestamp": "7058",
+"state": "CR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55119-9283-11ed-9a3f-047c16291a22"
+},
+{
+"timestamp": "7058",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55119-9283-11ed-9a3f-047c16291a22"
+},
+{
+"timestamp": "7058",
+"state": "CR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5511a-9283-11ed-b26d-047c16291a22"
+},
+{
+"timestamp": "7058",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5511a-9283-11ed-b26d-047c16291a22"
 },
 {
 "timestamp": "7059",
@@ -4861,51 +4906,6 @@
 },
 {
 "timestamp": "7059",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5511a-9283-11ed-b26d-047c16291a22"
-},
-{
-"timestamp": "7059",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5511a-9283-11ed-b26d-047c16291a22"
-},
-{
-"timestamp": "7059",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55119-9283-11ed-9a3f-047c16291a22"
-},
-{
-"timestamp": "7059",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55119-9283-11ed-9a3f-047c16291a22"
-},
-{
-"timestamp": "7059",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.27",
-"id": "b8c5511a-9283-11ed-b26d-047c16291a22"
-},
-{
-"timestamp": "7059",
 "state": "OA",
 "symbol": "OFQG6",
 "increment": "true",
@@ -4914,112 +4914,49 @@
 "id": "b8c5511a-9283-11ed-b26d-047c16291a22"
 },
 {
-"timestamp": "7058",
+"timestamp": "7059",
 "state": "OR",
 "symbol": "OFQG6",
 "increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5511a-9283-11ed-b26d-047c16291a22"
-},
-{
-"timestamp": "7058",
-"state": "CR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5511a-9283-11ed-b26d-047c16291a22"
-},
-{
-"timestamp": "7058",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55119-9283-11ed-9a3f-047c16291a22"
-},
-{
-"timestamp": "7058",
-"state": "CR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55119-9283-11ed-9a3f-047c16291a22"
-},
-{
-"timestamp": "7058",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "true",
 "exchange": "AQ",
 "order price": "47.27",
 "id": "b8c5511a-9283-11ed-b26d-047c16291a22"
 },
 {
-"timestamp": "7060",
-"state": "OA",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.85",
-"id": "b8c5511c-9283-11ed-98ae-047c16291a22"
-},
-{
-"timestamp": "7060",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.85",
-"id": "b8c5511c-9283-11ed-98ae-047c16291a22"
-},
-{
-"timestamp": "7060",
+"timestamp": "7059",
 "state": "CA",
 "symbol": "OFQG6",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c55117-9283-11ed-bf7a-047c16291a22"
+"id": "b8c5511a-9283-11ed-b26d-047c16291a22"
 },
 {
-"timestamp": "7060",
+"timestamp": "7059",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55119-9283-11ed-9a3f-047c16291a22"
+},
+{
+"timestamp": "7059",
 "state": "CC",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c55117-9283-11ed-bf7a-047c16291a22"
+"id": "b8c55119-9283-11ed-9a3f-047c16291a22"
 },
 {
-"timestamp": "7060",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.85",
-"id": "b8c5511c-9283-11ed-98ae-047c16291a22"
-},
-{
-"timestamp": "7060",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55117-9283-11ed-bf7a-047c16291a22"
-},
-{
-"timestamp": "7060",
-"state": "CR",
+"timestamp": "7059",
+"state": "CC",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c55117-9283-11ed-bf7a-047c16291a22"
+"id": "b8c5511a-9283-11ed-b26d-047c16291a22"
 },
 {
 "timestamp": "7059",
@@ -5038,6 +4975,69 @@
 "exchange": "AQ",
 "order price": "47.24",
 "id": "b8c5511b-9283-11ed-af39-047c16291a22"
+},
+{
+"timestamp": "7060",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55117-9283-11ed-bf7a-047c16291a22"
+},
+{
+"timestamp": "7060",
+"state": "CR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55117-9283-11ed-bf7a-047c16291a22"
+},
+{
+"timestamp": "7060",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.85",
+"id": "b8c5511c-9283-11ed-98ae-047c16291a22"
+},
+{
+"timestamp": "7060",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55117-9283-11ed-bf7a-047c16291a22"
+},
+{
+"timestamp": "7060",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55117-9283-11ed-bf7a-047c16291a22"
+},
+{
+"timestamp": "7060",
+"state": "OA",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.85",
+"id": "b8c5511c-9283-11ed-98ae-047c16291a22"
+},
+{
+"timestamp": "7060",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.85",
+"id": "b8c5511c-9283-11ed-98ae-047c16291a22"
 },
 {
 "timestamp": "7063",
@@ -5104,12 +5104,75 @@
 },
 {
 "timestamp": "7115",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.83",
+"id": "b8c5511e-9283-11ed-bd9c-047c16291a22"
+},
+{
+"timestamp": "7115",
+"state": "CR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5511c-9283-11ed-98ae-047c16291a22"
+},
+{
+"timestamp": "7115",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5511c-9283-11ed-98ae-047c16291a22"
+},
+{
+"timestamp": "7115",
+"state": "OA",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.83",
+"id": "b8c5511e-9283-11ed-bd9c-047c16291a22"
+},
+{
+"timestamp": "7115",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.83",
+"id": "b8c5511e-9283-11ed-bd9c-047c16291a22"
+},
+{
+"timestamp": "7115",
 "state": "CC",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c5511c-9283-11ed-98ae-047c16291a22"
+},
+{
+"timestamp": "7115",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5511c-9283-11ed-98ae-047c16291a22"
+},
+{
+"timestamp": "7116",
+"state": "CR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5511e-9283-11ed-bd9c-047c16291a22"
 },
 {
 "timestamp": "7116",
@@ -5118,69 +5181,6 @@
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c5511e-9283-11ed-bd9c-047c16291a22"
-},
-{
-"timestamp": "7116",
-"state": "CR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5511e-9283-11ed-bd9c-047c16291a22"
-},
-{
-"timestamp": "7115",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5511c-9283-11ed-98ae-047c16291a22"
-},
-{
-"timestamp": "7115",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.83",
-"id": "b8c5511e-9283-11ed-bd9c-047c16291a22"
-},
-{
-"timestamp": "7115",
-"state": "OA",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.83",
-"id": "b8c5511e-9283-11ed-bd9c-047c16291a22"
-},
-{
-"timestamp": "7115",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5511c-9283-11ed-98ae-047c16291a22"
-},
-{
-"timestamp": "7115",
-"state": "CR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5511c-9283-11ed-98ae-047c16291a22"
-},
-{
-"timestamp": "7115",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.83",
 "id": "b8c5511e-9283-11ed-bd9c-047c16291a22"
 },
 {
@@ -5266,24 +5266,6 @@
 },
 {
 "timestamp": "7148",
-"state": "CA",
-"symbol": "TKNV7",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5511d-9283-11ed-8f8b-047c16291a22"
-},
-{
-"timestamp": "7148",
-"state": "CC",
-"symbol": "TKNV7",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5511d-9283-11ed-8f8b-047c16291a22"
-},
-{
-"timestamp": "7148",
 "state": "OR",
 "symbol": "TKNV7",
 "increment": "false",
@@ -5292,13 +5274,31 @@
 "id": "b8c55120-9283-11ed-9ab8-047c16291a22"
 },
 {
+"timestamp": "7148",
+"state": "CC",
+"symbol": "TKNV7",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5511d-9283-11ed-8f8b-047c16291a22"
+},
+{
+"timestamp": "7148",
+"state": "CA",
+"symbol": "TKNV7",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5511d-9283-11ed-8f8b-047c16291a22"
+},
+{
 "timestamp": "7159",
 "state": "OR",
 "symbol": "OFQG6",
-"increment": "true",
+"increment": "false",
 "exchange": "AQ",
-"order price": "47.27",
-"id": "b8c55121-9283-11ed-846b-047c16291a22"
+"order price": "null",
+"id": "b8c5511b-9283-11ed-af39-047c16291a22"
 },
 {
 "timestamp": "7159",
@@ -5313,10 +5313,10 @@
 "timestamp": "7159",
 "state": "OR",
 "symbol": "OFQG6",
-"increment": "false",
+"increment": "true",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c5511b-9283-11ed-af39-047c16291a22"
+"order price": "47.27",
+"id": "b8c55121-9283-11ed-846b-047c16291a22"
 },
 {
 "timestamp": "7159",
@@ -5355,6 +5355,42 @@
 "id": "b8c5511b-9283-11ed-af39-047c16291a22"
 },
 {
+"timestamp": "7387",
+"state": "CR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55121-9283-11ed-846b-047c16291a22"
+},
+{
+"timestamp": "7387",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55121-9283-11ed-846b-047c16291a22"
+},
+{
+"timestamp": "7387",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.24",
+"id": "b8c55122-9283-11ed-9985-047c16291a22"
+},
+{
+"timestamp": "7388",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55121-9283-11ed-846b-047c16291a22"
+},
+{
 "timestamp": "7388",
 "state": "CA",
 "symbol": "OFQG6",
@@ -5380,51 +5416,6 @@
 "exchange": "AQ",
 "order price": "47.24",
 "id": "b8c55122-9283-11ed-9985-047c16291a22"
-},
-{
-"timestamp": "7387",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55121-9283-11ed-846b-047c16291a22"
-},
-{
-"timestamp": "7387",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.24",
-"id": "b8c55122-9283-11ed-9985-047c16291a22"
-},
-{
-"timestamp": "7387",
-"state": "CR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55121-9283-11ed-846b-047c16291a22"
-},
-{
-"timestamp": "7388",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55121-9283-11ed-846b-047c16291a22"
-},
-{
-"timestamp": "7492",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.83",
-"id": "b8c55123-9283-11ed-814c-047c16291a22"
 },
 {
 "timestamp": "7492",
@@ -5436,6 +5427,15 @@
 "id": "b8c55124-9283-11ed-bd0a-047c16291a22"
 },
 {
+"timestamp": "7492",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.83",
+"id": "b8c55123-9283-11ed-814c-047c16291a22"
+},
+{
 "timestamp": "7493",
 "state": "CR",
 "symbol": "OFQG6",
@@ -5449,15 +5449,6 @@
 "state": "OR",
 "symbol": "OFQG6",
 "increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5511f-9283-11ed-ab3f-047c16291a22"
-},
-{
-"timestamp": "7493",
-"state": "CR",
-"symbol": "OFQG6",
-"increment": "true",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c55122-9283-11ed-9985-047c16291a22"
@@ -5467,6 +5458,15 @@
 "state": "OR",
 "symbol": "OFQG6",
 "increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5511f-9283-11ed-ab3f-047c16291a22"
+},
+{
+"timestamp": "7493",
+"state": "CR",
+"symbol": "OFQG6",
+"increment": "true",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c55122-9283-11ed-9985-047c16291a22"
@@ -5523,27 +5523,27 @@
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c55122-9283-11ed-9985-047c16291a22"
-},
-{
-"timestamp": "7493",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55122-9283-11ed-9985-047c16291a22"
-},
-{
-"timestamp": "7493",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
 "id": "b8c5511f-9283-11ed-ab3f-047c16291a22"
 },
 {
+"timestamp": "7493",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55122-9283-11ed-9985-047c16291a22"
+},
+{
+"timestamp": "7493",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55122-9283-11ed-9985-047c16291a22"
+},
+{
 "timestamp": "7695",
 "state": "CR",
 "symbol": "OFQG6",
@@ -5583,10 +5583,73 @@
 "timestamp": "7695",
 "state": "OR",
 "symbol": "OFQG6",
-"increment": "false",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.24",
+"id": "b8c55125-9283-11ed-b519-047c16291a22"
+},
+{
+"timestamp": "7695",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "true",
 "exchange": "AQ",
 "order price": "47.85",
 "id": "b8c55126-9283-11ed-8afb-047c16291a22"
+},
+{
+"timestamp": "7695",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55124-9283-11ed-bd0a-047c16291a22"
+},
+{
+"timestamp": "7695",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55124-9283-11ed-bd0a-047c16291a22"
+},
+{
+"timestamp": "7695",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55123-9283-11ed-814c-047c16291a22"
+},
+{
+"timestamp": "7695",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55123-9283-11ed-814c-047c16291a22"
+},
+{
+"timestamp": "7695",
+"state": "OA",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.24",
+"id": "b8c55125-9283-11ed-b519-047c16291a22"
+},
+{
+"timestamp": "7695",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.24",
+"id": "b8c55125-9283-11ed-b519-047c16291a22"
 },
 {
 "timestamp": "7695",
@@ -5603,71 +5666,8 @@
 "symbol": "OFQG6",
 "increment": "false",
 "exchange": "AQ",
-"order price": "47.24",
-"id": "b8c55125-9283-11ed-b519-047c16291a22"
-},
-{
-"timestamp": "7695",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55124-9283-11ed-bd0a-047c16291a22"
-},
-{
-"timestamp": "7695",
-"state": "OA",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.24",
-"id": "b8c55125-9283-11ed-b519-047c16291a22"
-},
-{
-"timestamp": "7695",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55123-9283-11ed-814c-047c16291a22"
-},
-{
-"timestamp": "7695",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55124-9283-11ed-bd0a-047c16291a22"
-},
-{
-"timestamp": "7695",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
 "order price": "47.85",
 "id": "b8c55126-9283-11ed-8afb-047c16291a22"
-},
-{
-"timestamp": "7695",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.24",
-"id": "b8c55125-9283-11ed-b519-047c16291a22"
-},
-{
-"timestamp": "7695",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55123-9283-11ed-814c-047c16291a22"
 },
 {
 "timestamp": "7802",
@@ -5734,48 +5734,12 @@
 },
 {
 "timestamp": "7802",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55125-9283-11ed-b519-047c16291a22"
-},
-{
-"timestamp": "7802",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55125-9283-11ed-b519-047c16291a22"
-},
-{
-"timestamp": "7802",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55126-9283-11ed-8afb-047c16291a22"
-},
-{
-"timestamp": "7802",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55126-9283-11ed-8afb-047c16291a22"
-},
-{
-"timestamp": "7802",
 "state": "OR",
 "symbol": "OFQG6",
 "increment": "false",
 "exchange": "AQ",
-"order price": "47.27",
-"id": "b8c55128-9283-11ed-b1c4-047c16291a22"
+"order price": "47.83",
+"id": "b8c55127-9283-11ed-bf9c-047c16291a22"
 },
 {
 "timestamp": "7802",
@@ -5792,8 +5756,116 @@
 "symbol": "OFQG6",
 "increment": "false",
 "exchange": "AQ",
-"order price": "47.83",
+"order price": "47.27",
+"id": "b8c55128-9283-11ed-b1c4-047c16291a22"
+},
+{
+"timestamp": "7802",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55126-9283-11ed-8afb-047c16291a22"
+},
+{
+"timestamp": "7802",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55126-9283-11ed-8afb-047c16291a22"
+},
+{
+"timestamp": "7802",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55125-9283-11ed-b519-047c16291a22"
+},
+{
+"timestamp": "7802",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55125-9283-11ed-b519-047c16291a22"
+},
+{
+"timestamp": "7842",
+"state": "CR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55128-9283-11ed-b1c4-047c16291a22"
+},
+{
+"timestamp": "7842",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
 "id": "b8c55127-9283-11ed-bf9c-047c16291a22"
+},
+{
+"timestamp": "7842",
+"state": "CR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55127-9283-11ed-bf9c-047c16291a22"
+},
+{
+"timestamp": "7842",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55128-9283-11ed-b1c4-047c16291a22"
+},
+{
+"timestamp": "7842",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.24",
+"id": "b8c55129-9283-11ed-bbe4-047c16291a22"
+},
+{
+"timestamp": "7842",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.85",
+"id": "b8c5512a-9283-11ed-8b85-047c16291a22"
+},
+{
+"timestamp": "7843",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55128-9283-11ed-b1c4-047c16291a22"
+},
+{
+"timestamp": "7843",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55128-9283-11ed-b1c4-047c16291a22"
 },
 {
 "timestamp": "7843",
@@ -5803,15 +5875,6 @@
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c55127-9283-11ed-bf9c-047c16291a22"
-},
-{
-"timestamp": "7843",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55128-9283-11ed-b1c4-047c16291a22"
 },
 {
 "timestamp": "7843",
@@ -5842,15 +5905,6 @@
 },
 {
 "timestamp": "7843",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.85",
-"id": "b8c5512a-9283-11ed-8b85-047c16291a22"
-},
-{
-"timestamp": "7843",
 "state": "OA",
 "symbol": "OFQG6",
 "increment": "true",
@@ -5859,67 +5913,13 @@
 "id": "b8c5512a-9283-11ed-8b85-047c16291a22"
 },
 {
-"timestamp": "7842",
+"timestamp": "7843",
 "state": "OR",
 "symbol": "OFQG6",
-"increment": "true",
+"increment": "false",
 "exchange": "AQ",
 "order price": "47.85",
 "id": "b8c5512a-9283-11ed-8b85-047c16291a22"
-},
-{
-"timestamp": "7843",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55128-9283-11ed-b1c4-047c16291a22"
-},
-{
-"timestamp": "7842",
-"state": "CR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55128-9283-11ed-b1c4-047c16291a22"
-},
-{
-"timestamp": "7842",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55128-9283-11ed-b1c4-047c16291a22"
-},
-{
-"timestamp": "7842",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55127-9283-11ed-bf9c-047c16291a22"
-},
-{
-"timestamp": "7842",
-"state": "CR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55127-9283-11ed-bf9c-047c16291a22"
-},
-{
-"timestamp": "7842",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.24",
-"id": "b8c55129-9283-11ed-bbe4-047c16291a22"
 },
 {
 "timestamp": "8028",
@@ -5932,18 +5932,18 @@
 },
 {
 "timestamp": "8028",
-"state": "CR",
+"state": "OR",
 "symbol": "OFQG6",
-"increment": "true",
+"increment": "false",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c5512a-9283-11ed-8b85-047c16291a22"
 },
 {
 "timestamp": "8028",
-"state": "OR",
+"state": "CR",
 "symbol": "OFQG6",
-"increment": "false",
+"increment": "true",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c5512a-9283-11ed-8b85-047c16291a22"
@@ -5956,24 +5956,6 @@
 "exchange": "AQ",
 "order price": "47.83",
 "id": "b8c5512b-9283-11ed-8cf9-047c16291a22"
-},
-{
-"timestamp": "8029",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.83",
-"id": "b8c5512b-9283-11ed-8cf9-047c16291a22"
-},
-{
-"timestamp": "8029",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5512a-9283-11ed-8b85-047c16291a22"
 },
 {
 "timestamp": "8029",
@@ -5985,6 +5967,24 @@
 "id": "b8c5512a-9283-11ed-8b85-047c16291a22"
 },
 {
+"timestamp": "8029",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.83",
+"id": "b8c5512b-9283-11ed-8cf9-047c16291a22"
+},
+{
+"timestamp": "8029",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5512a-9283-11ed-8b85-047c16291a22"
+},
+{
 "timestamp": "8119",
 "state": "CR",
 "symbol": "OFQG6",
@@ -6006,15 +6006,6 @@
 "timestamp": "8119",
 "state": "OR",
 "symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.85",
-"id": "b8c5512c-9283-11ed-a44e-047c16291a22"
-},
-{
-"timestamp": "8119",
-"state": "OA",
-"symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
 "order price": "47.85",
@@ -6031,7 +6022,16 @@
 },
 {
 "timestamp": "8119",
-"state": "OR",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5512b-9283-11ed-8cf9-047c16291a22"
+},
+{
+"timestamp": "8119",
+"state": "OA",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
@@ -6040,12 +6040,57 @@
 },
 {
 "timestamp": "8119",
-"state": "CA",
+"state": "OR",
 "symbol": "OFQG6",
 "increment": "false",
 "exchange": "AQ",
+"order price": "47.85",
+"id": "b8c5512c-9283-11ed-a44e-047c16291a22"
+},
+{
+"timestamp": "8883",
+"state": "CR",
+"symbol": "CP2MN",
+"increment": "true",
+"exchange": "AQ",
 "order price": "null",
-"id": "b8c5512b-9283-11ed-8cf9-047c16291a22"
+"id": "b8c5510d-9283-11ed-aad3-047c16291a22"
+},
+{
+"timestamp": "8883",
+"state": "OR",
+"symbol": "CP2MN",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5510d-9283-11ed-aad3-047c16291a22"
+},
+{
+"timestamp": "8883",
+"state": "OR",
+"symbol": "CP2MN",
+"increment": "true",
+"exchange": "AQ",
+"order price": "45.59",
+"id": "b8c5512d-9283-11ed-a9ec-047c16291a22"
+},
+{
+"timestamp": "8883",
+"state": "CC",
+"symbol": "CP2MN",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5510d-9283-11ed-aad3-047c16291a22"
+},
+{
+"timestamp": "8883",
+"state": "CA",
+"symbol": "CP2MN",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5510d-9283-11ed-aad3-047c16291a22"
 },
 {
 "timestamp": "8884",
@@ -6066,80 +6111,35 @@
 "id": "b8c5512d-9283-11ed-a9ec-047c16291a22"
 },
 {
-"timestamp": "8883",
-"state": "CA",
-"symbol": "CP2MN",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5510d-9283-11ed-aad3-047c16291a22"
-},
-{
-"timestamp": "8883",
-"state": "CC",
-"symbol": "CP2MN",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5510d-9283-11ed-aad3-047c16291a22"
-},
-{
-"timestamp": "8883",
-"state": "OR",
-"symbol": "CP2MN",
-"increment": "true",
-"exchange": "AQ",
-"order price": "45.59",
-"id": "b8c5512d-9283-11ed-a9ec-047c16291a22"
-},
-{
-"timestamp": "8883",
-"state": "OR",
-"symbol": "CP2MN",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5510d-9283-11ed-aad3-047c16291a22"
-},
-{
-"timestamp": "8883",
-"state": "CR",
-"symbol": "CP2MN",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5510d-9283-11ed-aad3-047c16291a22"
-},
-{
-"timestamp": "9118",
+"timestamp": "9117",
 "state": "OR",
 "symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.68",
-"id": "b8c5512f-9283-11ed-a217-047c16291a22"
-},
-{
-"timestamp": "9118",
-"state": "OA",
-"symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
-"order price": "47.68",
-"id": "b8c5512f-9283-11ed-a217-047c16291a22"
-},
-{
-"timestamp": "9118",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
+"order price": "47.66",
 "id": "b8c5512e-9283-11ed-9a3c-047c16291a22"
 },
 {
-"timestamp": "9118",
-"state": "CC",
+"timestamp": "9117",
+"state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55110-9283-11ed-9da4-047c16291a22"
+},
+{
+"timestamp": "9117",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55110-9283-11ed-9da4-047c16291a22"
+},
+{
+"timestamp": "9117",
+"state": "CR",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
@@ -6154,6 +6154,15 @@
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c5512e-9283-11ed-9a3c-047c16291a22"
+},
+{
+"timestamp": "9117",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.68",
+"id": "b8c5512f-9283-11ed-a217-047c16291a22"
 },
 {
 "timestamp": "9118",
@@ -6183,51 +6192,6 @@
 "id": "b8c5512e-9283-11ed-9a3c-047c16291a22"
 },
 {
-"timestamp": "9117",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.68",
-"id": "b8c5512f-9283-11ed-a217-047c16291a22"
-},
-{
-"timestamp": "9117",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5512e-9283-11ed-9a3c-047c16291a22"
-},
-{
-"timestamp": "9117",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55110-9283-11ed-9da4-047c16291a22"
-},
-{
-"timestamp": "9117",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55110-9283-11ed-9da4-047c16291a22"
-},
-{
-"timestamp": "9117",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.66",
-"id": "b8c5512e-9283-11ed-9a3c-047c16291a22"
-},
-{
 "timestamp": "9118",
 "state": "OR",
 "symbol": "NH4B9",
@@ -6237,49 +6201,49 @@
 "id": "b8c5512e-9283-11ed-9a3c-047c16291a22"
 },
 {
-"timestamp": "9249",
+"timestamp": "9118",
 "state": "CC",
-"symbol": "OFQG6",
+"symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c5512c-9283-11ed-a44e-047c16291a22"
+"id": "b8c5512e-9283-11ed-9a3c-047c16291a22"
 },
 {
-"timestamp": "9249",
+"timestamp": "9118",
 "state": "CA",
-"symbol": "OFQG6",
+"symbol": "NH4B9",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c5512c-9283-11ed-a44e-047c16291a22"
+"id": "b8c5512e-9283-11ed-9a3c-047c16291a22"
 },
 {
-"timestamp": "9249",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.83",
-"id": "b8c55130-9283-11ed-a4c0-047c16291a22"
-},
-{
-"timestamp": "9249",
+"timestamp": "9118",
 "state": "OA",
-"symbol": "OFQG6",
+"symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
-"order price": "47.83",
-"id": "b8c55130-9283-11ed-a4c0-047c16291a22"
+"order price": "47.68",
+"id": "b8c5512f-9283-11ed-a217-047c16291a22"
+},
+{
+"timestamp": "9118",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.68",
+"id": "b8c5512f-9283-11ed-a217-047c16291a22"
 },
 {
 "timestamp": "9248",
 "state": "OR",
 "symbol": "OFQG6",
-"increment": "false",
+"increment": "true",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c5512c-9283-11ed-a44e-047c16291a22"
+"order price": "47.83",
+"id": "b8c55130-9283-11ed-a4c0-047c16291a22"
 },
 {
 "timestamp": "9248",
@@ -6294,118 +6258,46 @@
 "timestamp": "9248",
 "state": "OR",
 "symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5512c-9283-11ed-a44e-047c16291a22"
+},
+{
+"timestamp": "9249",
+"state": "OA",
+"symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
 "order price": "47.83",
 "id": "b8c55130-9283-11ed-a4c0-047c16291a22"
 },
 {
-"timestamp": "9765",
+"timestamp": "9249",
 "state": "OR",
-"symbol": "NH4B9",
+"symbol": "OFQG6",
 "increment": "false",
 "exchange": "AQ",
-"order price": "47.85",
-"id": "b8c55132-9283-11ed-862c-047c16291a22"
+"order price": "47.83",
+"id": "b8c55130-9283-11ed-a4c0-047c16291a22"
 },
 {
-"timestamp": "9765",
-"state": "OA",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.85",
-"id": "b8c55132-9283-11ed-862c-047c16291a22"
-},
-{
-"timestamp": "9765",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5510c-9283-11ed-9eba-047c16291a22"
-},
-{
-"timestamp": "9765",
+"timestamp": "9249",
 "state": "CC",
-"symbol": "NH4B9",
+"symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c5510c-9283-11ed-9eba-047c16291a22"
+"id": "b8c5512c-9283-11ed-a44e-047c16291a22"
 },
 {
-"timestamp": "9765",
+"timestamp": "9249",
 "state": "CA",
-"symbol": "NH4B9",
+"symbol": "OFQG6",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c55131-9283-11ed-978d-047c16291a22"
-},
-{
-"timestamp": "9765",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55131-9283-11ed-978d-047c16291a22"
-},
-{
-"timestamp": "9765",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.76",
-"id": "b8c55131-9283-11ed-978d-047c16291a22"
-},
-{
-"timestamp": "9765",
-"state": "OA",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.76",
-"id": "b8c55131-9283-11ed-978d-047c16291a22"
-},
-{
-"timestamp": "9765",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5512f-9283-11ed-a217-047c16291a22"
-},
-{
-"timestamp": "9765",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5512f-9283-11ed-a217-047c16291a22"
-},
-{
-"timestamp": "9765",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.85",
-"id": "b8c55132-9283-11ed-862c-047c16291a22"
-},
-{
-"timestamp": "9765",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.10",
-"id": "b8c55133-9283-11ed-a6ee-047c16291a22"
+"id": "b8c5512c-9283-11ed-a44e-047c16291a22"
 },
 {
 "timestamp": "9764",
@@ -6436,6 +6328,15 @@
 },
 {
 "timestamp": "9764",
+"state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55131-9283-11ed-978d-047c16291a22"
+},
+{
+"timestamp": "9764",
 "state": "OR",
 "symbol": "NH4B9",
 "increment": "false",
@@ -6462,8 +6363,53 @@
 "id": "b8c5510c-9283-11ed-9eba-047c16291a22"
 },
 {
-"timestamp": "9764",
-"state": "CR",
+"timestamp": "9765",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.85",
+"id": "b8c55132-9283-11ed-862c-047c16291a22"
+},
+{
+"timestamp": "9765",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.10",
+"id": "b8c55133-9283-11ed-a6ee-047c16291a22"
+},
+{
+"timestamp": "9765",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5512f-9283-11ed-a217-047c16291a22"
+},
+{
+"timestamp": "9765",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5512f-9283-11ed-a217-047c16291a22"
+},
+{
+"timestamp": "9765",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55131-9283-11ed-978d-047c16291a22"
+},
+{
+"timestamp": "9765",
+"state": "CC",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
@@ -6476,6 +6422,60 @@
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
+"order price": "47.76",
+"id": "b8c55131-9283-11ed-978d-047c16291a22"
+},
+{
+"timestamp": "9765",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.76",
+"id": "b8c55131-9283-11ed-978d-047c16291a22"
+},
+{
+"timestamp": "9765",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5510c-9283-11ed-9eba-047c16291a22"
+},
+{
+"timestamp": "9765",
+"state": "OA",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.85",
+"id": "b8c55132-9283-11ed-862c-047c16291a22"
+},
+{
+"timestamp": "9765",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.85",
+"id": "b8c55132-9283-11ed-862c-047c16291a22"
+},
+{
+"timestamp": "9765",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5510c-9283-11ed-9eba-047c16291a22"
+},
+{
+"timestamp": "9765",
+"state": "OA",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
 "order price": "47.10",
 "id": "b8c55133-9283-11ed-a6ee-047c16291a22"
 },
@@ -6490,6 +6490,42 @@
 },
 {
 "timestamp": "9883",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.68",
+"id": "b8c55134-9283-11ed-9257-047c16291a22"
+},
+{
+"timestamp": "9883",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.12",
+"id": "b8c55135-9283-11ed-b0eb-047c16291a22"
+},
+{
+"timestamp": "9883",
+"state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55132-9283-11ed-862c-047c16291a22"
+},
+{
+"timestamp": "9883",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55132-9283-11ed-862c-047c16291a22"
+},
+{
+"timestamp": "9883",
 "state": "CR",
 "symbol": "NH4B9",
 "increment": "true",
@@ -6498,8 +6534,8 @@
 "id": "b8c55133-9283-11ed-a6ee-047c16291a22"
 },
 {
-"timestamp": "9884",
-"state": "CA",
+"timestamp": "9883",
+"state": "OR",
 "symbol": "NH4B9",
 "increment": "false",
 "exchange": "AQ",
@@ -6508,30 +6544,12 @@
 },
 {
 "timestamp": "9884",
-"state": "CC",
+"state": "OA",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c55133-9283-11ed-a6ee-047c16291a22"
-},
-{
-"timestamp": "9884",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55132-9283-11ed-862c-047c16291a22"
-},
-{
-"timestamp": "9884",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55132-9283-11ed-862c-047c16291a22"
+"order price": "47.68",
+"id": "b8c55134-9283-11ed-9257-047c16291a22"
 },
 {
 "timestamp": "9884",
@@ -6562,16 +6580,34 @@
 },
 {
 "timestamp": "9884",
-"state": "OA",
+"state": "CC",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
-"order price": "47.68",
-"id": "b8c55134-9283-11ed-9257-047c16291a22"
+"order price": "null",
+"id": "b8c55132-9283-11ed-862c-047c16291a22"
 },
 {
-"timestamp": "9883",
-"state": "OR",
+"timestamp": "9884",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55132-9283-11ed-862c-047c16291a22"
+},
+{
+"timestamp": "9884",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55133-9283-11ed-a6ee-047c16291a22"
+},
+{
+"timestamp": "9884",
+"state": "CA",
 "symbol": "NH4B9",
 "increment": "false",
 "exchange": "AQ",
@@ -6579,51 +6615,6 @@
 "id": "b8c55133-9283-11ed-a6ee-047c16291a22"
 },
 {
-"timestamp": "9883",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55132-9283-11ed-862c-047c16291a22"
-},
-{
-"timestamp": "9883",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55132-9283-11ed-862c-047c16291a22"
-},
-{
-"timestamp": "9883",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.12",
-"id": "b8c55135-9283-11ed-b0eb-047c16291a22"
-},
-{
-"timestamp": "9883",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.68",
-"id": "b8c55134-9283-11ed-9257-047c16291a22"
-},
-{
-"timestamp": "10109",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55134-9283-11ed-9257-047c16291a22"
-},
-{
 "timestamp": "10109",
 "state": "OR",
 "symbol": "NH4B9",
@@ -6635,6 +6626,33 @@
 {
 "timestamp": "10109",
 "state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55134-9283-11ed-9257-047c16291a22"
+},
+{
+"timestamp": "10109",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55134-9283-11ed-9257-047c16291a22"
+},
+{
+"timestamp": "10109",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55134-9283-11ed-9257-047c16291a22"
+},
+{
+"timestamp": "10109",
+"state": "CC",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
@@ -6658,87 +6676,6 @@
 "exchange": "AQ",
 "order price": "47.66",
 "id": "b8c55136-9283-11ed-a77f-047c16291a22"
-},
-{
-"timestamp": "10109",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55134-9283-11ed-9257-047c16291a22"
-},
-{
-"timestamp": "10109",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55134-9283-11ed-9257-047c16291a22"
-},
-{
-"timestamp": "10137",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.10",
-"id": "b8c55137-9283-11ed-9cda-047c16291a22"
-},
-{
-"timestamp": "10137",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55135-9283-11ed-b0eb-047c16291a22"
-},
-{
-"timestamp": "10137",
-"state": "CC",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55135-9283-11ed-b0eb-047c16291a22"
-},
-{
-"timestamp": "10137",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.68",
-"id": "b8c55138-9283-11ed-8873-047c16291a22"
-},
-{
-"timestamp": "10137",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55136-9283-11ed-a77f-047c16291a22"
-},
-{
-"timestamp": "10137",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55136-9283-11ed-a77f-047c16291a22"
-},
-{
-"timestamp": "10136",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55135-9283-11ed-b0eb-047c16291a22"
 },
 {
 "timestamp": "10136",
@@ -6750,6 +6687,69 @@
 "id": "b8c55135-9283-11ed-b0eb-047c16291a22"
 },
 {
+"timestamp": "10136",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55135-9283-11ed-b0eb-047c16291a22"
+},
+{
+"timestamp": "10137",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.10",
+"id": "b8c55137-9283-11ed-9cda-047c16291a22"
+},
+{
+"timestamp": "10137",
+"state": "CR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55136-9283-11ed-a77f-047c16291a22"
+},
+{
+"timestamp": "10137",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55136-9283-11ed-a77f-047c16291a22"
+},
+{
+"timestamp": "10137",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.68",
+"id": "b8c55138-9283-11ed-8873-047c16291a22"
+},
+{
+"timestamp": "10137",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55135-9283-11ed-b0eb-047c16291a22"
+},
+{
+"timestamp": "10137",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55135-9283-11ed-b0eb-047c16291a22"
+},
+{
 "timestamp": "10137",
 "state": "OA",
 "symbol": "NH4B9",
@@ -6757,6 +6757,24 @@
 "exchange": "AQ",
 "order price": "47.10",
 "id": "b8c55137-9283-11ed-9cda-047c16291a22"
+},
+{
+"timestamp": "10137",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.10",
+"id": "b8c55137-9283-11ed-9cda-047c16291a22"
+},
+{
+"timestamp": "10137",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55136-9283-11ed-a77f-047c16291a22"
 },
 {
 "timestamp": "10137",
@@ -6778,15 +6796,6 @@
 },
 {
 "timestamp": "10137",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55136-9283-11ed-a77f-047c16291a22"
-},
-{
-"timestamp": "10137",
 "state": "CC",
 "symbol": "NH4B9",
 "increment": "true",
@@ -6795,15 +6804,6 @@
 "id": "b8c55136-9283-11ed-a77f-047c16291a22"
 },
 {
-"timestamp": "10137",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.10",
-"id": "b8c55137-9283-11ed-9cda-047c16291a22"
-},
-{
 "timestamp": "10204",
 "state": "OR",
 "symbol": "NH4B9",
@@ -6814,34 +6814,16 @@
 },
 {
 "timestamp": "10204",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55137-9283-11ed-9cda-047c16291a22"
-},
-{
-"timestamp": "10204",
-"state": "CC",
+"state": "OR",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c55137-9283-11ed-9cda-047c16291a22"
+"order price": "47.12",
+"id": "b8c5513a-9283-11ed-ba6f-047c16291a22"
 },
 {
 "timestamp": "10204",
-"state": "CA",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55138-9283-11ed-8873-047c16291a22"
-},
-{
-"timestamp": "10204",
-"state": "CC",
+"state": "CR",
 "symbol": "NH4B9",
 "increment": "true",
 "exchange": "AQ",
@@ -6854,35 +6836,8 @@
 "symbol": "NH4B9",
 "increment": "false",
 "exchange": "AQ",
-"order price": "47.12",
-"id": "b8c5513a-9283-11ed-ba6f-047c16291a22"
-},
-{
-"timestamp": "10204",
-"state": "OA",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.12",
-"id": "b8c5513a-9283-11ed-ba6f-047c16291a22"
-},
-{
-"timestamp": "10204",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.66",
-"id": "b8c55139-9283-11ed-a08e-047c16291a22"
-},
-{
-"timestamp": "10204",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "false",
-"exchange": "AQ",
 "order price": "null",
-"id": "b8c55137-9283-11ed-9cda-047c16291a22"
+"id": "b8c55138-9283-11ed-8873-047c16291a22"
 },
 {
 "timestamp": "10204",
@@ -6900,25 +6855,7 @@
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c55138-9283-11ed-8873-047c16291a22"
-},
-{
-"timestamp": "10204",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55138-9283-11ed-8873-047c16291a22"
-},
-{
-"timestamp": "10204",
-"state": "OR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.12",
-"id": "b8c5513a-9283-11ed-ba6f-047c16291a22"
+"id": "b8c55137-9283-11ed-9cda-047c16291a22"
 },
 {
 "timestamp": "10204",
@@ -6928,6 +6865,69 @@
 "exchange": "AQ",
 "order price": "47.66",
 "id": "b8c55139-9283-11ed-a08e-047c16291a22"
+},
+{
+"timestamp": "10204",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.66",
+"id": "b8c55139-9283-11ed-a08e-047c16291a22"
+},
+{
+"timestamp": "10204",
+"state": "OA",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.12",
+"id": "b8c5513a-9283-11ed-ba6f-047c16291a22"
+},
+{
+"timestamp": "10204",
+"state": "OR",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.12",
+"id": "b8c5513a-9283-11ed-ba6f-047c16291a22"
+},
+{
+"timestamp": "10204",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55138-9283-11ed-8873-047c16291a22"
+},
+{
+"timestamp": "10204",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55138-9283-11ed-8873-047c16291a22"
+},
+{
+"timestamp": "10204",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55137-9283-11ed-9cda-047c16291a22"
+},
+{
+"timestamp": "10204",
+"state": "CA",
+"symbol": "NH4B9",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55137-9283-11ed-9cda-047c16291a22"
 },
 {
 "timestamp": "10253",
@@ -6940,6 +6940,15 @@
 },
 {
 "timestamp": "10253",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55130-9283-11ed-a4c0-047c16291a22"
+},
+{
+"timestamp": "10253",
 "state": "CR",
 "symbol": "OFQG6",
 "increment": "true",
@@ -6949,7 +6958,52 @@
 },
 {
 "timestamp": "10253",
+"state": "OA",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.80",
+"id": "b8c5513b-9283-11ed-be58-047c16291a22"
+},
+{
+"timestamp": "10253",
 "state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.80",
+"id": "b8c5513b-9283-11ed-be58-047c16291a22"
+},
+{
+"timestamp": "10253",
+"state": "CR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5513b-9283-11ed-be58-047c16291a22"
+},
+{
+"timestamp": "10253",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5513b-9283-11ed-be58-047c16291a22"
+},
+{
+"timestamp": "10253",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55130-9283-11ed-a4c0-047c16291a22"
+},
+{
+"timestamp": "10253",
+"state": "CA",
 "symbol": "OFQG6",
 "increment": "false",
 "exchange": "AQ",
@@ -6967,6 +7021,24 @@
 },
 {
 "timestamp": "10254",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5513b-9283-11ed-be58-047c16291a22"
+},
+{
+"timestamp": "10254",
+"state": "CA",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5513b-9283-11ed-be58-047c16291a22"
+},
+{
+"timestamp": "10254",
 "state": "OR",
 "symbol": "OFQG6",
 "increment": "false",
@@ -6982,78 +7054,6 @@
 "exchange": "AQ",
 "order price": "47.83",
 "id": "b8c5513c-9283-11ed-8b97-047c16291a22"
-},
-{
-"timestamp": "10254",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5513b-9283-11ed-be58-047c16291a22"
-},
-{
-"timestamp": "10254",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5513b-9283-11ed-be58-047c16291a22"
-},
-{
-"timestamp": "10253",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55130-9283-11ed-a4c0-047c16291a22"
-},
-{
-"timestamp": "10253",
-"state": "CC",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55130-9283-11ed-a4c0-047c16291a22"
-},
-{
-"timestamp": "10253",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5513b-9283-11ed-be58-047c16291a22"
-},
-{
-"timestamp": "10253",
-"state": "CR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5513b-9283-11ed-be58-047c16291a22"
-},
-{
-"timestamp": "10253",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.80",
-"id": "b8c5513b-9283-11ed-be58-047c16291a22"
-},
-{
-"timestamp": "10253",
-"state": "OA",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.80",
-"id": "b8c5513b-9283-11ed-be58-047c16291a22"
 },
 {
 "timestamp": "10432",
@@ -7119,6 +7119,42 @@
 "id": "b8c5513d-9283-11ed-ae3c-047c16291a22"
 },
 {
+"timestamp": "10739",
+"state": "CR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5513d-9283-11ed-ae3c-047c16291a22"
+},
+{
+"timestamp": "10739",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5513d-9283-11ed-ae3c-047c16291a22"
+},
+{
+"timestamp": "10739",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "47.20",
+"id": "b8c5513e-9283-11ed-895b-047c16291a22"
+},
+{
+"timestamp": "10740",
+"state": "CC",
+"symbol": "OFQG6",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5513d-9283-11ed-ae3c-047c16291a22"
+},
+{
 "timestamp": "10740",
 "state": "CA",
 "symbol": "OFQG6",
@@ -7146,40 +7182,49 @@
 "id": "b8c5513e-9283-11ed-895b-047c16291a22"
 },
 {
-"timestamp": "10739",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5513d-9283-11ed-ae3c-047c16291a22"
-},
-{
-"timestamp": "10739",
+"timestamp": "10789",
 "state": "OR",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
-"order price": "47.20",
-"id": "b8c5513e-9283-11ed-895b-047c16291a22"
+"order price": "47.80",
+"id": "b8c5513f-9283-11ed-ba95-047c16291a22"
 },
 {
-"timestamp": "10739",
+"timestamp": "10789",
 "state": "CR",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c5513d-9283-11ed-ae3c-047c16291a22"
+"id": "b8c5513c-9283-11ed-8b97-047c16291a22"
 },
 {
-"timestamp": "10740",
-"state": "CC",
+"timestamp": "10789",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5513c-9283-11ed-8b97-047c16291a22"
+},
+{
+"timestamp": "10790",
+"state": "OA",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c5513d-9283-11ed-ae3c-047c16291a22"
+"order price": "47.80",
+"id": "b8c5513f-9283-11ed-ba95-047c16291a22"
+},
+{
+"timestamp": "10790",
+"state": "OR",
+"symbol": "OFQG6",
+"increment": "false",
+"exchange": "AQ",
+"order price": "47.80",
+"id": "b8c5513f-9283-11ed-ba95-047c16291a22"
 },
 {
 "timestamp": "10790",
@@ -7200,49 +7245,31 @@
 "id": "b8c5513c-9283-11ed-8b97-047c16291a22"
 },
 {
-"timestamp": "10790",
+"timestamp": "10930",
 "state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "47.80",
-"id": "b8c5513f-9283-11ed-ba95-047c16291a22"
-},
-{
-"timestamp": "10790",
-"state": "OA",
-"symbol": "OFQG6",
+"symbol": "T2HU8",
 "increment": "true",
 "exchange": "AQ",
-"order price": "47.80",
-"id": "b8c5513f-9283-11ed-ba95-047c16291a22"
+"order price": "3.11",
+"id": "b8c55140-9283-11ed-aae1-047c16291a22"
 },
 {
-"timestamp": "10789",
+"timestamp": "10930",
 "state": "OR",
-"symbol": "OFQG6",
+"symbol": "T2HU8",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c5513c-9283-11ed-8b97-047c16291a22"
+"id": "b8c529c7-9283-11ed-ba5f-047c16291a22"
 },
 {
-"timestamp": "10789",
+"timestamp": "10930",
 "state": "CR",
-"symbol": "OFQG6",
+"symbol": "T2HU8",
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c5513c-9283-11ed-8b97-047c16291a22"
-},
-{
-"timestamp": "10789",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "true",
-"exchange": "AQ",
-"order price": "47.80",
-"id": "b8c5513f-9283-11ed-ba95-047c16291a22"
+"id": "b8c529c7-9283-11ed-ba5f-047c16291a22"
 },
 {
 "timestamp": "10930",
@@ -7255,16 +7282,7 @@
 },
 {
 "timestamp": "10931",
-"state": "CA",
-"symbol": "T2HU8",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529d0-9283-11ed-9ed9-047c16291a22"
-},
-{
-"timestamp": "10931",
-"state": "CC",
+"state": "CR",
 "symbol": "T2HU8",
 "increment": "true",
 "exchange": "AQ",
@@ -7277,8 +7295,8 @@
 "symbol": "T2HU8",
 "increment": "false",
 "exchange": "AQ",
-"order price": "3.10",
-"id": "b8c55141-9283-11ed-b28e-047c16291a22"
+"order price": "null",
+"id": "b8c529d0-9283-11ed-9ed9-047c16291a22"
 },
 {
 "timestamp": "10931",
@@ -7286,17 +7304,17 @@
 "symbol": "T2HU8",
 "increment": "true",
 "exchange": "AQ",
-"order price": "3.10",
-"id": "b8c55141-9283-11ed-b28e-047c16291a22"
+"order price": "3.11",
+"id": "b8c55140-9283-11ed-aae1-047c16291a22"
 },
 {
 "timestamp": "10931",
-"state": "CA",
+"state": "OR",
 "symbol": "T2HU8",
 "increment": "false",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c529c7-9283-11ed-ba5f-047c16291a22"
+"order price": "3.11",
+"id": "b8c55140-9283-11ed-aae1-047c16291a22"
 },
 {
 "timestamp": "10931",
@@ -7309,12 +7327,12 @@
 },
 {
 "timestamp": "10931",
-"state": "OR",
+"state": "CA",
 "symbol": "T2HU8",
 "increment": "false",
 "exchange": "AQ",
-"order price": "3.11",
-"id": "b8c55140-9283-11ed-aae1-047c16291a22"
+"order price": "null",
+"id": "b8c529c7-9283-11ed-ba5f-047c16291a22"
 },
 {
 "timestamp": "10931",
@@ -7322,8 +7340,8 @@
 "symbol": "T2HU8",
 "increment": "true",
 "exchange": "AQ",
-"order price": "3.11",
-"id": "b8c55140-9283-11ed-aae1-047c16291a22"
+"order price": "3.10",
+"id": "b8c55141-9283-11ed-b28e-047c16291a22"
 },
 {
 "timestamp": "10931",
@@ -7331,53 +7349,26 @@
 "symbol": "T2HU8",
 "increment": "false",
 "exchange": "AQ",
+"order price": "3.10",
+"id": "b8c55141-9283-11ed-b28e-047c16291a22"
+},
+{
+"timestamp": "10931",
+"state": "CC",
+"symbol": "T2HU8",
+"increment": "true",
+"exchange": "AQ",
 "order price": "null",
 "id": "b8c529d0-9283-11ed-9ed9-047c16291a22"
 },
 {
 "timestamp": "10931",
-"state": "CR",
-"symbol": "T2HU8",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529d0-9283-11ed-9ed9-047c16291a22"
-},
-{
-"timestamp": "10930",
-"state": "OR",
+"state": "CA",
 "symbol": "T2HU8",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c529c7-9283-11ed-ba5f-047c16291a22"
-},
-{
-"timestamp": "10930",
-"state": "CR",
-"symbol": "T2HU8",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c529c7-9283-11ed-ba5f-047c16291a22"
-},
-{
-"timestamp": "10930",
-"state": "OR",
-"symbol": "T2HU8",
-"increment": "true",
-"exchange": "AQ",
-"order price": "3.11",
-"id": "b8c55140-9283-11ed-aae1-047c16291a22"
-},
-{
-"timestamp": "10944",
-"state": "CR",
-"symbol": "NH4B9",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c5513a-9283-11ed-ba6f-047c16291a22"
+"id": "b8c529d0-9283-11ed-9ed9-047c16291a22"
 },
 {
 "timestamp": "10944",
@@ -7390,18 +7381,18 @@
 },
 {
 "timestamp": "10944",
-"state": "OR",
+"state": "CR",
 "symbol": "NH4B9",
-"increment": "false",
+"increment": "true",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c5513a-9283-11ed-ba6f-047c16291a22"
 },
 {
 "timestamp": "10944",
-"state": "CC",
+"state": "OR",
 "symbol": "NH4B9",
-"increment": "true",
+"increment": "false",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c5513a-9283-11ed-ba6f-047c16291a22"
@@ -7432,6 +7423,15 @@
 "exchange": "AQ",
 "order price": "47.10",
 "id": "b8c55142-9283-11ed-8396-047c16291a22"
+},
+{
+"timestamp": "10944",
+"state": "CC",
+"symbol": "NH4B9",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c5513a-9283-11ed-ba6f-047c16291a22"
 },
 {
 "timestamp": "10946",
@@ -7498,18 +7498,18 @@
 },
 {
 "timestamp": "10948",
-"state": "CR",
+"state": "OR",
 "symbol": "NH4B9",
-"increment": "true",
+"increment": "false",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c55139-9283-11ed-a08e-047c16291a22"
 },
 {
 "timestamp": "10948",
-"state": "OR",
+"state": "CR",
 "symbol": "NH4B9",
-"increment": "false",
+"increment": "true",
 "exchange": "AQ",
 "order price": "null",
 "id": "b8c55139-9283-11ed-a08e-047c16291a22"
@@ -7560,13 +7560,49 @@
 "id": "b8c55144-9283-11ed-b6e2-047c16291a22"
 },
 {
-"timestamp": "10951",
+"timestamp": "10950",
+"state": "CR",
+"symbol": "T2HU8",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55140-9283-11ed-aae1-047c16291a22"
+},
+{
+"timestamp": "10950",
+"state": "OR",
+"symbol": "T2HU8",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55140-9283-11ed-aae1-047c16291a22"
+},
+{
+"timestamp": "10950",
 "state": "OR",
 "symbol": "T2HU8",
 "increment": "true",
 "exchange": "AQ",
-"order price": "3.10",
-"id": "b8c55146-9283-11ed-9b98-047c16291a22"
+"order price": "3.11",
+"id": "b8c55145-9283-11ed-8fdd-047c16291a22"
+},
+{
+"timestamp": "10951",
+"state": "CC",
+"symbol": "T2HU8",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55140-9283-11ed-aae1-047c16291a22"
+},
+{
+"timestamp": "10951",
+"state": "CA",
+"symbol": "T2HU8",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55140-9283-11ed-aae1-047c16291a22"
 },
 {
 "timestamp": "10951",
@@ -7588,15 +7624,6 @@
 },
 {
 "timestamp": "10951",
-"state": "OR",
-"symbol": "T2HU8",
-"increment": "false",
-"exchange": "AQ",
-"order price": "3.11",
-"id": "b8c55145-9283-11ed-8fdd-047c16291a22"
-},
-{
-"timestamp": "10951",
 "state": "OA",
 "symbol": "T2HU8",
 "increment": "true",
@@ -7606,48 +7633,21 @@
 },
 {
 "timestamp": "10951",
-"state": "CC",
-"symbol": "T2HU8",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55140-9283-11ed-aae1-047c16291a22"
-},
-{
-"timestamp": "10950",
 "state": "OR",
 "symbol": "T2HU8",
-"increment": "true",
+"increment": "false",
 "exchange": "AQ",
 "order price": "3.11",
 "id": "b8c55145-9283-11ed-8fdd-047c16291a22"
 },
 {
-"timestamp": "10950",
+"timestamp": "10951",
 "state": "OR",
-"symbol": "T2HU8",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55140-9283-11ed-aae1-047c16291a22"
-},
-{
-"timestamp": "10950",
-"state": "CR",
 "symbol": "T2HU8",
 "increment": "true",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c55140-9283-11ed-aae1-047c16291a22"
-},
-{
-"timestamp": "10951",
-"state": "CA",
-"symbol": "T2HU8",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55140-9283-11ed-aae1-047c16291a22"
+"order price": "3.10",
+"id": "b8c55146-9283-11ed-9b98-047c16291a22"
 },
 {
 "timestamp": "10951",
@@ -7687,39 +7687,12 @@
 },
 {
 "timestamp": "11052",
-"state": "CA",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55143-9283-11ed-97fa-047c16291a22"
-},
-{
-"timestamp": "11052",
-"state": "CC",
+"state": "OR",
 "symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c55143-9283-11ed-97fa-047c16291a22"
-},
-{
-"timestamp": "11052",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
 "order price": "47.20",
 "id": "b8c55147-9283-11ed-a74f-047c16291a22"
-},
-{
-"timestamp": "11052",
-"state": "OR",
-"symbol": "OFQG6",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55143-9283-11ed-97fa-047c16291a22"
 },
 {
 "timestamp": "11052",
@@ -7734,10 +7707,10 @@
 "timestamp": "11052",
 "state": "OR",
 "symbol": "OFQG6",
-"increment": "true",
+"increment": "false",
 "exchange": "AQ",
-"order price": "47.20",
-"id": "b8c55147-9283-11ed-a74f-047c16291a22"
+"order price": "null",
+"id": "b8c55143-9283-11ed-97fa-047c16291a22"
 },
 {
 "timestamp": "11052",
@@ -7749,53 +7722,44 @@
 "id": "b8c55147-9283-11ed-a74f-047c16291a22"
 },
 {
-"timestamp": "11129",
-"state": "CA",
-"symbol": "T2HU8",
+"timestamp": "11052",
+"state": "OR",
+"symbol": "OFQG6",
 "increment": "false",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c55145-9283-11ed-8fdd-047c16291a22"
+"order price": "47.20",
+"id": "b8c55147-9283-11ed-a74f-047c16291a22"
 },
 {
-"timestamp": "11129",
+"timestamp": "11052",
 "state": "CC",
-"symbol": "T2HU8",
+"symbol": "OFQG6",
 "increment": "true",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c55145-9283-11ed-8fdd-047c16291a22"
+"id": "b8c55143-9283-11ed-97fa-047c16291a22"
 },
 {
-"timestamp": "11129",
+"timestamp": "11052",
 "state": "CA",
-"symbol": "T2HU8",
+"symbol": "OFQG6",
 "increment": "false",
 "exchange": "AQ",
 "order price": "null",
-"id": "b8c55146-9283-11ed-9b98-047c16291a22"
+"id": "b8c55143-9283-11ed-97fa-047c16291a22"
 },
 {
-"timestamp": "11129",
-"state": "CC",
-"symbol": "T2HU8",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55146-9283-11ed-9b98-047c16291a22"
-},
-{
-"timestamp": "11129",
+"timestamp": "11128",
 "state": "OR",
 "symbol": "T2HU8",
-"increment": "false",
+"increment": "true",
 "exchange": "AQ",
-"order price": "3.10",
-"id": "b8c55149-9283-11ed-a3d5-047c16291a22"
+"order price": "3.11",
+"id": "b8c55148-9283-11ed-b5fc-047c16291a22"
 },
 {
-"timestamp": "11129",
-"state": "OA",
+"timestamp": "11128",
+"state": "OR",
 "symbol": "T2HU8",
 "increment": "true",
 "exchange": "AQ",
@@ -7804,12 +7768,39 @@
 },
 {
 "timestamp": "11128",
+"state": "CR",
+"symbol": "T2HU8",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55146-9283-11ed-9b98-047c16291a22"
+},
+{
+"timestamp": "11128",
 "state": "OR",
 "symbol": "T2HU8",
 "increment": "false",
 "exchange": "AQ",
-"order price": "3.11",
-"id": "b8c55148-9283-11ed-b5fc-047c16291a22"
+"order price": "null",
+"id": "b8c55146-9283-11ed-9b98-047c16291a22"
+},
+{
+"timestamp": "11128",
+"state": "CR",
+"symbol": "T2HU8",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55145-9283-11ed-8fdd-047c16291a22"
+},
+{
+"timestamp": "11128",
+"state": "OR",
+"symbol": "T2HU8",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55145-9283-11ed-8fdd-047c16291a22"
 },
 {
 "timestamp": "11128",
@@ -7826,39 +7817,12 @@
 "symbol": "T2HU8",
 "increment": "false",
 "exchange": "AQ",
-"order price": "null",
-"id": "b8c55145-9283-11ed-8fdd-047c16291a22"
+"order price": "3.11",
+"id": "b8c55148-9283-11ed-b5fc-047c16291a22"
 },
 {
-"timestamp": "11128",
-"state": "CR",
-"symbol": "T2HU8",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55145-9283-11ed-8fdd-047c16291a22"
-},
-{
-"timestamp": "11128",
-"state": "OR",
-"symbol": "T2HU8",
-"increment": "false",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55146-9283-11ed-9b98-047c16291a22"
-},
-{
-"timestamp": "11128",
-"state": "CR",
-"symbol": "T2HU8",
-"increment": "true",
-"exchange": "AQ",
-"order price": "null",
-"id": "b8c55146-9283-11ed-9b98-047c16291a22"
-},
-{
-"timestamp": "11128",
-"state": "OR",
+"timestamp": "11129",
+"state": "OA",
 "symbol": "T2HU8",
 "increment": "true",
 "exchange": "AQ",
@@ -7866,12 +7830,48 @@
 "id": "b8c55149-9283-11ed-a3d5-047c16291a22"
 },
 {
-"timestamp": "11128",
+"timestamp": "11129",
 "state": "OR",
+"symbol": "T2HU8",
+"increment": "false",
+"exchange": "AQ",
+"order price": "3.10",
+"id": "b8c55149-9283-11ed-a3d5-047c16291a22"
+},
+{
+"timestamp": "11129",
+"state": "CC",
 "symbol": "T2HU8",
 "increment": "true",
 "exchange": "AQ",
-"order price": "3.11",
-"id": "b8c55148-9283-11ed-b5fc-047c16291a22"
+"order price": "null",
+"id": "b8c55146-9283-11ed-9b98-047c16291a22"
+},
+{
+"timestamp": "11129",
+"state": "CA",
+"symbol": "T2HU8",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55146-9283-11ed-9b98-047c16291a22"
+},
+{
+"timestamp": "11129",
+"state": "CC",
+"symbol": "T2HU8",
+"increment": "true",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55145-9283-11ed-8fdd-047c16291a22"
+},
+{
+"timestamp": "11129",
+"state": "CA",
+"symbol": "T2HU8",
+"increment": "false",
+"exchange": "AQ",
+"order price": "null",
+"id": "b8c55145-9283-11ed-8fdd-047c16291a22"
 },
 ]
