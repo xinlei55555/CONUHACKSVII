@@ -172,11 +172,11 @@ ul {
   justify-content: space-between;
 }
 
-#popup-control {
+.popup-control {
   border: none;
   background: none;
 }
-#popup-control:hover {
+.popup-control:hover {
   background-color: #dcdee0;
   border-radius: 5px;
 }
@@ -216,4 +216,43 @@ nav {
 
 footer {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  bottom: 0;
+  width: 80vw;
+  height: 80vh;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80vw;
+  height: 80vh;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }

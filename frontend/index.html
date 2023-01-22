@@ -73,77 +73,89 @@
       Visualize Securities Trading in a Clean and Efficient Way!
     </h3>
     <div class="operations">
-      <div id="operations">
-        <div class="inputContainer">
+      <div class="inputContainer">
+        <div>
           <input
             type="text"
             id="symbol-search"
             placeholder="Search for Symbol"
           />
           <div id="recommendations"></div>
-          <div class="checkbox-container">
-            <input
-              style="padding: 5px"
-              class="checkbox"
-              type="checkbox"
-              id="TSX"
-              checked="checked"
-            />
-            <label for="TSX">TSX</label>
-            <input
-              style="padding: 3px"
-              class="checkbox"
-              type="checkbox"
-              id="Alpha"
-              checked="checked"
-            />
-            <label for="Alpha">Alpha</label>
-            <input
-              style="padding: 3px"
-              class="checkbox"
-              type="checkbox"
-              id="Aequitas"
-              checked="checked"
-            />
-            <label for="Aequitas">Aequitas</label>
-          </div>
         </div>
-        <div class="graph">
-          <h2 style="text-align: center; font-weight: bold; color: white">
-            Operations Distribution
-          </h2>
-
-          <div class="vertical-side">
-            <ul id="y-axis">
-              <li class="number">1000</li>
-              <li class="number">800</li>
-              <li class="number">600</li>
-              <li class="number">400</li>
-              <li class="number">200</li>
-            </ul>
-            <div class="vertical-lign"></div>
-            <div class="bars-container">
-              <div cidlass="OR" class="bar"></div>
-              <div id="OA" class="bar"></div>
-              <div id="TT" class="bar"></div>
-              <div id="CR" class="bar"></div>
-              <div id="CA" class="bar"></div>
-              <div id="CC" class="bar"></div>
-            </div>
-          </div>
-          <div class="horizontal-side">
-            <div class="horizontal-lign"></div>
-            <ul id="x-axis">
-              <li class="category">New Order Request</li>
-              <li class="category">New Order Acknowledged</li>
-              <li class="category">Trade</li>
-              <li class="category">Cancel Request</li>
-              <li class="category">Cancel Acknowledged</li>
-              <li class="category">Cancelled</li>
-            </ul>
-          </div>
+        <h2
+          id="time"
+          style="
+            font-weight: bold;
+            border: solid 3px;
+            padding: 5px;
+            border-radius: 10px;
+          "
+        >
+          9:28:00
+        </h2>
+        <div class="checkbox-container">
+          <input
+            style="padding: 5px"
+            class="checkbox"
+            type="checkbox"
+            id="TSX"
+            checked="checked"
+          />
+          <label for="TSX">TSX</label>
+          <input
+            style="padding: 3px"
+            class="checkbox"
+            type="checkbox"
+            id="Alpha"
+            checked="checked"
+          />
+          <label for="Alpha">Alpha</label>
+          <input
+            style="padding: 3px"
+            class="checkbox"
+            type="checkbox"
+            id="Aequitas"
+            checked="checked"
+          />
+          <label for="Aequitas">Aequitas</label>
         </div>
       </div>
+      <div class="graph">
+        <h2 style="text-align: center; font-weight: bold; color: white">
+          Operations Distribution
+        </h2>
+
+        <div class="vertical-side">
+          <ul id="y-axis">
+            <li class="number">1000</li>
+            <li class="number">800</li>
+            <li class="number">600</li>
+            <li class="number">400</li>
+            <li class="number">200</li>
+          </ul>
+          <div class="vertical-lign"></div>
+          <div class="bars-container">
+            <div cidlass="OR" class="bar"></div>
+            <div id="OA" class="bar"></div>
+            <div id="TT" class="bar"></div>
+            <div id="CR" class="bar"></div>
+            <div id="CA" class="bar"></div>
+            <div id="CC" class="bar"></div>
+          </div>
+        </div>
+        <div class="horizontal-side">
+          <div class="horizontal-lign"></div>
+          <ul id="x-axis">
+            <li class="category">New Order Request</li>
+            <li class="category">New Order Acknowledged</li>
+            <li class="category">Trade</li>
+            <li class="category">Cancel Request</li>
+            <li class="category">Cancel Acknowledged</li>
+            <li class="category">Cancelled</li>
+          </ul>
+        </div>
+      </div>
+
       <div class="transactions" id="transactions">
         <h2 style="text-align: center">Transactions History</h2>
         <div style="height: 2px; padding-left: 3px; padding-right: 3px"></div>
@@ -170,7 +182,10 @@
 
                 <img src="./images/cancel.png" height="20px" />
               </div>
-              <button id="popup-control">
+              <button
+                class="popup-control"
+                id="b8c529be-9283-11ed-ad3c-047c16291a22"
+              >
                 View
                 <img src="./images/right-arrow.png" height="20px" />
               </button>
@@ -200,7 +215,7 @@
 
                 <img src="./images/clock.png" height="20px" />
               </div>
-              <button id="popup-control">
+              <button class="popup-control" id="TRANSACTION_ID">
                 View
                 <img src="./images/right-arrow.png" height="20px" />
               </button>
@@ -230,10 +245,18 @@
 
                 <img src="./images/check-mark.png" height="20px" />
               </div>
-              <button id="popup-control">
+              <button class="popup-control">
                 View
                 <img src="./images/right-arrow.png" height="20px" />
               </button>
+            </div>
+          </div>
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span id="close" style="cursor: pointer">&times;</span>
+              <p>Some text in the Modal..</p>
             </div>
           </div>
         </div>
