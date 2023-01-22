@@ -12,6 +12,7 @@ export class State {
 
     constructor() {
         this.exchangeMap = new Map();
+        this.counter = 0;
     }
     /*
     increment -> bool
@@ -19,6 +20,7 @@ export class State {
     */
     operate(exchange, symbol, increment) {
         increment = increment == 'true'
+        const value = (increment ? 1 : -1);
         if(!this.exchangeMap.has(exchange)) {
             this.exchangeMap.set(exchange, new Map());
         } 
@@ -26,6 +28,9 @@ export class State {
             this.exchangeMap.get(exchange).set(symbol, 0);
         } 
         const prevValue = this.exchangeMap.get(exchange).get(symbol);
-        this.exchangeMap.get(exchange).set(symbol, prevValue + (increment ? 1 : -1));
+        this.exchangeMap.get(exchange).set(symbol, prevValue + value);
+        
+        this.counter += value;
+        console.log('operation counter' + this.counter)
     }
 }
