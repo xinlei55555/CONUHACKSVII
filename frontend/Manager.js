@@ -26,8 +26,7 @@ export class Manager {
     }
 
     run(operations) {
-        this.startTimestamp = Date.now()
-        this.currentTimestamp = this.startTimestamp;
+        this.currentTimestamp = 0;
 
         // operations timestamp : 9:28:00 -> 0 ms
         // startTimestamp : 
@@ -36,22 +35,17 @@ export class Manager {
         const interval = setInterval(async () => {
             const maxTimestamp = this.currentTimestamp;
             this.currentTimestamp += this.timeInterval;
-
-            while(operations[index].length > 0 && operations[index].timestamp <= maxTimestamp) {
-                let {exchange, symbol, increment, state} = operations;
+            while(operations.length > index && parseInt(operations[index].timestamp) <= maxTimestamp) {
+                let {exchange, symbol, increment, state} = operations[index];
                 this.States[state].operate(exchange, symbol, increment);
                 index++;
             }
 
             this.displayer.updateDisplay();
 
-            if(operations.length == 0) clearInterval(interval);
+            if(operations.length == index) clearInterval(interval);
         }, this.timeInterval)
         
     }
-
-
-
-
 }
 
