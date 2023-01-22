@@ -6,7 +6,7 @@ typedef long long ll;
 bool comp(const pair<int, vector<string>> & data1, const pair<int, vector<string>> & data2){
     return data1.first<data2.first;
 }
-
+unordered_set<string> appeared_trade;
 int main(){
     string date, time, direction, id, state, message, symbol;
     string order_price, exchange;
@@ -28,7 +28,7 @@ int main(){
         if(state=="CancelRequest") state="CR";
         if(state=="CancelAcknowledged") state="CA";
         if(state=="Cancelled") state="CC";
-        if(state=="Trade") state="TT";
+        if(state=="Trade") {if(appeared_trade.find(id)==appeared_trade.end()){continue;}state="TT"; appeared_trade.insert(id);}
         
         //*order_Price 
         if(order_price=="NaN") order_price="null";
