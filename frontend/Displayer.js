@@ -7,6 +7,8 @@ export class Displayer {
         this.exchangesToDisplay.add('TSX')
         this.manager = manager;
 
+        this.maxValueElement = document.getElementById('maxnumber');
+
         this.barsElements = {
             OR: document.getElementById('OR'),
             OA: document.getElementById('OA'),
@@ -56,6 +58,7 @@ export class Displayer {
             const barSum = stateObjects[barState].counter;
             if(barSum > maxSum) maxSum = barSum;
         }
+        this.maxValueElement.innerText = maxSum;
         for(let barState of states) {
             this.renderBar(stateObjects[barState].counter, barState, maxSum);
         }
@@ -69,11 +72,10 @@ export class Displayer {
         return sum;
     }
     renderBar(sum, state, maxSum) {
-        
-        let proportion = (1.0 * sum)/maxSum * 100;
+        let proportion = (1.0 * sum)/maxSum * 80;
         if(isNaN(proportion)) proportion = 0;
-        console.log('render counter' + this.counter)
-        console.log(proportion)
+        //console.log('render counter' + this.counter)
+        //console.log(proportion)
         this.barsElements[state].style.height = proportion + 'vh';
     }
 }
