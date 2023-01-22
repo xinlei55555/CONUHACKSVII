@@ -61,6 +61,7 @@ int main(){
             }
             else if(j==8){
                 order_price=curr;
+                if(order_price=="NaN") order_price="null";
             }
             else if(j==5){
                 id=curr;
