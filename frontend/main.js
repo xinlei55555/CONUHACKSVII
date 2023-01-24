@@ -28,7 +28,6 @@ fetch("final_data1.json")
         Number(t.split(":")[1]) * 60 * 1000 +
         Number(t.split(":")[2]) * 1000 +
         1000;
-      console.log(newTime);
 
       let seconds = Math.floor(newTime / 1000);
       let minutes = Math.floor(seconds / 60);
@@ -39,10 +38,8 @@ fetch("final_data1.json")
         seconds = "0" + seconds;
       }
       hours = hours % 24;
-      console.log("09" + ":" + minutes + ":" + seconds);
 
       document.getElementById("time").innerHTML =
         "09" + ":" + minutes + ":" + seconds;
-      console.log(document.getElementById("time").innerHTML);
     }, 1000);
   });
