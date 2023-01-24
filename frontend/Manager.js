@@ -27,12 +27,12 @@ export class Manager {
         //btn.addEventListener("click", openPopup);
         const closeBtn = document.getElementById("close");
         closeBtn.onclick = function () {
-            this.modal.style.display = "none";
+          document.getElementById("myModal").style.display = "none";
         };
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function (event) {
-            if (event.target == this.modal) {
-            this.modal.style.display = "none";
+            if (event.target == document.getElementById("myModal")) {
+              document.getElementById("myModal").style.display = "none";
             }
         };
         this.orders = new Map()
@@ -66,7 +66,7 @@ export class Manager {
         const states = currentOrder.states;
         const lastState = states[states.length - 1];
         const timeDifference = timestamp - lastState.timestamp;
-        if(state == 'CA') {
+        if(state == 'CA' || state == 'CC') {
             if(lastState.state == 'CR') {
                 this.averages.cancelAckTotalCount++;
                 this.averages.cancelAckTotalTime += timeDifference;
@@ -139,10 +139,11 @@ export class Manager {
             const states = object.states
             const lastState = states[states.length - 1];
             const state = lastState.state;
-            
             if(state == 'CR') {
                 const timeElapsed = Date.now() - this.startTime - lastState.timestamp;
                 const avgTime = this.averages.cancelAckTotalTime/this.averages.cancelAckTotalCount;
+                console.log(avgTime)
+                console.log(timeElapsed)
                 if(timeElapsed > avgTime) {
                     if(!object.anomaly) object.anomaly = 'W';
                 } else {
@@ -174,7 +175,7 @@ export class Manager {
                     : "done"
                 }
               >
-                <span style="padding-right: 2px">${lastState.state}</span>
+                <span style="padding-right: 2px">${this.statetoString[lastState.state]}</span>
 
                 <img src="./images/${
                   lastState.state === "CC" ||
@@ -199,7 +200,7 @@ export class Manager {
 
           divs.push(currentDIV);
         }
-        this.clusterize.update(divs)
+        this.clusterize.update(divs.reverse())
         document.getElementById('contentArea').onclick = (e) => {
             
             const target = e.target;
@@ -217,11 +218,13 @@ export class Manager {
                 else h2.innerText += 'unavailable';
                 const list = document.createElement('ul');
                 
-                for(let {state, timestamp, real_timestamp} of object.states) {
-                    const ul = document.createElement('il');
+                for(let {state, timestamp, real_timestamp, missing} of object.states) {
+                    const ul = document.createElement('li');
                     ul.style.display= 'list-item'
+                    if(missing) ul.style.color = 'red';
                     const statestring = this.statetoString[state];
-                    ul.innerText = real_timestamp + ' ' + statestring;
+
+                    ul.innerText = (real_timestamp ? real_timestamp : 'Missing Acknowledgement') + ' ' + statestring;
                     list.appendChild(ul);
                 }
                 modalcontent.appendChild(h1);
